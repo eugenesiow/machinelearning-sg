@@ -1,0 +1,93 @@
+<div class="col-lg-6 col-md-12 col-12 float-md-left pl-md-2">
+    <div class="Box mb-3">
+        <div class="Box-body">
+            <h4 class="f4 mb-2 text-normal">Interests / Fields</h4>
+            {{ range .Params.interests }}
+            <a class="topic-tag topic-tag-link ">
+                {{ . }}
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</div>
+<div class="col-md-12 col-lg-3 float-md-left pl-md-2">
+    <div class="Box box-shadow mb-4">
+        <div class="Box-header d-flex">
+              <span class="text-gray tooltipped tooltipped-ne mr-2">
+                  <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+              </span>
+            <h2 class="Box-title">
+                <span class="text-gray-dark">Publication Statistics</span>
+            </h2>
+        </div>
+
+        <div>
+            <div class="Box-row">
+                <span class="float-right text-bold no-wrap mb-2 ml-2">
+                    {{ lang.NumFmt 0 .Params.all_publication_count }}
+                </span>
+                <div class="d-flex">
+                    <h1 class="f4 text-gray text-normal lh-condensed css-truncate">
+                        Total Publications
+                    </h1>
+                </div>
+            </div>
+            <div class="Box-row">
+                <span class="float-right text-bold no-wrap mb-2 ml-2">
+                    {{ lang.NumFmt 0 .Params.publication_count }}
+                </span>
+                <div class="d-flex">
+                    <h1 class="f4 text-gray text-normal lh-condensed css-truncate">
+                        SG+ML Publications
+                    </h1>
+                </div>
+                <p class="f6 text-gray mt-2 mb-0">
+                    Publications authored while based in Singapore within AI/ML-related areas.
+                </p>
+            </div>
+            <div class="Box-row">
+                <span class="float-right text-bold no-wrap mb-2 ml-2">
+                    {{ lang.NumFmt 0 .Params.all_estimated_citations }}
+                </span>
+                <div class="d-flex">
+                    <h1 class="f4 text-gray text-normal lh-condensed css-truncate">
+                        Total Estimated Citations
+                    </h1>
+                </div>
+                <p class="f6 text-gray mt-2 mb-0">
+                    Estimated citations uses a statistical model that leverages both local statistics of the publication and global statistics of the entire academic graph (from MAG).
+                </p>
+            </div>
+            <div class="Box-row">
+                <span class="float-right text-bold no-wrap mb-2 ml-2">
+                    {{ lang.NumFmt 0 .Params.estimated_citations }}
+                </span>
+                <div class="d-flex">
+                    <h1 class="f4 text-gray text-normal lh-condensed css-truncate">
+                        SG+ML Estimated Citations
+                    </h1>
+                </div>
+            </div>
+            <div class="Box-row">
+                <span class="float-right text-bold no-wrap mb-2 ml-2">
+                    {{ lang.NumFmt 0 .Params.all_citations }}
+                </span>
+                <div class="d-flex">
+                    <h1 class="f4 text-gray text-normal lh-condensed css-truncate">
+                        Total Citations
+                    </h1>
+                </div>
+            </div>
+            <div class="Box-row">
+                <span class="float-right text-bold no-wrap mb-2 ml-2">
+                    {{ lang.NumFmt 0 .Params.citations }}
+                </span>
+                <div class="d-flex">
+                    <h1 class="f4 text-gray text-normal lh-condensed css-truncate">
+                        SG+ML Citations
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

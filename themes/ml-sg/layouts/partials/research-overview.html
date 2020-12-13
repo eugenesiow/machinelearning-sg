@@ -1,0 +1,64 @@
+{{ $mainSections := .Site.Params.mainSections }}
+{{ $section := where .Site.RegularPages "Section" "==" "researcher" }}
+{{ $n_posts := $.Param "recent_posts_number" | default 6 }}
+<div class="col-lg-12 col-md-12 col-12 float-md-left pl-md-2">
+
+    {{ partial "research-navbar.html" .}}
+
+    <div class="position-relative">
+        <div class="mt-4">
+            <div class="js-pinned-items-reorder-container">
+                <h2 class="f4 mb-2 text-normal">
+                    Random Featured Researchers
+                </h2>
+
+                <ol class="d-flex flex-wrap list-style-none gutter-condensed mb-4 js-pinned-items-reorder-list">
+                    {{ range (first $n_posts (shuffle $section)) }}
+                    <li class="col-12 col-md-6 col-lg-6 mb-3 d-flex flex-content-stretch">
+                        <div
+                            class="Box pinned-item-list-item d-flex p-3 width-full js-pinned-item-list-item public source  sortable-button-item">
+                            <div class="pinned-item-list-item-content">
+                                <div class="f4 lh-condensed text-bold text-gray-dark">
+                                    <a class="link-gray-dark no-underline text-bold wb-break-all d-inline-block" href="{{ .Permalink }}">{{ .Title }}</a>
+                                </div>
+                                <div class="dashboard-break-word text-gray mt-1 mb-0 repo-description">
+                                    <p>{{ .Params.current_institute_name }}</p>
+                                </div>
+                                <p class="f6 text-gray mt-2 mb-0">
+                                                            <span class="d-inline-block text-gray mr-3">
+                                                                <span class="ml-0">
+                                                                    <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                                                    <span class="text-bold text-gray-dark" itemprop="publications">
+                                                                        {{ lang.NumFmt 0 .Params.all_publication_count }}
+                                                                    </span>
+                                                                    publications ·
+                                                                    <span class="text-bold text-gray-dark" itemprop="publications">
+                                                                        {{ lang.NumFmt 0 .Params.publication_count }}
+                                                                    </span>
+                                                                    in sg+ml
+                                                                </span>
+                                                            </span>
+                                    <span class="d-inline-block mr-3">
+                                                                <span class="ml-0">
+                                                                    <img class="octicon" src="/images/citations.svg" width="16" height="16" />
+                                                                    <span class="text-bold text-gray-dark" itemprop="publications">
+                                                                        {{ lang.NumFmt 0 .Params.all_estimated_citations }}
+                                                                    </span>
+                                                                    citations ·
+                                                                    <span class="text-bold text-gray-dark" itemprop="citations">
+                                                                        {{ lang.NumFmt 0 .Params.estimated_citations }}
+                                                                    </span>
+                                                                    in sg+ml
+                                                                </span>
+                                                            </span>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    {{ end }}
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

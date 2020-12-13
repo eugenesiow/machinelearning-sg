@@ -1,0 +1,107 @@
+<div class="h-card col-lg-3 col-md-4 col-12 float-md-left pr-md-3 pr-xl-6" itemscope
+     itemtype="http://schema.org/Person">
+    <div class="clearfix mb-2">
+        <div class="float-left col-3 col-md-12 pr-3 pr-md-0">
+            {{ if .Params.profile_image }}
+                <img alt="" width="260" height="260" itemprop="image"
+                     class="avatar width-full height-full rounded-2" src="{{ .Params.profile_image  }}" />
+            {{ else }}
+                <img alt="" width="260" height="260"
+                     class="avatar width-full height-full rounded-2" src="{{ "images/avatar.png" | absURL }}" />
+            {{ end }}
+        </div>
+        <div class="float-left col-9 col-md-12 pl-2 pl-md-0">
+
+            <div class="vcard-names-container pt-1 pt-md-3 pb-1 pb-md-3 js-sticky js-user-profile-sticky-fields">
+                <h1 class="vcard-names">
+                    <span class="p-name vcard-fullname d-block overflow-hidden"
+                          itemprop="name">{{ .Title }}</span>
+                    <span class="p-nickname vcard-username d-block"
+                          itemprop="affiliation"> {{ .Params.current_institute_name }}</span>
+                </h1>
+            </div>
+
+            <div class="d-none d-md-block">
+                <div class="js-profile-editable-area">
+                    <div class="mb-3">
+                        <span class="d-inline-block mr-2">
+                            <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                            <span class="text-bold text-gray-dark">{{ lang.NumFmt 0 .Params.publication_count }}</span>
+                            publications
+                        </span>
+                        <span class="d-inline-block mr-3">
+                            <img class="octicon" src="/images/citations.svg" width="16" height="16" />
+                            <span class="text-bold text-gray-dark" itemprop="citations">{{ lang.NumFmt 0 .Params.estimated_citations }}</span>
+                            citations
+                        </span>
+                    </div>
+                    <div class="p-note user-profile-bio js-user-profile-bio mb-2">
+                        <div>{{ .Params.bio }}</div>
+                    </div>
+                    <ul class="vcard-details mb-3">
+
+                        {{ if .Site.Params.email }}
+                        <li itemprop="email" aria-label="Email: {{ .Site.Params.Email }}"
+                            class="vcard-detail pt-1 css-truncate css-truncate-target"><svg class="octicon octicon-mail"
+                                                                                            viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                  d="M0 4v8c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H1c-.55 0-1 .45-1 1zm13 0L7 9 1 4h12zM1 5.5l4 3-4 3v-6zM2 12l3.5-3L7 10.5 8.5 9l3.5 3H2zm11-.5l-4-3 4-3v6z" />
+                        </svg>
+                            <a class="u-email " href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
+                        </li>
+                        {{ end }}
+
+                        {{ if gt (len .Params.websites) 0 }}
+                        <li itemprop="url" data-test-selector="profile-website-url"
+                            class="vcard-detail pt-1 css-truncate css-truncate-target">
+                            <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                      d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+                                </path>
+                            </svg>
+                            {{ $firstWebsite := index .Params.websites 0 }}
+                            <a rel="nofollow me" itemprop="url" href="{{ $firstWebsite }}">{{ $firstWebsite }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-top py-3 clearfix hide-sm hide-md">
+                <h2 class="mb-1 h4">Organizations</h2>
+
+                {{ if .Site.Params.misskey}}
+                <a class="avatar-group-item" data-hovercard-type="organization"
+                   href="{{ .Site.Params.misskey }}">
+                    <img src="{{ "images/misskey.png" | absURL }}" class="avatar" width="35" height="35">
+                </a>
+                {{ end }}
+                {{ if .Site.Params.mastodon}}
+                <a class="avatar-group-item" data-hovercard-type="organization"
+                   href="{{ .Site.Params.mastodon }}">
+                    <img src="{{ "images/mastodon.png" | absURL }}" class="avatar" width="35" height="35">
+                </a>
+                {{ end }}
+                {{ if .Site.Params.facebook}}
+                <a class="avatar-group-item" data-hovercard-type="organization"
+                   href="https://facebook.com/{{ .Site.Params.facebook }}">
+                    <img src="{{ "images/facebook.png" | absURL }}" class="avatar" width="35" height="35">
+                </a>
+                {{ end }}
+                {{ if .Site.Params.Twitter}}
+                <a class="avatar-group-item" data-hovercard-type="organization"
+                   href="https://twitter.com/{{ .Site.Params.Twitter }}">
+                    <img src="{{ "images/twitter.png" | absURL }}" class="avatar" width="35" height="35">
+                </a>
+                {{ end }}
+                <a class="avatar-group-item" data-hovercard-type="organization"
+                   href="{{ "posts/index.xml" | absURL }}">
+                <img src="{{ "images/rss.png" | absURL }}" class="avatar" width="38" height="38">
+                </a>
+            </div>
+
+            <div data-test-selector="profile-sponsorships">
+            </div>
+        </div>
+    </div>
+</div>

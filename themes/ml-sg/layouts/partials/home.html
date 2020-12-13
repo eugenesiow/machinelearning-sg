@@ -1,0 +1,255 @@
+{{ $researchersSection := where .Site.RegularPages "Section" "==" "researcher" }}
+{{ $researchersCount := len $researchersSection }}
+{{ $publicationsSection := where .Site.RegularPages "Section" "==" "publication" }}
+{{ $publicationsCount := len $publicationsSection }}
+<div class="application-main " data-commit-hovercards-enabled>
+    <div class="d-flex flex-wrap color-bg-canvas-inset" style="min-height: 100vh;">
+        <aside class="team-left-column col-12 col-md-4 col-lg-3 bg-white border-right color-border-secondary border-bottom hide-md hide-sm" aria-label="Account">
+
+            <div class="dashboard-sidebar js-sticky top-0 px-3 px-md-4 px-lg-5 overflow-auto" style="width: auto; height: 661px; position: static; top: 0px !important; left: 0px;" data-original-top="0px">
+                <div class="border-bottom color-border-secondary py-3 mt-3 mb-4">
+
+                    <details class="details-reset details-overlay d-inline-block">
+                        <summary class="no-underline btn-link text-gray-dark text-bold width-full" data-ga-click="Quick Navigation Menu" aria-haspopup="menu" role="button">
+                            <span class="css-truncate css-truncate-target ml-1">Quick Navigation</span>
+                            <span class="dropdown-caret"></span>
+                        </summary>
+
+                        <details-menu class="SelectMenu" role="menu">
+                            <div class="SelectMenu-modal">
+                                <header class="SelectMenu-header">
+                                    <div class="SelectMenu-title">Jump to a page</div>
+                                </header>
+                                <div class="d-flex flex-column flex-1 overflow-hidden">
+                                    <div class="SelectMenu-list">
+
+                                        <a class="SelectMenu-item" href="/" role="menuitemradio" aria-checked="true" data-ga-click="Dashboard, switch context, Switch dashboard context from:user to:user">
+                                            <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+                                            <span class="flex-1 css-truncate css-truncate-overflow">Home</span>
+                                        </a>
+                                        {{ range .Site.Menus.main }}
+                                        <a class="SelectMenu-item" href="{{ .URL }}" role="menuitemradio" aria-checked="false">
+                                            <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"></svg>
+                                            <span class="flex-1 css-truncate css-truncate-overflow">{{ .Title }}</span>
+                                        </a>
+                                        {{ if .HasChildren }}
+                                            {{ range .Children }}
+                                            <a class="SelectMenu-item" href="{{ .URL }}" role="menuitemradio" aria-checked="false">
+                                                <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"></svg>
+                                                <span class="flex-1 css-truncate css-truncate-overflow">{{ .Title }}</span>
+                                            </a>
+                                            {{ end }}
+                                        {{ end }}
+                                        {{ end }}
+                                    </div>
+                                </div>
+                            </div>
+                        </details-menu>
+                    </details>
+
+
+                </div>
+
+            <div class="mb-3 Details" aria-label="Site Statistics">
+
+                <div>
+                    <h2 class="f4 hide-sm hide-md mb-2 f5 d-flex flex-justify-between flex-items-center">
+                        Site Statistics
+                    </h2>
+
+                    <ul class="list-style-none">
+                        <li class="mb-2">
+                            <div class="width-full">
+                                <img class="octicon" src="/images/citations.svg" width="16" height="16" />
+                                <span class="text-bold text-gray-dark" itemprop="publications">
+                                    {{ lang.NumFmt 0 $researchersCount }}
+                                </span>
+                                researchers
+                            </div>
+                            <div class="width-full">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                <span class="text-bold text-gray-dark" itemprop="publications">
+                                    {{ lang.NumFmt 0 $publicationsCount }}
+                                </span>
+                                publications
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="js-repos-container user-repos mb-3" id="dashboard-user-teams" data-pjax-container="">
+
+                <div class="Details js-repos-container" data-team-hovercards-enabled="">
+                    <h2 class="hide-sm hide-md f5 mb-1 border-top color-border-secondary pt-3">Search the site</h2>
+                    <div class="mt-2 mb-3" role="search" aria-label="Teams">
+                        <input type="text" class="form-control input-contrast input-block mb-3 js-filterable-field js-your-repositories-search" id="your-teams-filter-left" placeholder="Find a team…" aria-label="Find a team…" data-url="https://github.com/" data-query-name="team" value="" autocomplete="off">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        </aside>
+        <div class="col-12 col-md-8 col-lg-6 mt-3 px-3 px-lg-5 border-bottom d-flex flex-auto">
+            <div class="mx-auto d-flex flex-auto flex-column" style="max-width: 1400px">
+                <main class="flex-auto">
+                    <div data-issue-and-pr-hovercards-enabled="">
+                        <div id="dashboard" class="dashboard">
+                            <div class="news">
+                                <div data-repository-hovercards-enabled="">
+                                    <div class="watch_started" data-test-selector="visible-event"><div class="body border-bottom color-border-secondary py-3">
+                                        <div class="d-flex flex-items-baseline">
+                                            <div class="d-flex flex-column width-full">
+                                                <div>
+                                                    <div class="d-flex flex-items-baseline">
+                                                        <div>
+                                                            Top 3 ML Researchers
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                {{ range (first 3 (($researchersSection.ByParam "estimated_citations").Reverse)) }}
+                                                <div class="Box p-3 mt-2">
+                                                    <div>
+                                                        <div class="f4 lh-condensed text-bold text-gray-dark">
+                                                            <a class="link-gray-dark no-underline text-bold wb-break-all d-inline-block" href="{{ .Permalink }}">{{ .Title }}</a>
+                                                        </div>
+                                                        <div class="dashboard-break-word text-gray mt-1 mb-0 repo-description">
+                                                            <p>{{ .Params.current_institute_name }}</p>
+                                                        </div>
+
+                                                        <p class="f6 text-gray mt-2 mb-0">
+                                                            <span class="d-inline-block text-gray mr-3">
+                                                                <span class="ml-0">
+                                                                    <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                                                    <span class="text-bold text-gray-dark" itemprop="publications">
+                                                                        {{ lang.NumFmt 0 .Params.all_publication_count }}
+                                                                    </span>
+                                                                    publications ·
+                                                                    <span class="text-bold text-gray-dark" itemprop="publications">
+                                                                        {{ lang.NumFmt 0 .Params.publication_count }}
+                                                                    </span>
+                                                                    in sg+ml
+                                                                </span>
+                                                            </span>
+                                                            <span class="d-inline-block mr-3">
+                                                                <span class="ml-0">
+                                                                    <img class="octicon" src="/images/citations.svg" width="16" height="16" />
+                                                                    <span class="text-bold text-gray-dark" itemprop="publications">
+                                                                        {{ lang.NumFmt 0 .Params.all_estimated_citations }}
+                                                                    </span>
+                                                                    citations ·
+                                                                    <span class="text-bold text-gray-dark" itemprop="citations">
+                                                                        {{ lang.NumFmt 0 .Params.estimated_citations }}
+                                                                    </span>
+                                                                    in sg+ml
+                                                                </span>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                {{ end }}
+                                            </div>
+                                        </div>
+                                        <div class="ajax-pagination-form js-ajax-pagination">
+                                            <a href="{{ absURL "researcher/" }}"><button class="ajax-pagination-btn mt-3">
+                                                More
+                                            </button></a>
+                                        </div>
+                                    </div></div>
+                                    <div class="watch_started" data-test-selector="visible-event"><div class="body border-bottom color-border-secondary py-3">
+                                        <div class="d-flex flex-items-baseline">
+                                            <div class="d-flex flex-column width-full">
+                                                <div>
+                                                    <div class="d-flex flex-items-baseline">
+                                                        <div>
+                                                            Recent 3 ML Publications
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                {{ range (first 3 (($publicationsSection.ByParam "date").Reverse)) }}
+                                                <div class="Box p-3 mt-2">
+                                                    <div>
+                                                        <div class="f4 lh-condensed text-bold text-gray-dark">
+                                                            <a class="link-gray-dark no-underline text-bold wb-break-all d-inline-block" href="{{ .Params.src }}">{{ .Title }}</a>
+                                                        </div>
+                                                        <div class="f6 text-gray mb-3">
+                                                            {{ range .Params.author_names }}
+                                                            <a class="link-gray mr-2">
+                                                                {{ . }}
+                                                            </a>
+                                                            {{ end }}
+                                                        </div>
+
+                                                        <p class="f6 text-gray mt-2 mb-0">
+                                                            <span class="d-inline-block text-gray mr-3">
+                                                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                                                {{ .Params.in }}
+                                                            </span>
+                                                            <span class="d-inline-block mr-3">
+                                                                <span class="ml-0">
+                                                                    <img class="octicon" src="/images/citations.svg" width="16" height="16" />
+                                                                    <span class="text-bold text-gray-dark" itemprop="publications">
+                                                                        {{ lang.NumFmt 0 .Params.estimated_citations }}
+                                                                    </span>
+                                                                    citations
+                                                                </span>
+                                                            </span>
+                                                            <span class="d-inline-block mr-3">
+                                                                <time-ago datetime="{{ .Params.date }}" class="no-wrap">
+                                                                {{.Params.date}}</time-ago>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                {{ end }}
+                                            </div>
+                                        </div>
+                                        <div class="ajax-pagination-form js-ajax-pagination">
+                                            <a href="{{ absURL "publication/" }}"><button class="ajax-pagination-btn mt-3">
+                                            More
+                                        </button></a>
+                                        </div>
+                                    </div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <aside class="team-left-column col-12 col-md-3 col-lg-3 pr-3 pr-md-4 pr-lg-5 mt-5 hide-lg hide-md hide-sm border-bottom" aria-label="Explore">
+            <div class="d-flex flex-items-baseline">
+                <div class="d-flex flex-column width-full">
+                    <div class="position-relative d-flex flex-justify-center py-2">
+                        <img src="/images/machine_learning_sg_hero.svg" style="width: 80%;">
+                    </div>
+                    <h3 class="pt-2 text-center">
+                        <span class="">Building a singaporean-centric machine learning community!</span>
+                    </h3>
+                </div>
+            </div>
+
+            <h2 class="f5 text-bold mt-3 mb-1">Celebrating Achievements</h2>
+            <div class="py-2 my-2 border-bottom color-border-secondary">
+                <p>
+                    We want to celebrate the work and achievements of the machine learning community in Singapore:
+                    <strong>articles, publications, libraries, frameworks and models</strong>.
+                    We have engineered the platform to automatically keep up to date with the latest findings.
+                </p>
+
+                <a class="link-gray no-underline f6 mr-2" href="{{ absURL "publications/" }}">
+                    Publications →
+                </a>
+                <a class="link-gray no-underline f6 mr-2" href="{{ absURL "repos/" }}">
+                    Repositories →
+                </a>
+            </div>
+        </aside>
+    </div>
+</div>
