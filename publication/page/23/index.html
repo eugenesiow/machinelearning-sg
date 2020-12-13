@@ -1,0 +1,2221 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://machinelearning.sg/css/frameworks.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://machinelearning.sg/css/github.css" />
+    
+    <link crossorigin="anonymous" media="(prefers-color-scheme: dark)" rel="stylesheet"
+        href="https://machinelearning.sg/css/dark.css" />
+    
+    <meta name="viewport" content="width=device-width">
+    <meta name="description"
+        content="" />
+    <meta name="keywords"
+        content="" />
+    <meta name="robots" content="noodp" />
+    <link rel="canonical" href="https://machinelearning.sg/publication/" />
+
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Publications - Machine Learning SG" />
+    <meta name="twitter:description"
+        content="" />
+    <meta name="twitter:site" content="https://machinelearning.sg/" />
+    <meta name="twitter:creator" content="" />
+    <meta name="twitter:image"
+        content="https://machinelearning.sg/">
+
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Publications - Machine Learning SG">
+    <meta property="og:description"
+        content="" />
+    <meta property="og:url" content="https://machinelearning.sg/publication/" />
+    <meta property="og:site_name" content="Publications" />
+    <meta property="og:image"
+        content="https://machinelearning.sg/">
+    <meta property="og:image:width" content="2048">
+    <meta property="og:image:height" content="1024">
+    
+
+    
+    
+    <link href="/publication/index.xml" rel="alternate" type="application/rss+xml" title="Machine Learning SG" />
+    
+
+    
+    
+
+    <title>Publications - Machine Learning SG</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    
+
+    
+</head>
+
+
+<body class="env-production emoji-size-boost page-responsive page-profile">
+  <div class="position-relative js-header-wrapper ">
+    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+    </span>
+    <header class="Header js-details-container Details px-3 px-md-4 px-lg-5 flex-wrap flex-md-nowrap" role="banner">
+        <div class="Header-item mt-n1 mb-n1  d-none d-md-flex">
+            <a class="Header-link" href="https://machinelearning.sg/" aria-label="Home">
+                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 236 226.77" version="1.1" width="32" aria-hidden="true">
+                    <path class="a" d="M121.28,44.9s-23.11,34.95-13,65.29c12.81,38.46,43.59,46.51,43.59,46.51s-20.24-25.87-29.7-51C110.72,75.21,121.28,44.9,121.28,44.9Z" transform="translate(-10 -9)"/>
+                    <path class="b" d="M154.81,56.92a26.1,26.1,0,0,0,5.39-.8s1.05-1.67-3.31-2.71a9.4,9.4,0,0,0-7.06.82l-2.06.85S151.5,57.12,154.81,56.92Z" transform="translate(-10 -9)"/>
+                    <path class="c" d="M185.68,65.44c.65-1.67,1.07-4.34-.37-5.83s-2.27-2.69-3.95-.56C181.36,59.05,185.09,67.1,185.68,65.44Z" transform="translate(-10 -9)"/>
+                    <path class="d" d="M246,127A118,118,0,1,0,82.18,235.77a48.72,48.72,0,0,1-8.08-15.11c-8.33-25.36,8.19-47.21,8.19-47.21s-13.23-1.4-12.19-4.51,8.19-12,11-21.7c3-10.33,4-15.7,4-15.7S73.75,136.55,75,133s6.42-19.5,8.51-28.19S86.45,93,86.45,93s-10.38,3.33-9.56,1.47a63,63,0,0,0,4.55-20.93C81.87,63,85.78,53,88.89,48.63A26.33,26.33,0,0,1,95.75,42S93,34.94,93.66,34.57s6,1,8.9.57a9.46,9.46,0,0,1,5.4,1s23.41-9.5,35.26-4.93,12,10.77,17.4,13.05,7.25,3.7,8.29,5.63a3.9,3.9,0,0,1,.41,3.28s10.57.83,14.09,2.71,5.4,5,4.57,7.68a13.47,13.47,0,0,0-.83,5.36c0,2.07.84,4-.82,8.08S183,81.38,183,81.38a7.18,7.18,0,0,0-3.6-.43,6,6,0,0,0-3.74,1.83l-.82-2.7s-8-8.38-17.73-4.17c-6.42,2.75-8.36,4.47-4.71,11.74,1.58,3.16,10.26,4.12,12.74,4.12A8.69,8.69,0,0,0,170,89.9l.82,2.28L174.3,92l2.06-1v4.76s3.12,2.28,1.25,6.85-15.74,3.17-15.74,3.17,8.41,11.46,9.42,18.08S173,134.22,173,134.22l5.4-2.22s7.16-3.48,12.15-.83,5.51,2.25,1.36,6.18S170.2,167,170.2,183.4,180,196,182.93,218.24c.6,4.79-1.84,10.61-6.07,16.2A118,118,0,0,0,246,127Z" transform="translate(-10 -9)"/>
+                    <path class="e" d="M131,66.27a72.77,72.77,0,0,1-.8-14.12s-14.5,29.91,16.89,71.35a70.15,70.15,0,0,1,12.74,29.88S169.85,121.72,144.08,96C133.43,85.31,132.23,74.56,131,66.27Z" transform="translate(-10 -9)"/>
+                </svg>
+            </a>
+        </div>
+
+        <div class="Header-item d-md-none">
+            <button class="Header-link btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                <svg height="24" class="octicon octicon-three-bars" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path></svg>
+            </button>
+        </div>
+
+        <div class="Header-item Header-item--full flex-column flex-md-row width-full flex-order-2 flex-md-order-none mr-0 mr-md-3 mt-3 mt-md-0 Details-content--hidden d-md-flex">
+            <div class="position-relative flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 js-jump-to">
+                <a class="Header-link" href="https://machinelearning.sg/">machinelearning.sg</a>
+            </div>
+
+            <nav class="d-flex flex-column flex-md-row flex-self-stretch flex-md-self-auto" aria-label="Global">
+                
+                <a href="/research" class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade-15">Research</a>
+                
+                <a href="/code" class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade-15">Code</a>
+                
+                <a href="/jobs" class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade-15">Jobs</a>
+                
+                <a href="https://news.machinelearning.sg/" class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade-15">News</a>
+                
+            </nav>
+        </div>
+
+        <div class="Header-item Header-item--full flex-justify-center d-md-none position-relative">
+            <a class="Header-link "  href="https://machinelearning.sg/" aria-label="Home">
+                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 236 226.77" version="1.1" width="32" aria-hidden="true">
+                    <path class="a" d="M121.28,44.9s-23.11,34.95-13,65.29c12.81,38.46,43.59,46.51,43.59,46.51s-20.24-25.87-29.7-51C110.72,75.21,121.28,44.9,121.28,44.9Z" transform="translate(-10 -9)"/>
+                    <path class="b" d="M154.81,56.92a26.1,26.1,0,0,0,5.39-.8s1.05-1.67-3.31-2.71a9.4,9.4,0,0,0-7.06.82l-2.06.85S151.5,57.12,154.81,56.92Z" transform="translate(-10 -9)"/>
+                    <path class="c" d="M185.68,65.44c.65-1.67,1.07-4.34-.37-5.83s-2.27-2.69-3.95-.56C181.36,59.05,185.09,67.1,185.68,65.44Z" transform="translate(-10 -9)"/>
+                    <path class="d" d="M246,127A118,118,0,1,0,82.18,235.77a48.72,48.72,0,0,1-8.08-15.11c-8.33-25.36,8.19-47.21,8.19-47.21s-13.23-1.4-12.19-4.51,8.19-12,11-21.7c3-10.33,4-15.7,4-15.7S73.75,136.55,75,133s6.42-19.5,8.51-28.19S86.45,93,86.45,93s-10.38,3.33-9.56,1.47a63,63,0,0,0,4.55-20.93C81.87,63,85.78,53,88.89,48.63A26.33,26.33,0,0,1,95.75,42S93,34.94,93.66,34.57s6,1,8.9.57a9.46,9.46,0,0,1,5.4,1s23.41-9.5,35.26-4.93,12,10.77,17.4,13.05,7.25,3.7,8.29,5.63a3.9,3.9,0,0,1,.41,3.28s10.57.83,14.09,2.71,5.4,5,4.57,7.68a13.47,13.47,0,0,0-.83,5.36c0,2.07.84,4-.82,8.08S183,81.38,183,81.38a7.18,7.18,0,0,0-3.6-.43,6,6,0,0,0-3.74,1.83l-.82-2.7s-8-8.38-17.73-4.17c-6.42,2.75-8.36,4.47-4.71,11.74,1.58,3.16,10.26,4.12,12.74,4.12A8.69,8.69,0,0,0,170,89.9l.82,2.28L174.3,92l2.06-1v4.76s3.12,2.28,1.25,6.85-15.74,3.17-15.74,3.17,8.41,11.46,9.42,18.08S173,134.22,173,134.22l5.4-2.22s7.16-3.48,12.15-.83,5.51,2.25,1.36,6.18S170.2,167,170.2,183.4,180,196,182.93,218.24c.6,4.79-1.84,10.61-6.07,16.2A118,118,0,0,0,246,127Z" transform="translate(-10 -9)"/>
+                    <path class="e" d="M131,66.27a72.77,72.77,0,0,1-.8-14.12s-14.5,29.91,16.89,71.35a70.15,70.15,0,0,1,12.74,29.88S169.85,121.72,144.08,96C133.43,85.31,132.23,74.56,131,66.27Z" transform="translate(-10 -9)"/>
+                </svg>
+            </a>
+        </div>
+    </header>
+</div>
+
+<div id="start-of-content" class="show-on-focus"></div>
+<div id="js-flash-container">
+</div>
+
+  
+<div class="application-main " data-commit-hovercards-enabled>
+    <main>
+        <div class="container-xl clearfix px-3 mt-4">
+
+            <div class="col-lg-12 col-md-12 col-12 float-md-left pl-md-2">
+    <div class="UnderlineNav width-full user-profile-nav js-sticky top-0">
+    <nav class="UnderlineNav-body" aria-label="User profile">
+        
+        
+        
+        <a aria-current="page" class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3  "
+        href="/research/">
+            Research
+            
+        </a>
+        
+        
+        <a aria-current="page" class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3  "
+        href="/researcher">
+            Researchers
+            
+            <span class="Counter hide-lg hide-md hide-sm">
+                4188
+            </span>
+            
+        </a>
+        
+        
+        <a aria-current="page" class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 selected "
+        href="/publication">
+            Publications
+            
+            <span class="Counter hide-lg hide-md hide-sm">
+                9289
+            </span>
+            
+        </a>
+        
+        
+        <a aria-current="page" class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3  "
+        href="/institution">
+            Institutions
+            
+            <span class="Counter hide-lg hide-md hide-sm">
+                0
+            </span>
+            
+        </a>
+        
+    </nav>
+</div>
+
+
+    <div class="position-relative">
+        <div id="user-repositories-list">
+            <ul data-filterable-for="your-repos-filter" data-filterable-type="substring">
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://dblp.uni-trier.de/db/journals/corr/corr1904.html#abs-1904-09172" target="_blank">Video Object Segmentation and Tracking: A Survey</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2624938132/" class="link-gray mr-2" title="Chinese Ministry Of Education">
+                                    Rui Yao
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/guosheng_lin" class="link-gray mr-2" title="Nanyang Technological University">
+                                    Guosheng Lin
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2712913198/" class="link-gray mr-2" title="China University Of Mining And Technology">
+                                    Shixiong Xia
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2336887139/" class="link-gray mr-2" title="China University Of Mining And Technology">
+                                    Jiaqi Zhao
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2806624530/" class="link-gray mr-2" title="China University Of Mining And Technology">
+                                    Yong Zhou
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=segmentation"
+                               target="_blank">
+                                segmentation
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=computer%20vision"
+                               target="_blank">
+                                computer vision
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=computer%20science"
+                               target="_blank">
+                                computer science
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=artificial%20intelligence"
+                               target="_blank">
+                                artificial intelligence
+                            </a>
+                            
+                            
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                ACM Transactions on Intelligent Systems and Technology
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                <span class="ml-0">
+                                    <img class="octicon" src="/images/citations.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark" itemprop="publications">
+                                        3
+                                    </span>
+                                    citations
+                                </span>
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-03
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://jhu.pure.elsevier.com/en/publications/optic-disc-classification-by-deep-learning-versus-expert-neuro-op" target="_blank">Optic Disc Classification by Deep Learning versus Expert Neuro-Ophthalmologists.</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/1966033735/" class="link-gray mr-2" title="Emory University">
+                                    Valérie Biousse
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2154327050/" class="link-gray mr-2" title="Emory University">
+                                    Nancy J. Newman
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/raymond_p_najjar" class="link-gray mr-2" title="National University Of Singapore">
+                                    Raymond P. Najjar
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/caroline_vasseneix" class="link-gray mr-2" title="">
+                                    Caroline Vasseneix
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/xinxing_xu" class="link-gray mr-2" title="Agency For Science Technology And Research">
+                                    Xinxing Xu
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3040395697/" class="link-gray mr-2" title="National University Of Singapore">
+                                    Daniel S. Ting
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3040395697/" class="link-gray mr-2" title="Singapore National Eye Center">
+                                    Daniel S. Ting
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3039696390/" class="link-gray mr-2" title="University Of California Berkeley">
+                                    Léonard B. Milea
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3040784960/" class="link-gray mr-2" title="Seoul National University Bundang Hospital">
+                                    Jeong‐Min Hwang
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3014483673/" class="link-gray mr-2" title="Seoul National University Bundang Hospital">
+                                    Dong Hyun Kim
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2101297923/" class="link-gray mr-2" title="Seoul National University Bundang Hospital">
+                                    Hee Kyung Yang
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2204592569/" class="link-gray mr-2" title="University Of Copenhagen">
+                                    Steffen Hamann
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2126442579/" class="link-gray mr-2" title="Mayo Clinic">
+                                    John J. Chen
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/yong_liu" class="link-gray mr-2" title="Agency For Science Technology And Research">
+                                    Yong Liu
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/tien_yin_wong" class="link-gray mr-2" title="National University Of Singapore">
+                                    Tien Yin Wong
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/tien_yin_wong" class="link-gray mr-2" title="Singapore National Eye Center">
+                                    Tien Yin Wong
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/dan_milea" class="link-gray mr-2" title="National University Of Singapore">
+                                    Dan Milea
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/dan_milea" class="link-gray mr-2" title="Singapore National Eye Center">
+                                    Dan Milea
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=optic%20disc"
+                               target="_blank">
+                                optic disc
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=papilledema"
+                               target="_blank">
+                                papilledema
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=fundus"
+                               target="_blank">
+                                fundus
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=receiver%20operating%20characteristic"
+                               target="_blank">
+                                receiver operating characteristic
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=confidence%20interval"
+                               target="_blank">
+                                confidence interval
+                            </a>
+                            
+                            
+                            
+                                +6 more
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                Annals of Neurology
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-03
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://dblp.uni-trier.de/db/journals/tip/tip29.html#ZhaYWZZZ20b" target="_blank">Image Restoration Using Joint Patch-Group-Based Sparse Representation</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/zhiyuan_zha" class="link-gray mr-2" title="University Of Electronic Science And Technology Of China">
+                                    Zhiyuan Zha
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2595219628/" class="link-gray mr-2" title="Bell Labs">
+                                    Xin Yuan
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/bihan_wen" class="link-gray mr-2" title="Nanyang Technological University">
+                                    Bihan Wen
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2943839110/" class="link-gray mr-2" title="Nanjing Institute Of Technology">
+                                    Jiachao Zhang
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2139005492/" class="link-gray mr-2" title="City University Of Macau">
+                                    Jiantao Zhou
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/ce_zhu" class="link-gray mr-2" title="University Of Electronic Science And Technology Of China">
+                                    Ce Zhu
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=sparse%20approximation"
+                               target="_blank">
+                                sparse approximation
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=image%20restoration"
+                               target="_blank">
+                                image restoration
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=image%20processing"
+                               target="_blank">
+                                image processing
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=inpainting"
+                               target="_blank">
+                                inpainting
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=visual%20artifact"
+                               target="_blank">
+                                visual artifact
+                            </a>
+                            
+                            
+                            
+                                +6 more
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                IEEE Transactions on Image Processing
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                <span class="ml-0">
+                                    <img class="octicon" src="/images/citations.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark" itemprop="publications">
+                                        4
+                                    </span>
+                                    citations
+                                </span>
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-03
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://digital-library.theiet.org/content/journals/10.1049/iet-bmt.2018.5100" target="_blank">Constant-Q magnitude–phase coefficients extraction for synthetic speech detection</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/jichen_yang" class="link-gray mr-2" title="National University Of Singapore">
+                                    Jichen Yang
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2648846454/" class="link-gray mr-2" title="">
+                                    Pei Lin
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/1982577142/" class="link-gray mr-2" title="South China University Of Technology">
+                                    Qianhua He
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=discrete%20cosine%20transform"
+                               target="_blank">
+                                discrete cosine transform
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=voice%20activity%20detection"
+                               target="_blank">
+                                voice activity detection
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=resampling"
+                               target="_blank">
+                                resampling
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=discriminative%20model"
+                               target="_blank">
+                                discriminative model
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=principal%20component%20analysis"
+                               target="_blank">
+                                principal component analysis
+                            </a>
+                            
+                            
+                            
+                                +6 more
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                IET Biometrics
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-03
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://dblp.uni-trier.de/db/journals/tist/tist11.html#MaGJW20" target="_blank">An Attention-based Rumor Detection Model with Tree-structured Recursive Neural Networks</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2617652984/" class="link-gray mr-2" title="Hong Kong Baptist University">
+                                    Jing Ma
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3034210764/" class="link-gray mr-2" title="Singapore Management University">
+                                    Wei Gao
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/shafiq_joty" class="link-gray mr-2" title="Nanyang Technological University">
+                                    Shafiq R. Joty
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2189748902/" class="link-gray mr-2" title="The Chinese University Of Hong Kong">
+                                    Kam-Fai Wong
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=rumor"
+                               target="_blank">
+                                rumor
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=artificial%20neural%20network"
+                               target="_blank">
+                                artificial neural network
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=recursion"
+                               target="_blank">
+                                recursion
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=artificial%20intelligence"
+                               target="_blank">
+                                artificial intelligence
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=computer%20science"
+                               target="_blank">
+                                computer science
+                            </a>
+                            
+                            
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                ACM Transactions on Intelligent Systems and Technology
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                <span class="ml-0">
+                                    <img class="octicon" src="/images/citations.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark" itemprop="publications">
+                                        1
+                                    </span>
+                                    citations
+                                </span>
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-03
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.aclweb.org/anthology/2020.cl-2.2.pdf" target="_blank">Unsupervised Word Translation with Adversarial Autoencoder</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/tasnim_mohiuddin" class="link-gray mr-2" title="Nanyang Technological University">
+                                    Tasnim Mohiuddin
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/shafiq_joty" class="link-gray mr-2" title="Nanyang Technological University">
+                                    Shafiq R. Joty
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=autoencoder"
+                               target="_blank">
+                                autoencoder
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=machine%20translation"
+                               target="_blank">
+                                machine translation
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=transfer%20of%20learning"
+                               target="_blank">
+                                transfer of learning
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=natural%20language%20processing"
+                               target="_blank">
+                                natural language processing
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=adversarial%20system"
+                               target="_blank">
+                                adversarial system
+                            </a>
+                            
+                            
+                            
+                                +2 more
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                Computational Linguistics
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                <span class="ml-0">
+                                    <img class="octicon" src="/images/citations.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark" itemprop="publications">
+                                        1
+                                    </span>
+                                    citations
+                                </span>
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-02
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://dblp.uni-trier.de/db/conf/cscml/cscml2020.html#SunGBP20" target="_blank">NeuroGIFT: Using a Machine Learning Based Sat Solver for Cryptanalysis</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3037929634/" class="link-gray mr-2" title="Shandong University">
+                                    Ling Sun
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2399502414/" class="link-gray mr-2" title="Nanyang Technological University">
+                                    David Gerault
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3037500715/" class="link-gray mr-2" title="Nanyang Technological University">
+                                    Adrien Benamira
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/thomas_peyrin" class="link-gray mr-2" title="Nanyang Technological University">
+                                    Thomas Peyrin
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=block%20cipher"
+                               target="_blank">
+                                block cipher
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=differential%20cryptanalysis"
+                               target="_blank">
+                                differential cryptanalysis
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=cryptanalysis"
+                               target="_blank">
+                                cryptanalysis
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=boolean%20satisfiability%20problem"
+                               target="_blank">
+                                boolean satisfiability problem
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=artificial%20neural%20network"
+                               target="_blank">
+                                artificial neural network
+                            </a>
+                            
+                            
+                            
+                                +6 more
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                International Symposium on Cyber Security Cryptography and Machine Learning
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-02
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://amstat.tandfonline.com/doi/full/10.1080/01621459.2019.1609972" target="_blank">Feature Selection by Canonical Correlation Search in High-Dimensional Multiresponse Models With Complex Group Structures</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2500793325/" class="link-gray mr-2" title="Shanghai Jiao Tong University">
+                                    Shan Luo
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/zehua_chen" class="link-gray mr-2" title="National University Of Singapore">
+                                    Zehua Chen
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=feature%20selection"
+                               target="_blank">
+                                feature selection
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=canonical%20correlation"
+                               target="_blank">
+                                canonical correlation
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=covariate"
+                               target="_blank">
+                                covariate
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=pattern%20recognition"
+                               target="_blank">
+                                pattern recognition
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=mathematics"
+                               target="_blank">
+                                mathematics
+                            </a>
+                            
+                            
+                            
+                                +3 more
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                Journal of the American Statistical Association
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-02
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.aclweb.org/anthology/2020.acl-main.477.pdf" target="_blank">Would you Rather? A New Benchmark for Learning Machine Alignment with Cultural Values and Social Preferences.</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/yi_tay" class="link-gray mr-2" title="Nanyang Technological University">
+                                    Yi Tay
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3035121478/" class="link-gray mr-2" title="">
+                                    Donovan Ong
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/jie_fu" class="link-gray mr-2" title="Ecole Polytechnique De Montreal">
+                                    Jie Fu
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/alvin_chan" class="link-gray mr-2" title="Nanyang Technological University">
+                                    Alvin Chan
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/nancy_f_chen" class="link-gray mr-2" title="University Of Rochester">
+                                    Nancy Chen
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/anh_tuan_luu" class="link-gray mr-2" title="Institute For Infocomm Research Singapore">
+                                    Anh Tuan Luu
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2168619732/" class="link-gray mr-2" title="Ecole Polytechnique De Montreal">
+                                    Chris Pal
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=natural%20language%20understanding"
+                               target="_blank">
+                                natural language understanding
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=social%20preferences"
+                               target="_blank">
+                                social preferences
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=voting"
+                               target="_blank">
+                                voting
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=natural%20language%20processing"
+                               target="_blank">
+                                natural language processing
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=computer%20science"
+                               target="_blank">
+                                computer science
+                            </a>
+                            
+                            
+                            
+                                +4 more
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-01
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://eprints.qut.edu.au/199881/" target="_blank">When you can&#39;t see the koalas for the trees: Using drones and machine learning in complex environments</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2097582257/" class="link-gray mr-2" title="Queensland University Of Technology">
+                                    Grant Hamilton
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2918508099/" class="link-gray mr-2" title="Queensland University Of Technology">
+                                    Evangeline Corcoran
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2108514551/" class="link-gray mr-2" title="Queensland University Of Technology">
+                                    Simon Denman
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3025436747/" class="link-gray mr-2" title="University Of Adelaide">
+                                    Molly Ellis Hennekam
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3025436747/" class="link-gray mr-2" title="National University Of Singapore">
+                                    Molly Ellis Hennekam
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/lian_pin_koh" class="link-gray mr-2" title="University Of Adelaide">
+                                    Lian Pin Koh
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/lian_pin_koh" class="link-gray mr-2" title="National University Of Singapore">
+                                    Lian Pin Koh
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=abundance%20estimation"
+                               target="_blank">
+                                abundance estimation
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=machine%20learning"
+                               target="_blank">
+                                machine learning
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=drone"
+                               target="_blank">
+                                drone
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=computer%20science"
+                               target="_blank">
+                                computer science
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=artificial%20intelligence"
+                               target="_blank">
+                                artificial intelligence
+                            </a>
+                            
+                            
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                Biological Conservation
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                <span class="ml-0">
+                                    <img class="octicon" src="/images/citations.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark" itemprop="publications">
+                                        1
+                                    </span>
+                                    citations
+                                </span>
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-01
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://dblp.uni-trier.de/db/conf/embc/embc2020.html#GilesAMA20" target="_blank">Weighted Transfer Learning of Dynamic Time Warped Data for Motor Imagery based Brain Computer Interfaces</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2802577631/" class="link-gray mr-2" title="University Of Sheffield">
+                                    Joshua Giles
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/kai_keng_ang" class="link-gray mr-2" title="Agency For Science Technology And Research">
+                                    Kai Keng Ang
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2252401452/" class="link-gray mr-2" title="University Of Sheffield">
+                                    Lyudmila Mihaylova
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/mahnaz_arvaneh" class="link-gray mr-2" title="University Of Sheffield">
+                                    Mahnaz Arvaneh
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=dynamic%20time%20warping"
+                               target="_blank">
+                                dynamic time warping
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=transfer%20of%20learning"
+                               target="_blank">
+                                transfer of learning
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=kullback%20leibler%20divergence"
+                               target="_blank">
+                                kullback leibler divergence
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=motor%20imagery"
+                               target="_blank">
+                                motor imagery
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=brain%20computer%20interface"
+                               target="_blank">
+                                brain computer interface
+                            </a>
+                            
+                            
+                            
+                                +6 more
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                2020 42nd Annual International Conference of the IEEE Engineering in Medicine &amp; Biology Society (EMBC)
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-01
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://dblp.uni-trier.de/db/conf/ijcnn/ijcnn2020.html#OuyangL0RY20" target="_blank">Unsupervised Learning of Disentangled Location Embeddings</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/kun_ouyang" class="link-gray mr-2" title="National University Of Singapore">
+                                    Kun Ouyang
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/yuxuan_liang" class="link-gray mr-2" title="National University Of Singapore">
+                                    Yuxuan Liang
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/ye_liu" class="link-gray mr-2" title="National University Of Singapore">
+                                    Ye Liu
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3004965433/" class="link-gray mr-2" title="National University Of Singapore">
+                                    David S. Rosenblum
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/wenzhuo_yang" class="link-gray mr-2" title="">
+                                    Wenzhuo Yang
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=unsupervised%20learning"
+                               target="_blank">
+                                unsupervised learning
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=conflation"
+                               target="_blank">
+                                conflation
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=semantics"
+                               target="_blank">
+                                semantics
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=embedding"
+                               target="_blank">
+                                embedding
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=machine%20learning"
+                               target="_blank">
+                                machine learning
+                            </a>
+                            
+                            
+                            
+                                +6 more
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                2020 International Joint Conference on Neural Networks (IJCNN)
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-01
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://dblp.uni-trier.de/db/conf/ijcai/ijcai2020.html#LiHYNB020" target="_blank">Unsupervised Domain Adaptation of a Pretrained Cross-Lingual Language Model.</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/juntao_li" class="link-gray mr-2" title="Peking University">
+                                    Juntao Li
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/juntao_li" class="link-gray mr-2" title="National University Of Singapore">
+                                    Juntao Li
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/ruidan_he" class="link-gray mr-2" title="">
+                                    Ruidan He
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/hai_ye" class="link-gray mr-2" title="National University Of Singapore">
+                                    Hai Ye
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/hwee_tou_ng" class="link-gray mr-2" title="National University Of Singapore">
+                                    Hwee Tou Ng
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2160800796/" class="link-gray mr-2" title="">
+                                    Lidong Bing
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2109109241/" class="link-gray mr-2" title="Peking University">
+                                    Rui Yan
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=language%20model"
+                               target="_blank">
+                                language model
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=natural%20language%20processing"
+                               target="_blank">
+                                natural language processing
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=computer%20science"
+                               target="_blank">
+                                computer science
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=artificial%20intelligence"
+                               target="_blank">
+                                artificial intelligence
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=cross%20lingual"
+                               target="_blank">
+                                cross lingual
+                            </a>
+                            
+                            
+                            
+                                +1 more
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                <span class="ml-0">
+                                    <img class="octicon" src="/images/citations.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark" itemprop="publications">
+                                        3
+                                    </span>
+                                    citations
+                                </span>
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-01
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.aclweb.org/anthology/2020.acl-main.746.pdf" target="_blank">Universal Decompositional Semantic Parsing.</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2971045762/" class="link-gray mr-2" title="">
+                                    Elias Stengel-Eskin
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2164655109/" class="link-gray mr-2" title="University Of Rochester">
+                                    Aaron Steven White
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/sheng_zhang" class="link-gray mr-2" title="Singapore Management University">
+                                    Sheng Zhang
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2113965177/" class="link-gray mr-2" title="Johns Hopkins University">
+                                    Benjamin Van Durme
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=parsing"
+                               target="_blank">
+                                parsing
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=transduction"
+                               target="_blank">
+                                transduction
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=semantics"
+                               target="_blank">
+                                semantics
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=natural%20language"
+                               target="_blank">
+                                natural language
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=natural%20language%20processing"
+                               target="_blank">
+                                natural language processing
+                            </a>
+                            
+                            
+                            
+                                +3 more
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-01
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.aclweb.org/anthology/2020.acl-main.312.pdf" target="_blank">Understanding Attention for Text Classification</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3034524576/" class="link-gray mr-2" title="">
+                                    Xiaobing Sun
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/wei_lu" class="link-gray mr-2" title="Singapore University Of Technology And Design">
+                                    Wei Lu
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=interpretability"
+                               target="_blank">
+                                interpretability
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=security%20token"
+                               target="_blank">
+                                security token
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=natural%20language%20processing"
+                               target="_blank">
+                                natural language processing
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=computer%20science"
+                               target="_blank">
+                                computer science
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=artificial%20intelligence"
+                               target="_blank">
+                                artificial intelligence
+                            </a>
+                            
+                            
+                            
+                                +1 more
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                <span class="ml-0">
+                                    <img class="octicon" src="/images/citations.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark" itemprop="publications">
+                                        1
+                                    </span>
+                                    citations
+                                </span>
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-01
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://www.sciencedirect.com/science/article/pii/S0376738820307134" target="_blank">Understanding and optimization of thin film nanocomposite membranes for reverse osmosis with machine learning</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3016110750/" class="link-gray mr-2" title="National University Of Singapore">
+                                    Chester Su Hern Yeo
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3015630237/" class="link-gray mr-2" title="Anhui University Of Technology">
+                                    Qian Xie
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3015630237/" class="link-gray mr-2" title="National University Of Singapore">
+                                    Qian Xie
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/xiaonan_wang" class="link-gray mr-2" title="National University Of Singapore">
+                                    Xiaonan Wang
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2431642458/" class="link-gray mr-2" title="National University Of Singapore">
+                                    Sui Zhang
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=membrane"
+                               target="_blank">
+                                membrane
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=reverse%20osmosis"
+                               target="_blank">
+                                reverse osmosis
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=desalination"
+                               target="_blank">
+                                desalination
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=nanocomposite"
+                               target="_blank">
+                                nanocomposite
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=porous%20medium"
+                               target="_blank">
+                                porous medium
+                            </a>
+                            
+                            
+                            
+                                +6 more
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                Journal of Membrane Science
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                <span class="ml-0">
+                                    <img class="octicon" src="/images/citations.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark" itemprop="publications">
+                                        1
+                                    </span>
+                                    citations
+                                </span>
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-01
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=6279&amp;context=sis_research" target="_blank">Trajectory Similarity Learning with Auxiliary Supervision and Optimal Matching.</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2512529277/" class="link-gray mr-2" title="Fudan University">
+                                    Hanyuan Zhang
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2998721581/" class="link-gray mr-2" title="Fudan University">
+                                    Xinyu Zhang
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2940575449/" class="link-gray mr-2" title="Fudan University">
+                                    Qize Jiang
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/baihua_zheng" class="link-gray mr-2" title="Singapore Management University">
+                                    Baihua Zheng
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3035041938/" class="link-gray mr-2" title="">
+                                    Zhenbang Sun
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2806924072/" class="link-gray mr-2" title="Fudan University">
+                                    Weiwei Sun
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3035512445/" class="link-gray mr-2" title="">
+                                    Changhu Wang
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=optimal%20matching"
+                               target="_blank">
+                                optimal matching
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=similarity%20learning"
+                               target="_blank">
+                                similarity learning
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=trajectory"
+                               target="_blank">
+                                trajectory
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=pattern%20recognition"
+                               target="_blank">
+                                pattern recognition
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=computer%20science"
+                               target="_blank">
+                                computer science
+                            </a>
+                            
+                            
+                            
+                                +1 more
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-01
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://openreview.net/pdf?id=BJg_FgBtPH" target="_blank">Towards Holistic and Automatic Evaluation of Open-Domain Dialogue Generation</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2972888691/" class="link-gray mr-2" title="University Of California Los Angeles">
+                                    Bo Pang
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2791611741/" class="link-gray mr-2" title="University Of California Los Angeles">
+                                    Erik Nijkamp
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/wenjuan_han" class="link-gray mr-2" title="National University Of Singapore">
+                                    Wenjuan Han
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2991180096/" class="link-gray mr-2" title="University Of California Los Angeles">
+                                    Linqi Zhou
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2983380075/" class="link-gray mr-2" title="Shanghaitech University">
+                                    Yixian Liu
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2630071572/" class="link-gray mr-2" title="Alibaba Group">
+                                    Kewei Tu
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=fluency"
+                               target="_blank">
+                                fluency
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=natural%20language%20processing"
+                               target="_blank">
+                                natural language processing
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=computer%20science"
+                               target="_blank">
+                                computer science
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=coherence"
+                               target="_blank">
+                                coherence
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=artificial%20intelligence"
+                               target="_blank">
+                                artificial intelligence
+                            </a>
+                            
+                            
+                            
+                                +3 more
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                <span class="ml-0">
+                                    <img class="octicon" src="/images/citations.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark" itemprop="publications">
+                                        2
+                                    </span>
+                                    citations
+                                </span>
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-01
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="http://arxiv.org/pdf/1910.09840.pdf" target="_blank">Towards Best Practice in Explaining Neural Network Decisions with LRP</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2981596015/" class="link-gray mr-2" title="Heinrich Hertz Institute">
+                                    Maximilian Kohlbrenner
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2152853498/" class="link-gray mr-2" title="Technical University Of Berlin">
+                                    Alexander Bauer
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2077020583/" class="link-gray mr-2" title="Technical University Of Berlin">
+                                    Shinichi Nakajima
+                                </a>
+                                
+                            
+                                
+                                <a href="https://machinelearning.sg/researcher/alexander_binder" class="link-gray mr-2" title="Singapore University Of Technology And Design">
+                                    Alexander Binder
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2786373057/" class="link-gray mr-2" title="Heinrich Hertz Institute">
+                                    Wojciech Samek
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2522648935/" class="link-gray mr-2" title="Heinrich Hertz Institute">
+                                    Sebastian Lapuschkin
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=feedforward%20neural%20network"
+                               target="_blank">
+                                feedforward neural network
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=artificial%20neural%20network"
+                               target="_blank">
+                                artificial neural network
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=artificial%20intelligence"
+                               target="_blank">
+                                artificial intelligence
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=object%20detection"
+                               target="_blank">
+                                object detection
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=visualization"
+                               target="_blank">
+                                visualization
+                            </a>
+                            
+                            
+                            
+                                +2 more
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                2020 International Joint Conference on Neural Networks (IJCNN)
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                <span class="ml-0">
+                                    <img class="octicon" src="/images/citations.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark" itemprop="publications">
+                                        1
+                                    </span>
+                                    citations
+                                </span>
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-01
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://dblp.uni-trier.de/db/conf/embc/embc2020.html#CaoYKBLLG20" target="_blank">Super-resolution technology to simultaneously improve optical &amp; digital resolution of optical coherence tomography via deep learning</a>
+                                <span class="f5" itemprop="date">
+                                    (2020)
+                                </span>
+                            </h3>
+                        </div>
+
+                        <div class="f6 text-gray mb-3">
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3082739368/" class="link-gray mr-2" title="University Of Alabama">
+                                    Shengting Cao
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2712313491/" class="link-gray mr-2" title="Nanyang Technological University">
+                                    Xinwen Yao
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3081598516/" class="link-gray mr-2" title="University Of Alabama">
+                                    Nischal Koirala
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/1472748469/" class="link-gray mr-2" title="University Of Alabama At Birmingham">
+                                    Brigitta Brott
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/629403524/" class="link-gray mr-2" title="University Of Alabama At Birmingham">
+                                    Silvio Litovsky
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/3000057390/" class="link-gray mr-2" title="Shanghai Jiao Tong University">
+                                    Yuye Ling
+                                </a>
+                                
+                            
+                                
+                                <a href="https://academic.microsoft.com/author/2232656425/" class="link-gray mr-2" title="University Of Alabama">
+                                    Yu Gan
+                                </a>
+                                
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=optical%20coherence%20tomography"
+                               target="_blank">
+                                optical coherence tomography
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=image%20quality"
+                               target="_blank">
+                                image quality
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=iterative%20reconstruction"
+                               target="_blank">
+                                iterative reconstruction
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=convolutional%20neural%20network"
+                               target="_blank">
+                                convolutional neural network
+                            </a>
+                            
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q=filter"
+                               target="_blank">
+                                filter
+                            </a>
+                            
+                            
+                            
+                                +6 more
+                            
+                        </div>
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                                2020 42nd Annual International Conference of the IEEE Engineering in Medicine &amp; Biology Society (EMBC)
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Published 2020-07-01
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+            </ul>
+            
+            <div class="paginate-container">
+                <div class="BtnGroup" data-test-selector="pagination">
+                    
+                    <a rel="nofollow" class="btn btn-outline BtnGroup-item"
+                        href="/publication/page/22/">Previous</a>
+                    
+                    
+                    <a rel="nofollow" class="btn btn-outline BtnGroup-item" href="/publication/page/24/">Next</a>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+        </div>
+    </main>
+</div>
+
+  <div class="footer container-lg width-full p-responsive" role="contentinfo">
+    <div
+        class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+        <ul
+            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+            <li class="mr-3 mr-lg-0"></a></li>
+        </ul>
+
+        <a aria-label="Homepage" title="Machine Learning SG" class="footer-octicon d-none d-lg-block mx-lg-4"
+            href="https://machinelearning.sg/">
+            <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 236 226.77" version="1.1" width="24"
+                aria-hidden="true">
+                <path class="a" d="M121.28,44.9s-23.11,34.95-13,65.29c12.81,38.46,43.59,46.51,43.59,46.51s-20.24-25.87-29.7-51C110.72,75.21,121.28,44.9,121.28,44.9Z" transform="translate(-10 -9)"/>
+                <path class="b" d="M154.81,56.92a26.1,26.1,0,0,0,5.39-.8s1.05-1.67-3.31-2.71a9.4,9.4,0,0,0-7.06.82l-2.06.85S151.5,57.12,154.81,56.92Z" transform="translate(-10 -9)"/>
+                <path class="c" d="M185.68,65.44c.65-1.67,1.07-4.34-.37-5.83s-2.27-2.69-3.95-.56C181.36,59.05,185.09,67.1,185.68,65.44Z" transform="translate(-10 -9)"/>
+                <path class="d" d="M246,127A118,118,0,1,0,82.18,235.77a48.72,48.72,0,0,1-8.08-15.11c-8.33-25.36,8.19-47.21,8.19-47.21s-13.23-1.4-12.19-4.51,8.19-12,11-21.7c3-10.33,4-15.7,4-15.7S73.75,136.55,75,133s6.42-19.5,8.51-28.19S86.45,93,86.45,93s-10.38,3.33-9.56,1.47a63,63,0,0,0,4.55-20.93C81.87,63,85.78,53,88.89,48.63A26.33,26.33,0,0,1,95.75,42S93,34.94,93.66,34.57s6,1,8.9.57a9.46,9.46,0,0,1,5.4,1s23.41-9.5,35.26-4.93,12,10.77,17.4,13.05,7.25,3.7,8.29,5.63a3.9,3.9,0,0,1,.41,3.28s10.57.83,14.09,2.71,5.4,5,4.57,7.68a13.47,13.47,0,0,0-.83,5.36c0,2.07.84,4-.82,8.08S183,81.38,183,81.38a7.18,7.18,0,0,0-3.6-.43,6,6,0,0,0-3.74,1.83l-.82-2.7s-8-8.38-17.73-4.17c-6.42,2.75-8.36,4.47-4.71,11.74,1.58,3.16,10.26,4.12,12.74,4.12A8.69,8.69,0,0,0,170,89.9l.82,2.28L174.3,92l2.06-1v4.76s3.12,2.28,1.25,6.85-15.74,3.17-15.74,3.17,8.41,11.46,9.42,18.08S173,134.22,173,134.22l5.4-2.22s7.16-3.48,12.15-.83,5.51,2.25,1.36,6.18S170.2,167,170.2,183.4,180,196,182.93,218.24c.6,4.79-1.84,10.61-6.07,16.2A118,118,0,0,0,246,127Z" transform="translate(-10 -9)"/>
+                <path class="e" d="M131,66.27a72.77,72.77,0,0,1-.8-14.12s-14.5,29.91,16.89,71.35a70.15,70.15,0,0,1,12.74,29.88S169.85,121.72,144.08,96C133.43,85.31,132.23,74.56,131,66.27Z" transform="translate(-10 -9)"/>
+            </svg>
+        </a>
+        <ul
+            class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+        </ul>
+    </div>
+    <div class="d-flex flex-justify-center pb-6">
+        <span class="f6 text-gray-light"></span>
+    </div>
+</div>
+
+<script crossorigin="anonymous"
+    type="application/javascript" src="https://machinelearning.sg/js/frameworks.js"></script>
+
+<script crossorigin="anonymous"
+    type="application/javascript" src="https://machinelearning.sg/js/github-bootstrap.js"></script>
+<script src="https://machinelearning.sg/js/stop.js"></script>
+<script src="https://machinelearning.sg/js/contributions.js"></script>
+
+</body>
+
+</html>
