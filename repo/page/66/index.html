@@ -1,0 +1,1424 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://machinelearning.sg/css/frameworks.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://machinelearning.sg/css/github.css" />
+    
+    <link crossorigin="anonymous" media="(prefers-color-scheme: dark)" rel="stylesheet"
+        href="https://machinelearning.sg/css/dark.css" />
+    
+    <meta name="viewport" content="width=device-width">
+    <meta name="description"
+        content="" />
+    <meta name="keywords"
+        content="" />
+    <meta name="robots" content="noodp" />
+    <link rel="canonical" href="https://machinelearning.sg/repo/" />
+
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Repos - Machine Learning SG" />
+    <meta name="twitter:description"
+        content="" />
+    <meta name="twitter:site" content="https://machinelearning.sg/" />
+    <meta name="twitter:creator" content="" />
+    <meta name="twitter:image"
+        content="https://machinelearning.sg/">
+
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Repos - Machine Learning SG">
+    <meta property="og:description"
+        content="" />
+    <meta property="og:url" content="https://machinelearning.sg/repo/" />
+    <meta property="og:site_name" content="Repos" />
+    <meta property="og:image"
+        content="https://machinelearning.sg/">
+    <meta property="og:image:width" content="2048">
+    <meta property="og:image:height" content="1024">
+    
+
+    
+    
+    <link href="/repo/index.xml" rel="alternate" type="application/rss+xml" title="Machine Learning SG" />
+    
+
+    
+    
+
+    <title>Repos - Machine Learning SG</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    
+
+    
+</head>
+
+
+<body class="env-production emoji-size-boost page-responsive page-profile">
+  <div class="position-relative js-header-wrapper ">
+    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+    </span>
+    <header class="Header js-details-container Details px-3 px-md-4 px-lg-5 flex-wrap flex-md-nowrap" role="banner">
+        <div class="Header-item mt-n1 mb-n1  d-none d-md-flex">
+            <a class="Header-link" href="https://machinelearning.sg/" aria-label="Home">
+                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 236 226.77" version="1.1" width="32" aria-hidden="true">
+                    <path class="a" d="M121.28,44.9s-23.11,34.95-13,65.29c12.81,38.46,43.59,46.51,43.59,46.51s-20.24-25.87-29.7-51C110.72,75.21,121.28,44.9,121.28,44.9Z" transform="translate(-10 -9)"/>
+                    <path class="b" d="M154.81,56.92a26.1,26.1,0,0,0,5.39-.8s1.05-1.67-3.31-2.71a9.4,9.4,0,0,0-7.06.82l-2.06.85S151.5,57.12,154.81,56.92Z" transform="translate(-10 -9)"/>
+                    <path class="c" d="M185.68,65.44c.65-1.67,1.07-4.34-.37-5.83s-2.27-2.69-3.95-.56C181.36,59.05,185.09,67.1,185.68,65.44Z" transform="translate(-10 -9)"/>
+                    <path class="d" d="M246,127A118,118,0,1,0,82.18,235.77a48.72,48.72,0,0,1-8.08-15.11c-8.33-25.36,8.19-47.21,8.19-47.21s-13.23-1.4-12.19-4.51,8.19-12,11-21.7c3-10.33,4-15.7,4-15.7S73.75,136.55,75,133s6.42-19.5,8.51-28.19S86.45,93,86.45,93s-10.38,3.33-9.56,1.47a63,63,0,0,0,4.55-20.93C81.87,63,85.78,53,88.89,48.63A26.33,26.33,0,0,1,95.75,42S93,34.94,93.66,34.57s6,1,8.9.57a9.46,9.46,0,0,1,5.4,1s23.41-9.5,35.26-4.93,12,10.77,17.4,13.05,7.25,3.7,8.29,5.63a3.9,3.9,0,0,1,.41,3.28s10.57.83,14.09,2.71,5.4,5,4.57,7.68a13.47,13.47,0,0,0-.83,5.36c0,2.07.84,4-.82,8.08S183,81.38,183,81.38a7.18,7.18,0,0,0-3.6-.43,6,6,0,0,0-3.74,1.83l-.82-2.7s-8-8.38-17.73-4.17c-6.42,2.75-8.36,4.47-4.71,11.74,1.58,3.16,10.26,4.12,12.74,4.12A8.69,8.69,0,0,0,170,89.9l.82,2.28L174.3,92l2.06-1v4.76s3.12,2.28,1.25,6.85-15.74,3.17-15.74,3.17,8.41,11.46,9.42,18.08S173,134.22,173,134.22l5.4-2.22s7.16-3.48,12.15-.83,5.51,2.25,1.36,6.18S170.2,167,170.2,183.4,180,196,182.93,218.24c.6,4.79-1.84,10.61-6.07,16.2A118,118,0,0,0,246,127Z" transform="translate(-10 -9)"/>
+                    <path class="e" d="M131,66.27a72.77,72.77,0,0,1-.8-14.12s-14.5,29.91,16.89,71.35a70.15,70.15,0,0,1,12.74,29.88S169.85,121.72,144.08,96C133.43,85.31,132.23,74.56,131,66.27Z" transform="translate(-10 -9)"/>
+                </svg>
+            </a>
+        </div>
+
+        <div class="Header-item d-md-none">
+            <button class="Header-link btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                <svg height="24" class="octicon octicon-three-bars" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path></svg>
+            </button>
+        </div>
+
+        <div class="Header-item Header-item--full flex-column flex-md-row width-full flex-order-2 flex-md-order-none mr-0 mr-md-3 mt-3 mt-md-0 Details-content--hidden d-md-flex">
+            <div class="position-relative flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 js-jump-to">
+                <a class="Header-link" href="https://machinelearning.sg/">machinelearning.sg</a>
+            </div>
+
+            <nav class="d-flex flex-column flex-md-row flex-self-stretch flex-md-self-auto" aria-label="Global">
+                
+                <a href="/research" class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade-15">Research</a>
+                
+                <a href="/code" class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade-15">Code</a>
+                
+                <a href="/job" class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade-15">Jobs</a>
+                
+                <a href="https://news.machinelearning.sg/" class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade-15">News</a>
+                
+            </nav>
+        </div>
+
+        <div class="Header-item Header-item--full flex-justify-center d-md-none position-relative">
+            <a class="Header-link "  href="https://machinelearning.sg/" aria-label="Home">
+                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 236 226.77" version="1.1" width="32" aria-hidden="true">
+                    <path class="a" d="M121.28,44.9s-23.11,34.95-13,65.29c12.81,38.46,43.59,46.51,43.59,46.51s-20.24-25.87-29.7-51C110.72,75.21,121.28,44.9,121.28,44.9Z" transform="translate(-10 -9)"/>
+                    <path class="b" d="M154.81,56.92a26.1,26.1,0,0,0,5.39-.8s1.05-1.67-3.31-2.71a9.4,9.4,0,0,0-7.06.82l-2.06.85S151.5,57.12,154.81,56.92Z" transform="translate(-10 -9)"/>
+                    <path class="c" d="M185.68,65.44c.65-1.67,1.07-4.34-.37-5.83s-2.27-2.69-3.95-.56C181.36,59.05,185.09,67.1,185.68,65.44Z" transform="translate(-10 -9)"/>
+                    <path class="d" d="M246,127A118,118,0,1,0,82.18,235.77a48.72,48.72,0,0,1-8.08-15.11c-8.33-25.36,8.19-47.21,8.19-47.21s-13.23-1.4-12.19-4.51,8.19-12,11-21.7c3-10.33,4-15.7,4-15.7S73.75,136.55,75,133s6.42-19.5,8.51-28.19S86.45,93,86.45,93s-10.38,3.33-9.56,1.47a63,63,0,0,0,4.55-20.93C81.87,63,85.78,53,88.89,48.63A26.33,26.33,0,0,1,95.75,42S93,34.94,93.66,34.57s6,1,8.9.57a9.46,9.46,0,0,1,5.4,1s23.41-9.5,35.26-4.93,12,10.77,17.4,13.05,7.25,3.7,8.29,5.63a3.9,3.9,0,0,1,.41,3.28s10.57.83,14.09,2.71,5.4,5,4.57,7.68a13.47,13.47,0,0,0-.83,5.36c0,2.07.84,4-.82,8.08S183,81.38,183,81.38a7.18,7.18,0,0,0-3.6-.43,6,6,0,0,0-3.74,1.83l-.82-2.7s-8-8.38-17.73-4.17c-6.42,2.75-8.36,4.47-4.71,11.74,1.58,3.16,10.26,4.12,12.74,4.12A8.69,8.69,0,0,0,170,89.9l.82,2.28L174.3,92l2.06-1v4.76s3.12,2.28,1.25,6.85-15.74,3.17-15.74,3.17,8.41,11.46,9.42,18.08S173,134.22,173,134.22l5.4-2.22s7.16-3.48,12.15-.83,5.51,2.25,1.36,6.18S170.2,167,170.2,183.4,180,196,182.93,218.24c.6,4.79-1.84,10.61-6.07,16.2A118,118,0,0,0,246,127Z" transform="translate(-10 -9)"/>
+                    <path class="e" d="M131,66.27a72.77,72.77,0,0,1-.8-14.12s-14.5,29.91,16.89,71.35a70.15,70.15,0,0,1,12.74,29.88S169.85,121.72,144.08,96C133.43,85.31,132.23,74.56,131,66.27Z" transform="translate(-10 -9)"/>
+                </svg>
+            </a>
+        </div>
+    </header>
+</div>
+
+<div id="start-of-content" class="show-on-focus"></div>
+<div id="js-flash-container">
+</div>
+
+  
+<div class="application-main " data-commit-hovercards-enabled>
+    <main>
+        <div class="container-xl clearfix px-3 mt-4">
+
+            <div class="col-lg-12 col-md-12 col-12 float-md-left pl-md-2">
+    <div class="UnderlineNav width-full user-profile-nav js-sticky top-0">
+    <nav class="UnderlineNav-body" aria-label="User profile">
+        
+        
+        
+        <a aria-current="page" class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3  "
+        href="/code">
+            Code
+            
+        </a>
+        
+        
+        <a aria-current="page" class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3  "
+        href="/coder">
+            Coders
+            
+            <span class="Counter hide-lg hide-md hide-sm">
+                937
+            </span>
+            
+        </a>
+        
+        
+        <a aria-current="page" class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 selected "
+        href="/repo">
+            Repos
+            
+            <span class="Counter hide-lg hide-md hide-sm">
+                1657
+            </span>
+            
+        </a>
+        
+    </nav>
+</div>
+
+
+    <div class="position-relative">
+        <div id="repos-list">
+            <ul>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/e-kolpakov" target="_blank">e-kolpakov</a> /
+                                <a href="https://github.com/e-kolpakov/study-model" target="_blank">study-model</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Multiagent simulation model for MOOC student interaction.</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="License">
+                                    <img class="octicon" src="/images/license.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        MIT License
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2019-05-09T06:14:04Z" class="no-wrap">
+                                    2019-05-09</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/shanesoh" target="_blank">shanesoh</a> /
+                                <a href="https://github.com/shanesoh/streamlit-ipgeoloc" target="_blank">streamlit-ipgeoloc</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Simple IP geolocation app using Streamlit and deployable on Heroku</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2020-11-17T11:13:36Z" class="no-wrap">
+                                    2020-11-17</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/rish-16" target="_blank">rish-16</a> /
+                                <a href="https://github.com/rish-16/Stock-Prediction" target="_blank">Stock-Prediction</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Python code to predict Google (Alphabet) stock using QUANDL datasets. Accuracy may vary between 90% to 100%.</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        3
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2019-04-12T10:37:36Z" class="no-wrap">
+                                    2019-04-12</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/radjkarl" target="_blank">radjkarl</a> /
+                                <a href="https://github.com/radjkarl/stitcher" target="_blank">stitcher</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">OpenCV-based Python application for automatically stitching together a directory of images</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2017-08-25T16:19:11Z" class="no-wrap">
+                                    2017-08-25</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/leeweiminsg" target="_blank">leeweiminsg</a> /
+                                <a href="https://github.com/leeweiminsg/stitap-stock-screener" target="_blank">stitap-stock-screener</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Straits Times Index stock screener using AlphaVantage API. Screens: RSI, MACD, StochRSI</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="License">
+                                    <img class="octicon" src="/images/license.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        MIT License
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        1
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2019-12-27T13:48:57Z" class="no-wrap">
+                                    2019-12-27</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/thanhtinhvan" target="_blank">thanhtinhvan</a> /
+                                <a href="https://github.com/thanhtinhvan/Steel_Defect_Detection" target="_blank">Steel_Defect_Detection</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">This is a DL project about Steel Defect Detection. I design to join the Kaggle competition</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2020-07-14T00:51:01Z" class="no-wrap">
+                                    2020-07-14</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/herokillerever" target="_blank">HeroKillerEver</a> /
+                                <a href="https://github.com/HeroKillerEver/StarGAN-tensorflow" target="_blank">StarGAN-tensorflow</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">A tensorflow implementation of StarGAN</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2020-03-14T10:43:17Z" class="no-wrap">
+                                    2020-03-14</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/unknownguy2002" target="_blank">unknownguy2002</a> /
+                                <a href="https://github.com/unknownguy2002/Stalker" target="_blank">Stalker</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Stalk Someone using google &amp; facial recognition</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="License">
+                                    <img class="octicon" src="/images/license.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        MIT License
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2020-07-12T07:27:50Z" class="no-wrap">
+                                    2020-07-12</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/xiaeryu" target="_blank">xiaeryu</a> /
+                                <a href="https://github.com/xiaeryu/SpoTyping-v2.0" target="_blank">SpoTyping-v2.0</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">SpoTyping-v2.0</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        4
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        6
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2020-02-20T12:49:49Z" class="no-wrap">
+                                    2020-02-20</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/csb5" target="_blank">CSB5</a> /
+                                <a href="https://github.com/CSB5/splash" target="_blank">splash</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Scripts to analyze data from the SPLASH protocol for generating in vivo RNA interactome maps</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="License">
+                                    <img class="octicon" src="/images/license.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        MIT License
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2017-05-30T14:54:41Z" class="no-wrap">
+                                    2017-05-30</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/pravatsutar" target="_blank">PravatSutar</a> /
+                                <a href="https://github.com/PravatSutar/SparkExamples" target="_blank">SparkExamples</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">The project contains some pyspark code for experiment purposes. Basically how to load and inspect data using RDD and loading data using Spark DataFrames along with some awesome examples</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2019-08-13T07:10:44Z" class="no-wrap">
+                                    2019-08-13</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/wangqiang8511" target="_blank">wangqiang8511</a> /
+                                <a href="https://github.com/wangqiang8511/spark-demo" target="_blank">spark-demo</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Demo for Spark Meetup</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        1
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2016-03-03T10:11:18Z" class="no-wrap">
+                                    2016-03-03</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/trichimtrich" target="_blank">trichimtrich</a> /
+                                <a href="https://github.com/trichimtrich/socks4gui" target="_blank">socks4gui</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">a socks v4 server based on twisted reactor framework with graphic UI, log/on-air modify traffic, user-defined script</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="License">
+                                    <img class="octicon" src="/images/license.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        GNU General Public License v3.0
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        1
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2019-06-03T02:57:49Z" class="no-wrap">
+                                    2019-06-03</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/gunarto90" target="_blank">gunarto90</a> /
+                                <a href="https://github.com/gunarto90/SoBA" target="_blank">SoBA</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Distinguishing Friends from Strangers in Location-based Social Networks using Co-location</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2020-02-27T08:03:23Z" class="no-wrap">
+                                    2020-02-27</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/manliu1225" target="_blank">manliu1225</a> /
+                                <a href="https://github.com/manliu1225/SMM4H" target="_blank">SMM4H</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">This repository is for SMM4H Task2.</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        3
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2020-12-01T01:47:51Z" class="no-wrap">
+                                    2020-12-01</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/joseph-d-p" target="_blank">joseph-d-p</a> /
+                                <a href="https://github.com/joseph-d-p/smart-queue-system" target="_blank">smart-queue-system</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Smart Queue System using Intel OpenVINO for inferencing.</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        1
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2020-11-07T10:20:03Z" class="no-wrap">
+                                    2020-11-07</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/siddeshsambasivam" target="_blank">SiddeshSambasivam</a> /
+                                <a href="https://github.com/SiddeshSambasivam/Six-Degrees" target="_blank">Six-Degrees</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Implementation of the challenge to find the shortest link between any two arbitrary actors</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2020-04-18T14:24:28Z" class="no-wrap">
+                                    2020-04-18</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/bryanseah234" target="_blank">bryanseah234</a> /
+                                <a href="https://github.com/bryanseah234/singapore-nric-code" target="_blank">singapore-nric-code</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">code to validate singapore issued nric. Give me 1 ⭐ if it’s cool.</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="License">
+                                    <img class="octicon" src="/images/license.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        MIT License
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2020-11-30T11:34:23Z" class="no-wrap">
+                                    2020-11-30</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/natashakss" target="_blank">NatashaKSS</a> /
+                                <a href="https://github.com/NatashaKSS/simple-perceptron-text-classification" target="_blank">simple-perceptron-text-classification</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">A Text Classifier that uses the Perceptron Learning Algorithm</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        1
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2020-05-02T22:10:37Z" class="no-wrap">
+                                    2020-05-02</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/thomaswangweihong" target="_blank">ThomasWangWeiHong</a> /
+                                <a href="https://github.com/ThomasWangWeiHong/Simple-Pansharpening-Algorithms" target="_blank">Simple-Pansharpening-Algorithms</a>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Python implementation of some simple algorithms for pansharpening remote sensing images</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_Python.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        Python
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="2020-11-12T13:56:59Z" class="no-wrap">
+                                    2020-11-12</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                
+            </ul>
+            
+            <div class="paginate-container">
+                <div class="BtnGroup" data-test-selector="pagination">
+                    
+                    <a rel="nofollow" class="btn btn-outline BtnGroup-item"
+                        href="/repo/page/65/">Previous</a>
+                    
+                    
+                    <a rel="nofollow" class="btn btn-outline BtnGroup-item" href="/repo/page/67/">Next</a>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+        </div>
+    </main>
+</div>
+
+  <div class="footer container-lg width-full p-responsive" role="contentinfo">
+    <div
+        class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+
+        <a aria-label="Homepage" title="Machine Learning SG" class="footer-octicon d-none d-lg-block mx-lg-4"
+            href="https://machinelearning.sg/">
+            <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 236 226.77" version="1.1" width="24"
+                aria-hidden="true">
+                <path class="a" d="M121.28,44.9s-23.11,34.95-13,65.29c12.81,38.46,43.59,46.51,43.59,46.51s-20.24-25.87-29.7-51C110.72,75.21,121.28,44.9,121.28,44.9Z" transform="translate(-10 -9)"/>
+                <path class="b" d="M154.81,56.92a26.1,26.1,0,0,0,5.39-.8s1.05-1.67-3.31-2.71a9.4,9.4,0,0,0-7.06.82l-2.06.85S151.5,57.12,154.81,56.92Z" transform="translate(-10 -9)"/>
+                <path class="c" d="M185.68,65.44c.65-1.67,1.07-4.34-.37-5.83s-2.27-2.69-3.95-.56C181.36,59.05,185.09,67.1,185.68,65.44Z" transform="translate(-10 -9)"/>
+                <path class="d" d="M246,127A118,118,0,1,0,82.18,235.77a48.72,48.72,0,0,1-8.08-15.11c-8.33-25.36,8.19-47.21,8.19-47.21s-13.23-1.4-12.19-4.51,8.19-12,11-21.7c3-10.33,4-15.7,4-15.7S73.75,136.55,75,133s6.42-19.5,8.51-28.19S86.45,93,86.45,93s-10.38,3.33-9.56,1.47a63,63,0,0,0,4.55-20.93C81.87,63,85.78,53,88.89,48.63A26.33,26.33,0,0,1,95.75,42S93,34.94,93.66,34.57s6,1,8.9.57a9.46,9.46,0,0,1,5.4,1s23.41-9.5,35.26-4.93,12,10.77,17.4,13.05,7.25,3.7,8.29,5.63a3.9,3.9,0,0,1,.41,3.28s10.57.83,14.09,2.71,5.4,5,4.57,7.68a13.47,13.47,0,0,0-.83,5.36c0,2.07.84,4-.82,8.08S183,81.38,183,81.38a7.18,7.18,0,0,0-3.6-.43,6,6,0,0,0-3.74,1.83l-.82-2.7s-8-8.38-17.73-4.17c-6.42,2.75-8.36,4.47-4.71,11.74,1.58,3.16,10.26,4.12,12.74,4.12A8.69,8.69,0,0,0,170,89.9l.82,2.28L174.3,92l2.06-1v4.76s3.12,2.28,1.25,6.85-15.74,3.17-15.74,3.17,8.41,11.46,9.42,18.08S173,134.22,173,134.22l5.4-2.22s7.16-3.48,12.15-.83,5.51,2.25,1.36,6.18S170.2,167,170.2,183.4,180,196,182.93,218.24c.6,4.79-1.84,10.61-6.07,16.2A118,118,0,0,0,246,127Z" transform="translate(-10 -9)"/>
+                <path class="e" d="M131,66.27a72.77,72.77,0,0,1-.8-14.12s-14.5,29.91,16.89,71.35a70.15,70.15,0,0,1,12.74,29.88S169.85,121.72,144.08,96C133.43,85.31,132.23,74.56,131,66.27Z" transform="translate(-10 -9)"/>
+            </svg>
+        </a>
+        <ul class="list-style-none d-flex flex-wrap col-12 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+
+            
+                <li class="mr-3 mr-lg-0"><a href="/about">About</a></li>
+            
+                <li class="mr-3 mr-lg-0"><a href="https://facebook.com/MachineLearning.sg">Facebook Page</a></li>
+            
+        </ul>
+    </div>
+    <div class="d-flex flex-justify-center pb-6">
+        <span class="f6 text-gray-light"></span>
+    </div>
+</div>
+<script crossorigin="anonymous"
+    type="application/javascript" src="https://machinelearning.sg/js/frameworks.js"></script>
+
+<script crossorigin="anonymous"
+    type="application/javascript" src="https://machinelearning.sg/js/github-bootstrap.js"></script>
+<script src="https://machinelearning.sg/js/stop.js"></script>
+<script src="https://machinelearning.sg/js/contributions.js"></script>
+
+</body>
+
+</html>

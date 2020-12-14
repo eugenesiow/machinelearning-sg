@@ -1,0 +1,1752 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://machinelearning.sg/css/frameworks.css" />
+    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://machinelearning.sg/css/github.css" />
+    
+    <link crossorigin="anonymous" media="(prefers-color-scheme: dark)" rel="stylesheet"
+        href="https://machinelearning.sg/css/dark.css" />
+    
+    <meta name="viewport" content="width=device-width">
+    <meta name="description"
+        content="" />
+    <meta name="keywords"
+        content="" />
+    <meta name="robots" content="noodp" />
+    <link rel="canonical" href="https://machinelearning.sg/coder/" />
+
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Coders - Machine Learning SG" />
+    <meta name="twitter:description"
+        content="" />
+    <meta name="twitter:site" content="https://machinelearning.sg/" />
+    <meta name="twitter:creator" content="" />
+    <meta name="twitter:image"
+        content="https://machinelearning.sg/">
+
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Coders - Machine Learning SG">
+    <meta property="og:description"
+        content="" />
+    <meta property="og:url" content="https://machinelearning.sg/coder/" />
+    <meta property="og:site_name" content="Coders" />
+    <meta property="og:image"
+        content="https://machinelearning.sg/">
+    <meta property="og:image:width" content="2048">
+    <meta property="og:image:height" content="1024">
+    
+
+    
+    
+    <link href="/coder/index.xml" rel="alternate" type="application/rss+xml" title="Machine Learning SG" />
+    
+
+    
+    
+
+    <title>Coders - Machine Learning SG</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    
+
+    
+</head>
+
+
+<body class="env-production emoji-size-boost page-responsive page-profile">
+  <div class="position-relative js-header-wrapper ">
+    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+        <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+    </span>
+    <header class="Header js-details-container Details px-3 px-md-4 px-lg-5 flex-wrap flex-md-nowrap" role="banner">
+        <div class="Header-item mt-n1 mb-n1  d-none d-md-flex">
+            <a class="Header-link" href="https://machinelearning.sg/" aria-label="Home">
+                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 236 226.77" version="1.1" width="32" aria-hidden="true">
+                    <path class="a" d="M121.28,44.9s-23.11,34.95-13,65.29c12.81,38.46,43.59,46.51,43.59,46.51s-20.24-25.87-29.7-51C110.72,75.21,121.28,44.9,121.28,44.9Z" transform="translate(-10 -9)"/>
+                    <path class="b" d="M154.81,56.92a26.1,26.1,0,0,0,5.39-.8s1.05-1.67-3.31-2.71a9.4,9.4,0,0,0-7.06.82l-2.06.85S151.5,57.12,154.81,56.92Z" transform="translate(-10 -9)"/>
+                    <path class="c" d="M185.68,65.44c.65-1.67,1.07-4.34-.37-5.83s-2.27-2.69-3.95-.56C181.36,59.05,185.09,67.1,185.68,65.44Z" transform="translate(-10 -9)"/>
+                    <path class="d" d="M246,127A118,118,0,1,0,82.18,235.77a48.72,48.72,0,0,1-8.08-15.11c-8.33-25.36,8.19-47.21,8.19-47.21s-13.23-1.4-12.19-4.51,8.19-12,11-21.7c3-10.33,4-15.7,4-15.7S73.75,136.55,75,133s6.42-19.5,8.51-28.19S86.45,93,86.45,93s-10.38,3.33-9.56,1.47a63,63,0,0,0,4.55-20.93C81.87,63,85.78,53,88.89,48.63A26.33,26.33,0,0,1,95.75,42S93,34.94,93.66,34.57s6,1,8.9.57a9.46,9.46,0,0,1,5.4,1s23.41-9.5,35.26-4.93,12,10.77,17.4,13.05,7.25,3.7,8.29,5.63a3.9,3.9,0,0,1,.41,3.28s10.57.83,14.09,2.71,5.4,5,4.57,7.68a13.47,13.47,0,0,0-.83,5.36c0,2.07.84,4-.82,8.08S183,81.38,183,81.38a7.18,7.18,0,0,0-3.6-.43,6,6,0,0,0-3.74,1.83l-.82-2.7s-8-8.38-17.73-4.17c-6.42,2.75-8.36,4.47-4.71,11.74,1.58,3.16,10.26,4.12,12.74,4.12A8.69,8.69,0,0,0,170,89.9l.82,2.28L174.3,92l2.06-1v4.76s3.12,2.28,1.25,6.85-15.74,3.17-15.74,3.17,8.41,11.46,9.42,18.08S173,134.22,173,134.22l5.4-2.22s7.16-3.48,12.15-.83,5.51,2.25,1.36,6.18S170.2,167,170.2,183.4,180,196,182.93,218.24c.6,4.79-1.84,10.61-6.07,16.2A118,118,0,0,0,246,127Z" transform="translate(-10 -9)"/>
+                    <path class="e" d="M131,66.27a72.77,72.77,0,0,1-.8-14.12s-14.5,29.91,16.89,71.35a70.15,70.15,0,0,1,12.74,29.88S169.85,121.72,144.08,96C133.43,85.31,132.23,74.56,131,66.27Z" transform="translate(-10 -9)"/>
+                </svg>
+            </a>
+        </div>
+
+        <div class="Header-item d-md-none">
+            <button class="Header-link btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                <svg height="24" class="octicon octicon-three-bars" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path></svg>
+            </button>
+        </div>
+
+        <div class="Header-item Header-item--full flex-column flex-md-row width-full flex-order-2 flex-md-order-none mr-0 mr-md-3 mt-3 mt-md-0 Details-content--hidden d-md-flex">
+            <div class="position-relative flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 js-jump-to">
+                <a class="Header-link" href="https://machinelearning.sg/">machinelearning.sg</a>
+            </div>
+
+            <nav class="d-flex flex-column flex-md-row flex-self-stretch flex-md-self-auto" aria-label="Global">
+                
+                <a href="/research" class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade-15">Research</a>
+                
+                <a href="/code" class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade-15">Code</a>
+                
+                <a href="/job" class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade-15">Jobs</a>
+                
+                <a href="https://news.machinelearning.sg/" class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade-15">News</a>
+                
+            </nav>
+        </div>
+
+        <div class="Header-item Header-item--full flex-justify-center d-md-none position-relative">
+            <a class="Header-link "  href="https://machinelearning.sg/" aria-label="Home">
+                <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 236 226.77" version="1.1" width="32" aria-hidden="true">
+                    <path class="a" d="M121.28,44.9s-23.11,34.95-13,65.29c12.81,38.46,43.59,46.51,43.59,46.51s-20.24-25.87-29.7-51C110.72,75.21,121.28,44.9,121.28,44.9Z" transform="translate(-10 -9)"/>
+                    <path class="b" d="M154.81,56.92a26.1,26.1,0,0,0,5.39-.8s1.05-1.67-3.31-2.71a9.4,9.4,0,0,0-7.06.82l-2.06.85S151.5,57.12,154.81,56.92Z" transform="translate(-10 -9)"/>
+                    <path class="c" d="M185.68,65.44c.65-1.67,1.07-4.34-.37-5.83s-2.27-2.69-3.95-.56C181.36,59.05,185.09,67.1,185.68,65.44Z" transform="translate(-10 -9)"/>
+                    <path class="d" d="M246,127A118,118,0,1,0,82.18,235.77a48.72,48.72,0,0,1-8.08-15.11c-8.33-25.36,8.19-47.21,8.19-47.21s-13.23-1.4-12.19-4.51,8.19-12,11-21.7c3-10.33,4-15.7,4-15.7S73.75,136.55,75,133s6.42-19.5,8.51-28.19S86.45,93,86.45,93s-10.38,3.33-9.56,1.47a63,63,0,0,0,4.55-20.93C81.87,63,85.78,53,88.89,48.63A26.33,26.33,0,0,1,95.75,42S93,34.94,93.66,34.57s6,1,8.9.57a9.46,9.46,0,0,1,5.4,1s23.41-9.5,35.26-4.93,12,10.77,17.4,13.05,7.25,3.7,8.29,5.63a3.9,3.9,0,0,1,.41,3.28s10.57.83,14.09,2.71,5.4,5,4.57,7.68a13.47,13.47,0,0,0-.83,5.36c0,2.07.84,4-.82,8.08S183,81.38,183,81.38a7.18,7.18,0,0,0-3.6-.43,6,6,0,0,0-3.74,1.83l-.82-2.7s-8-8.38-17.73-4.17c-6.42,2.75-8.36,4.47-4.71,11.74,1.58,3.16,10.26,4.12,12.74,4.12A8.69,8.69,0,0,0,170,89.9l.82,2.28L174.3,92l2.06-1v4.76s3.12,2.28,1.25,6.85-15.74,3.17-15.74,3.17,8.41,11.46,9.42,18.08S173,134.22,173,134.22l5.4-2.22s7.16-3.48,12.15-.83,5.51,2.25,1.36,6.18S170.2,167,170.2,183.4,180,196,182.93,218.24c.6,4.79-1.84,10.61-6.07,16.2A118,118,0,0,0,246,127Z" transform="translate(-10 -9)"/>
+                    <path class="e" d="M131,66.27a72.77,72.77,0,0,1-.8-14.12s-14.5,29.91,16.89,71.35a70.15,70.15,0,0,1,12.74,29.88S169.85,121.72,144.08,96C133.43,85.31,132.23,74.56,131,66.27Z" transform="translate(-10 -9)"/>
+                </svg>
+            </a>
+        </div>
+    </header>
+</div>
+
+<div id="start-of-content" class="show-on-focus"></div>
+<div id="js-flash-container">
+</div>
+
+  
+<div class="application-main " data-commit-hovercards-enabled>
+    <main>
+        <div class="container-xl clearfix px-3 mt-4">
+
+            <div class="col-lg-12 col-md-12 col-12 float-md-left pl-md-2">
+    <div class="UnderlineNav width-full user-profile-nav js-sticky top-0">
+    <nav class="UnderlineNav-body" aria-label="User profile">
+        
+        
+        
+        <a aria-current="page" class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3  "
+        href="/code">
+            Code
+            
+        </a>
+        
+        
+        <a aria-current="page" class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 selected "
+        href="/coder">
+            Coders
+            
+            <span class="Counter hide-lg hide-md hide-sm">
+                937
+            </span>
+            
+        </a>
+        
+        
+        <a aria-current="page" class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3  "
+        href="/repo">
+            Repos
+            
+            <span class="Counter hide-lg hide-md hide-sm">
+                1657
+            </span>
+            
+        </a>
+        
+    </nav>
+</div>
+
+
+    <div class="position-relative">
+        <div id="researchers-list">
+            <ul>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/shivam5992/">Shivam Bansal</a>
+                                <span class="f5">
+                                    shivam5992
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Data Scientist | Natural Language Processing + Machine Learning Enthusiast | Data Stories + Visuals | Programmer + Coder | :heart: Python</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                <span class="text-bold text-gray-dark">
+                                    492
+                                </span>
+                                followers ·
+                                
+                                
+                                <span class="text-bold text-gray-dark" itemprop="publications">
+                                    55
+                                </span>
+                                following
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        57
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        725
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        242
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        26
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/nusnlp/">NUS NLP Group</a>
+                                <span class="f5">
+                                    nusnlp
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">National University of Singapore</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        20
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        723
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        251
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        22
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/rish-16/">Rishabh Anand</a>
+                                <span class="f5">
+                                    rish-16
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">CS + ML Research @ NUS • Writer • Open-source Jedi
+
+</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                <span class="text-bold text-gray-dark">
+                                    144
+                                </span>
+                                followers ·
+                                
+                                
+                                <span class="text-bold text-gray-dark" itemprop="publications">
+                                    107
+                                </span>
+                                following
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        122
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        715
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        105
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        12
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/jatinshah/">Jatin Shah</a>
+                                <span class="f5">
+                                    jatinshah
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Cofounder &amp; CTO @blockpunkplatform. Early @linkedin &amp; @InMobi.</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                <span class="text-bold text-gray-dark">
+                                    61
+                                </span>
+                                followers ·
+                                
+                                
+                                <span class="text-bold text-gray-dark" itemprop="publications">
+                                    7
+                                </span>
+                                following
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        23
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        714
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        356
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        41
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/edwardsamuel/">Edward Samuel Pasaribu</a>
+                                <span class="f5">
+                                    edwardsamuel
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                <span class="text-bold text-gray-dark">
+                                    60
+                                </span>
+                                followers ·
+                                
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        33
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        711
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        590
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        43
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/ferryyoungfan/">FerryYoungFan</a>
+                                <span class="f5">
+                                    FerryYoungFan
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">
+    
+    Young Fan. Naive.
+
+</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                <span class="text-bold text-gray-dark">
+                                    161
+                                </span>
+                                followers ·
+                                
+                                
+                                <span class="text-bold text-gray-dark" itemprop="publications">
+                                    47
+                                </span>
+                                following
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        10
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        683
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        62
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        27
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/zisianw/">Zi Sian Wong</a>
+                                <span class="f5">
+                                    zisianw
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Computer Vision &amp; Deep Learning</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                <span class="text-bold text-gray-dark">
+                                    42
+                                </span>
+                                followers ·
+                                
+                                
+                                <span class="text-bold text-gray-dark" itemprop="publications">
+                                    40
+                                </span>
+                                following
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        668
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        179
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        10
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/alextanhongpin/">Alex Tan Hong Pin</a>
+                                <span class="f5">
+                                    alextanhongpin
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Philosophy - maintainability and evolvability. Loves software architecture and principles. Use Go, Nim, NodeJS, Rust, Elixir, Haskell, Scala and Python</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                <span class="text-bold text-gray-dark">
+                                    91
+                                </span>
+                                followers ·
+                                
+                                
+                                <span class="text-bold text-gray-dark" itemprop="publications">
+                                    47
+                                </span>
+                                following
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        550
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        661
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        186
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        54
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/lijx10/">Li Jiaxin</a>
+                                <span class="f5">
+                                    lijx10
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">PhD in Computer Vision, Deep Learning, Robotics.</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                <span class="text-bold text-gray-dark">
+                                    200
+                                </span>
+                                followers ·
+                                
+                                
+                                <span class="text-bold text-gray-dark" itemprop="publications">
+                                    5
+                                </span>
+                                following
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        19
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        660
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        203
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        23
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/mdda/">Martin Andrews</a>
+                                <span class="f5">
+                                    mdda
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Doing Machine Learning full-time now, after a career as a Quant in NYC</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                <span class="text-bold text-gray-dark">
+                                    513
+                                </span>
+                                followers ·
+                                
+                                
+                                <span class="text-bold text-gray-dark" itemprop="publications">
+                                    15
+                                </span>
+                                following
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        72
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        636
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        176
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        9
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/andrew-qibin/">Qibin (Andrew) Hou</a>
+                                <span class="f5">
+                                    Andrew-Qibin
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Research fellow at NUS.</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                <span class="text-bold text-gray-dark">
+                                    99
+                                </span>
+                                followers ·
+                                
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        15
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        628
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        184
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        29
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/stream-ad/">Stream-AD</a>
+                                <span class="f5">
+                                    Stream-AD
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Streaming Anomaly Detection</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        3
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        618
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        73
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        2
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/wing-nus/">Web IR / NLP Group @ NUS</a>
+                                <span class="f5">
+                                    WING-NUS
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        75
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        616
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        234
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        57
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/mebjas/">minhaz</a>
+                                <span class="f5">
+                                    mebjas
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Computational photography</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                <span class="text-bold text-gray-dark">
+                                    170
+                                </span>
+                                followers ·
+                                
+                                
+                                <span class="text-bold text-gray-dark" itemprop="publications">
+                                    13
+                                </span>
+                                following
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        149
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        607
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        247
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        98
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/lyndonzheng/">Chuanxia Zheng</a>
+                                <span class="f5">
+                                    lyndonzheng
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                <span class="text-bold text-gray-dark">
+                                    38
+                                </span>
+                                followers ·
+                                
+                                
+                                <span class="text-bold text-gray-dark" itemprop="publications">
+                                    10
+                                </span>
+                                following
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        5
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        595
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        146
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        15
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/suyashlakhotia/">Suyash Lakhotia</a>
+                                <span class="f5">
+                                    SuyashLakhotia
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Software Engineer @ Google. Nanyang Tech Alum.</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                <span class="text-bold text-gray-dark">
+                                    177
+                                </span>
+                                followers ·
+                                
+                                
+                                <span class="text-bold text-gray-dark" itemprop="publications">
+                                    9
+                                </span>
+                                following
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        33
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        590
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        193
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        7
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/garvit244/">Garvit Bansal</a>
+                                <span class="f5">
+                                    Garvit244
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Software Developer + Data Engineer.
+
+Take freelance projects focused on Software development, feature engineering.</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                <span class="text-bold text-gray-dark">
+                                    42
+                                </span>
+                                followers ·
+                                
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        27
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        582
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        297
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        5
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/antoinelame/">Antoine Lamé</a>
+                                <span class="f5">
+                                    antoinelame
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">Software Engineer. Laravel, Python, Go. Currently building high frequency trading algorithms. </span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                <span class="text-bold text-gray-dark">
+                                    42
+                                </span>
+                                followers ·
+                                
+                                
+                                <span class="text-bold text-gray-dark" itemprop="publications">
+                                    5
+                                </span>
+                                following
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        4
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        574
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        183
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        32
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/nusmodifications/">NUSModifications</a>
+                                <span class="f5">
+                                    nusmodifications
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">NUSModifications enhances the quality of students&#39; lives in National University of Singapore through technology.</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        32
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        571
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        268
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        154
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="https://machinelearning.sg/coder/corollari/">Albert</a>
+                                <span class="f5">
+                                    corollari
+                                </span>
+                            </h3>
+                        </div>
+
+                        
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">
+    Grigori Perelman stan account, I simp therefore I am
+</span>
+                                </span>
+                        </div>
+                        
+
+                        <div class="f6 text-gray mt-2">
+                            <span class="d-inline-block text-gray mr-3">
+                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                
+                                <span class="text-bold text-gray-dark">
+                                    62
+                                </span>
+                                followers ·
+                                
+                                
+                                <span class="text-bold text-gray-dark" itemprop="publications">
+                                    9
+                                </span>
+                                following
+                                
+                            </span>
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        207
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        563
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        44
+                                    </span>
+                                </span>
+                            </span>
+                            
+                            
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        25
+                                    </span>
+                                </span>
+                            </span>
+                            
+                        </div>
+                    </div>
+                </li>
+                
+            </ul>
+            
+            <div class="paginate-container">
+                <div class="BtnGroup" data-test-selector="pagination">
+                    
+                    <a rel="nofollow" class="btn btn-outline BtnGroup-item"
+                        href="/coder/page/2/">Previous</a>
+                    
+                    
+                    <a rel="nofollow" class="btn btn-outline BtnGroup-item" href="/coder/page/4/">Next</a>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+        </div>
+    </main>
+</div>
+
+  <div class="footer container-lg width-full p-responsive" role="contentinfo">
+    <div
+        class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+
+        <a aria-label="Homepage" title="Machine Learning SG" class="footer-octicon d-none d-lg-block mx-lg-4"
+            href="https://machinelearning.sg/">
+            <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 236 226.77" version="1.1" width="24"
+                aria-hidden="true">
+                <path class="a" d="M121.28,44.9s-23.11,34.95-13,65.29c12.81,38.46,43.59,46.51,43.59,46.51s-20.24-25.87-29.7-51C110.72,75.21,121.28,44.9,121.28,44.9Z" transform="translate(-10 -9)"/>
+                <path class="b" d="M154.81,56.92a26.1,26.1,0,0,0,5.39-.8s1.05-1.67-3.31-2.71a9.4,9.4,0,0,0-7.06.82l-2.06.85S151.5,57.12,154.81,56.92Z" transform="translate(-10 -9)"/>
+                <path class="c" d="M185.68,65.44c.65-1.67,1.07-4.34-.37-5.83s-2.27-2.69-3.95-.56C181.36,59.05,185.09,67.1,185.68,65.44Z" transform="translate(-10 -9)"/>
+                <path class="d" d="M246,127A118,118,0,1,0,82.18,235.77a48.72,48.72,0,0,1-8.08-15.11c-8.33-25.36,8.19-47.21,8.19-47.21s-13.23-1.4-12.19-4.51,8.19-12,11-21.7c3-10.33,4-15.7,4-15.7S73.75,136.55,75,133s6.42-19.5,8.51-28.19S86.45,93,86.45,93s-10.38,3.33-9.56,1.47a63,63,0,0,0,4.55-20.93C81.87,63,85.78,53,88.89,48.63A26.33,26.33,0,0,1,95.75,42S93,34.94,93.66,34.57s6,1,8.9.57a9.46,9.46,0,0,1,5.4,1s23.41-9.5,35.26-4.93,12,10.77,17.4,13.05,7.25,3.7,8.29,5.63a3.9,3.9,0,0,1,.41,3.28s10.57.83,14.09,2.71,5.4,5,4.57,7.68a13.47,13.47,0,0,0-.83,5.36c0,2.07.84,4-.82,8.08S183,81.38,183,81.38a7.18,7.18,0,0,0-3.6-.43,6,6,0,0,0-3.74,1.83l-.82-2.7s-8-8.38-17.73-4.17c-6.42,2.75-8.36,4.47-4.71,11.74,1.58,3.16,10.26,4.12,12.74,4.12A8.69,8.69,0,0,0,170,89.9l.82,2.28L174.3,92l2.06-1v4.76s3.12,2.28,1.25,6.85-15.74,3.17-15.74,3.17,8.41,11.46,9.42,18.08S173,134.22,173,134.22l5.4-2.22s7.16-3.48,12.15-.83,5.51,2.25,1.36,6.18S170.2,167,170.2,183.4,180,196,182.93,218.24c.6,4.79-1.84,10.61-6.07,16.2A118,118,0,0,0,246,127Z" transform="translate(-10 -9)"/>
+                <path class="e" d="M131,66.27a72.77,72.77,0,0,1-.8-14.12s-14.5,29.91,16.89,71.35a70.15,70.15,0,0,1,12.74,29.88S169.85,121.72,144.08,96C133.43,85.31,132.23,74.56,131,66.27Z" transform="translate(-10 -9)"/>
+            </svg>
+        </a>
+        <ul class="list-style-none d-flex flex-wrap col-12 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+
+            
+                <li class="mr-3 mr-lg-0"><a href="/about">About</a></li>
+            
+                <li class="mr-3 mr-lg-0"><a href="https://facebook.com/MachineLearning.sg">Facebook Page</a></li>
+            
+        </ul>
+    </div>
+    <div class="d-flex flex-justify-center pb-6">
+        <span class="f6 text-gray-light"></span>
+    </div>
+</div>
+<script crossorigin="anonymous"
+    type="application/javascript" src="https://machinelearning.sg/js/frameworks.js"></script>
+
+<script crossorigin="anonymous"
+    type="application/javascript" src="https://machinelearning.sg/js/github-bootstrap.js"></script>
+<script src="https://machinelearning.sg/js/stop.js"></script>
+<script src="https://machinelearning.sg/js/contributions.js"></script>
+
+</body>
+
+</html>
