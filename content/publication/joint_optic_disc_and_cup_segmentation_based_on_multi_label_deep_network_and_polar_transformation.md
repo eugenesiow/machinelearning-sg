@@ -17,7 +17,7 @@ authors:
   slug: jiang_liu
 - affiliation: Chinese Academy Of Sciences
   name: Xiaochun Cao
-  slug: xiaochun_cao
+  url: https://academic.microsoft.com/author/2143652190/
 date: '2018-01-09'
 estimated_citations: 249
 fields:

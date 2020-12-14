@@ -2,13 +2,13 @@
 authors:
 - affiliation: Chinese Academy Of Sciences
   name: Xiaojie Guo
-  slug: xiaojie_guo
+  url: https://academic.microsoft.com/author/2142461467/
 - affiliation: Agency For Science Technology And Research
   name: Yu Li
   slug: yu_li
 - affiliation: Temple University
   name: Haibin Ling
-  slug: haibin_ling
+  url: https://academic.microsoft.com/author/2138352179/
 date: '2017-02-01'
 estimated_citations: 378
 fields:

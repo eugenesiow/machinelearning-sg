@@ -8,13 +8,13 @@ authors:
   slug: gang_wang
 - affiliation: Beijing University Of Posts And Telecommunications
   name: Weihong Deng
-  slug: weihong_deng
+  url: https://academic.microsoft.com/author/2099485827/
 - affiliation: Agency For Science Technology And Research
   name: Pierre Moulin
   slug: pierre_moulin
 - affiliation: Tsinghua University
   name: Jie Zhou
-  slug: jie_zhou
+  url: https://academic.microsoft.com/author/2304890293/
 date: '2015-06-07'
 estimated_citations: 168
 fields:

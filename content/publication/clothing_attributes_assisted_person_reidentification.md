@@ -8,7 +8,7 @@ authors:
   slug: luoqi_liu
 - affiliation: Rensselaer Polytechnic Institute
   name: Kang Wang
-  slug: kang_wang
+  url: https://academic.microsoft.com/author/2422658124/
 - affiliation: National University Of Singapore
   name: Si Liu
   slug: si_liu

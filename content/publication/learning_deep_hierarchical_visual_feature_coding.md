@@ -5,10 +5,10 @@ authors:
   slug: hanlin_goh
 - affiliation: Pierre And Marie Curie University
   name: Nicolas Thome
-  slug: nicolas_thome
+  url: https://academic.microsoft.com/author/2056492599/
 - affiliation: Pierre And Marie Curie University
   name: Matthieu Cord
-  slug: matthieu_cord
+  url: https://academic.microsoft.com/author/2716892959/
 - affiliation: Agency For Science Technology And Research
   name: Joo-Hwee Lim
   slug: joohwee_lim

@@ -5,13 +5,13 @@ authors:
   slug: li_cheng
 - affiliation: Memorial University Of Newfoundland
   name: Minglun Gong
-  slug: minglun_gong
+  url: https://academic.microsoft.com/author/2140580909/
 - affiliation: University Of Alberta
   name: D Schuurmans
-  slug: dale_schuurmans
+  url: https://academic.microsoft.com/author/1817936516/
 - affiliation: University Of Melbourne
   name: T Caelli
-  slug: terry_caelli
+  url: https://academic.microsoft.com/author/1674748237/
 date: '2011-05-01'
 estimated_citations: 123
 fields:

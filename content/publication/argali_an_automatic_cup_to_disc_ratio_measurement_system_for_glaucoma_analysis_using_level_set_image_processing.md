@@ -5,7 +5,7 @@ authors:
   slug: jiang_liu
 - affiliation: Agency For Science Technology And Research
   name: D. W. K. Wong
-  slug: d_w_k_wong
+  url: https://academic.microsoft.com/author/2939118677/
 - affiliation: Agency For Science Technology And Research
   name: J. H. Lim
   slug: joohwee_lim
@@ -14,7 +14,7 @@ authors:
   slug: haizhou_li
 - affiliation: Agency For Science Technology And Research
   name: N. M. Tan
-  slug: n_m_tan
+  url: https://academic.microsoft.com/author/2938428488/
 - affiliation: Agency For Science Technology And Research
   name: Z. Zhang
   slug: zhuo_zhang
@@ -23,7 +23,7 @@ authors:
   slug: tien_yin_wong
 - affiliation: null
   name: R. Lavanya
-  slug: raghavan_lavanya
+  url: https://academic.microsoft.com/author/2123028294/
 date: '2009-01-01'
 estimated_citations: 87
 fields:

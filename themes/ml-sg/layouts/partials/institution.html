@@ -1,0 +1,123 @@
+<div class="h-card col-lg-3 col-md-4 col-12 float-md-left pr-md-3 pr-xl-6" itemscope
+     itemtype="http://schema.org/Organization">
+    <div class="clearfix mb-2">
+        <div class="float-left col-3 col-md-12 pr-3 pr-md-0">
+            {{ if .Params.image }}
+            <img alt="" width="260" height="260" itemprop="image"
+                 class="avatar width-full height-full rounded-2" src="{{ .Params.image  }}" />
+            {{ else }}
+            <img alt="" width="260" height="260"
+                 class="avatar width-full height-full rounded-2" src="{{ "images/avatar.png" | absURL }}" />
+            {{ end }}
+        </div>
+        <div class="float-left col-9 col-md-12 pl-2 pl-md-0">
+
+            <div class="vcard-names-container pt-1 pt-md-3 pb-1 pb-md-3 js-sticky js-user-profile-sticky-fields">
+                <h1 class="vcard-names">
+                    <span class="p-name vcard-fullname d-block overflow-hidden"
+                          itemprop="name">{{ .Title }}</span>
+                </h1>
+            </div>
+
+            <div class="d-none d-md-block">
+                <div class="js-profile-editable-area">
+                    <div class="mb-3">
+                        <span class="d-inline-block mr-2">
+                            <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+                            <span class="text-bold text-gray-dark">{{ lang.NumFmt 0 .Params.publication_count }}</span>
+                            publications
+                        </span>
+                        <span class="d-inline-block mr-3">
+                            <img class="octicon" src="/images/citations.svg" width="16" height="16" />
+                            <span class="text-bold text-gray-dark" itemprop="citations">{{ lang.NumFmt 0 .Params.estimated_citations }}</span>
+                            citations
+                        </span>
+                    </div>
+                    <div class="p-note user-profile-bio js-user-profile-bio mb-2">
+                        <div>{{ .Params.description }}</div>
+                    </div>
+                    <ul class="vcard-details mb-3">
+
+                        {{ if .Params.website }}
+                        <li itemprop="url" data-test-selector="profile-website-url"
+                            class="vcard-detail pt-1 css-truncate css-truncate-target">
+                            <img class="octicon" src="/images/link.svg" width="16" height="16" />
+                            <a rel="nofollow me" itemprop="url" href="{{ .Params.website }}">{{ .Params.website }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-lg-6 col-md-12 col-12 float-md-left pl-md-2">
+    <div class="Box mb-3">
+        <div class="Box-body"
+             style="min-height: 300px; background-image: url(https://dev.virtualearth.net/REST/V1/Imagery/Map/Road/{{ .Params.lat }}%2C{{ .Params.lon }}/13?mapSize=600,300&format=png&pushpin={{ .Params.lat }},{{ .Params.lon }};64;&key=AuNVFlRS1wKqokUur_UUNuc65cZw7MAiJjvNwEetZIVYByciCJn84Zxfu5tJVYFD);">
+        </div>
+    </div>
+    <div class="Box mb-3">
+        <div class="Box-body">
+            <h4 class="f4 mb-2 text-normal">Publications List</h4>
+            <div class="ajax-pagination-form js-ajax-pagination">
+                <a href="https://academic.microsoft.com/institution/{{ .Params.id }}" target="_blank">
+                    <button class="ajax-pagination-btn mt-3">
+                        View all on Microsoft Academic
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-12 col-lg-3 float-md-left pl-md-2">
+    <div class="Box box-shadow mb-4">
+        <div class="Box-header d-flex">
+              <span class="text-gray tooltipped tooltipped-ne mr-2">
+                  <img class="octicon" src="/images/publications.svg" width="16" height="16" />
+              </span>
+            <h2 class="Box-title">
+                <span class="text-gray-dark">Publication Statistics</span>
+            </h2>
+        </div>
+
+        <div>
+            <div class="Box-row">
+                <span class="float-right text-bold no-wrap mb-2 ml-2">
+                    {{ lang.NumFmt 0 .Params.publication_count }}
+                </span>
+                <div class="d-flex">
+                    <h1 class="f4 text-gray text-normal lh-condensed css-truncate">
+                        ML Publications
+                    </h1>
+                </div>
+                <p class="f6 text-gray mt-2 mb-0">
+                    Publications authored in AI/ML-related areas.
+                </p>
+            </div>
+            <div class="Box-row">
+                <span class="float-right text-bold no-wrap mb-2 ml-2">
+                    {{ lang.NumFmt 0 .Params.estimated_citations }}
+                </span>
+                <div class="d-flex">
+                    <h1 class="f4 text-gray text-normal lh-condensed css-truncate">
+                        ML Estimated Citations
+                    </h1>
+                </div>
+                <p class="f6 text-gray mt-2 mb-0">
+                    Estimated citations uses a statistical model that leverages both local statistics of the publication and global statistics of the entire academic graph (from MAG).
+                </p>
+            </div>
+            <div class="Box-row">
+                <span class="float-right text-bold no-wrap mb-2 ml-2">
+                    {{ lang.NumFmt 0 .Params.citations }}
+                </span>
+                <div class="d-flex">
+                    <h1 class="f4 text-gray text-normal lh-condensed css-truncate">
+                        ML Citations
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

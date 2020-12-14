@@ -5,7 +5,7 @@ authors:
   slug: xinting_gao
 - affiliation: Microsoft
   name: Stephen Lin
-  slug: stephen_lin
+  url: https://academic.microsoft.com/author/2167032303/
 - affiliation: null
   name: Tien Yin Wong
   slug: tien_yin_wong

@@ -5,7 +5,7 @@ authors:
   slug: palaiahnakote_shivakumara
 - affiliation: National University Of Singapore
   name: R. P. Sreedhar
-  slug: r_p_sreedhar
+  url: https://academic.microsoft.com/author/2418250219/
 - affiliation: National University Of Singapore
   name: Trung Quy Phan
   slug: trung_quy_phan

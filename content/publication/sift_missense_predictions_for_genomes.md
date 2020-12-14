@@ -2,13 +2,13 @@
 authors:
 - affiliation: University Of Zagreb
   name: Robert Vaser
-  slug: robert_vaser
+  url: https://academic.microsoft.com/author/2183523616/
 - affiliation: Agency For Science Technology And Research
   name: Swarnaseetha Adusumalli
-  slug: swarnaseetha_adusumalli
+  url: https://academic.microsoft.com/author/2710137069/
 - affiliation: Agency For Science Technology And Research
   name: Sim Ngak Leng
-  slug: sim_ngak_leng
+  url: https://academic.microsoft.com/author/2343515218/
 - affiliation: Agency For Science Technology And Research
   name: Mile Sikic
   slug: mile_sikic
@@ -17,7 +17,7 @@ authors:
   slug: mile_sikic
 - affiliation: Agency For Science Technology And Research
   name: Pauline C Ng
-  slug: pauline_c_ng
+  url: https://academic.microsoft.com/author/2894333132/
 date: '2016-01-01'
 estimated_citations: 351
 fields:

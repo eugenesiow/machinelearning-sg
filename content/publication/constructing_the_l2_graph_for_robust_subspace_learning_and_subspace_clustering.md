@@ -5,10 +5,10 @@ authors:
   slug: xi_peng
 - affiliation: Carnegie Mellon University
   name: Zhiding Yu
-  slug: zhiding_yu
+  url: https://academic.microsoft.com/author/2131575858/
 - affiliation: Sichuan University
   name: Zhang Yi
-  slug: zhang_yi
+  url: https://academic.microsoft.com/author/2690968393/
 - affiliation: Sichuan University
   name: Huajin Tang
   slug: huajin_tang

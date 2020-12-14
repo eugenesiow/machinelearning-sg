@@ -11,7 +11,7 @@ authors:
   slug: shoushun_chen
 - affiliation: null
   name: Bernabe Linares-Barranco
-  slug: b_linaresbarranco
+  url: https://academic.microsoft.com/author/2346959730/
 - affiliation: Agency For Science Technology And Research
   name: Huajin Tang
   slug: huajin_tang

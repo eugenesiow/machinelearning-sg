@@ -2,16 +2,16 @@
 authors:
 - affiliation: Industrial Technology Research Institute
   name: C.C. Hsia
-  slug: chichun_hsia
+  url: https://academic.microsoft.com/author/2629013144/
 - affiliation: Industrial Technology Research Institute
   name: K.J. Liou
-  slug: koujuch_liou
+  url: https://academic.microsoft.com/author/2680429821/
 - affiliation: Agency For Science Technology And Research
   name: A.P.W. Aung
-  slug: aungphyowai_aung
+  url: https://academic.microsoft.com/author/2581061823/
 - affiliation: Agency For Science Technology And Research
   name: V. Foo
-  slug: v_foo
+  url: https://academic.microsoft.com/author/2973329866/
 - affiliation: Agency For Science Technology And Research
   name: W. Huang
   slug: w_huang

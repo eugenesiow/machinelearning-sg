@@ -8,7 +8,7 @@ authors:
   slug: robby_t_tan
 - affiliation: null
   name: Xiaojie Guo
-  slug: xiaojie_guo
+  url: https://academic.microsoft.com/author/2142461467/
 - affiliation: Agency For Science Technology And Research
   name: Jiangbo Lu
   slug: jiangbo_lu

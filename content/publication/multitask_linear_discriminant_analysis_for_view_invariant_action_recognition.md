@@ -2,16 +2,16 @@
 authors:
 - affiliation: University Of Trento
   name: Yan Yan
-  slug: yan_yan
+  url: https://academic.microsoft.com/author/2243377499/
 - affiliation: University Of Perugia
   name: Elisa Ricci
-  slug: elisa_ricci
+  url: https://academic.microsoft.com/author/2104265024/
 - affiliation: Agency For Science Technology And Research
   name: Ramanathan Subramanian
   slug: ramanathan_subramanian
 - affiliation: University Of Trento
   name: Gaowen Liu
-  slug: gaowen_liu
+  url: https://academic.microsoft.com/author/2159157893/
 - affiliation: University Of Trento
   name: Nicu Sebe
   slug: nicu_sebe

@@ -1,0 +1,231 @@
+<div class="h-card col-lg-3 col-md-4 col-12 float-md-left pr-md-3 pr-xl-6" itemscope
+     itemtype="http://schema.org/Organization">
+    <div class="clearfix mb-2">
+        <div class="float-left col-3 col-md-12 pr-3 pr-md-0">
+            {{ if .Params.avatar }}
+            <img alt="" width="260" height="260" itemprop="image"
+                 class="avatar width-full height-full rounded-2" src="{{ .Params.avatar  }}" />
+            {{ else }}
+            <img alt="" width="260" height="260"
+                 class="avatar width-full height-full rounded-2" src="{{ "images/avatar.png" | absURL }}" />
+            {{ end }}
+        </div>
+        <div class="float-left col-9 col-md-12 pl-2 pl-md-0">
+
+            <div class="vcard-names-container pt-1 pt-md-3 pb-1 pb-md-3 js-sticky js-user-profile-sticky-fields">
+                <h1 class="vcard-names">
+                    <span class="p-name vcard-fullname d-block overflow-hidden"
+                          itemprop="name">{{ .Title }}</span>
+                    <span class="p-nickname vcard-username d-block"
+                          itemprop="affiliation">
+                        <img class="octicon" src="/images/{{ cond (eq .Params.user_type "User") "user" "organization" }}.svg" width="24" height="24" />
+                        <a href="https://github.com/{{ .Params.loging }}"
+                           class="link-gray-dark no-underline" target="_blank">{{ .Params.login }}</a>
+                    </span>
+                </h1>
+            </div>
+
+            <div class="d-none d-md-block">
+                <div class="js-profile-editable-area">
+                    <div class="mb-3">
+                        <span class="d-inline-block text-gray mr-3">
+                            <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                            {{ with .Params.followers }}
+                            <span class="text-bold text-gray-dark">
+                                {{ lang.NumFmt 0 . }}
+                            </span>
+                            followers ·
+                            {{ end }}
+                            {{ with .Params.following }}
+                            <span class="text-bold text-gray-dark" itemprop="publications">
+                                {{ lang.NumFmt 0 . }}
+                            </span>
+                            following
+                            {{ end }}
+                        </span>
+                    </div>
+                    <div class="p-note user-profile-bio js-user-profile-bio mb-2">
+                        <div>{{ .Params.bio }}</div>
+                    </div>
+                    <ul class="vcard-details mb-3">
+
+                        {{ if .Params.email }}
+                        <li itemprop="email" class="vcard-detail pt-1 css-truncate css-truncate-target">
+                            <img class="octicon" src="/images/email.svg" width="16" height="16" />
+                            <a class="u-email " href="mailto:{{ .Params.Email }}">{{ .Params.email }}</a>
+                        </li>
+                        {{ end }}
+
+                        {{ if .Params.website }}
+                        <li itemprop="url" data-test-selector="profile-website-url"
+                            class="vcard-detail pt-1 css-truncate css-truncate-target">
+                            <img class="octicon" src="/images/link.svg" width="16" height="16" />
+                            <a rel="nofollow me" itemprop="url" href="{{ .Params.website }}">{{ .Params.website }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-lg-6 col-md-12 col-12 float-md-left pl-md-2">
+    <div class="Box mb-3">
+        <div class="Box-body">
+            <h4 class="f4 mb-2 text-normal">ML Repositories</h4>
+            <ul>
+                {{ $reposSection := where .Site.RegularPages "Section" "==" "repo" }}
+                {{ $currentUser := .Params.login }}
+                {{ $myRepos := where $reposSection ".Params.owner" "==" $currentUser }}
+                {{ range (first 5 $myRepos) }}
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="{{ .Params.html_url }}" target="_blank">{{ .Title }}</a>
+                            </h3>
+                        </div>
+
+                        {{ if .Params.description }}
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">{{ .Params.description | truncate 255 }}</span>
+                                </span>
+                        </div>
+                        {{ end }}
+
+                        <div class="f6 text-gray mt-2">
+                            {{ with .Params.license }}
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="License">
+                                    <img class="octicon" src="/images/license.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        {{ . }}
+                                    </span>
+                                </span>
+                            </span>
+                            {{ end }}
+                            {{ with .Params.language }}
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_{{ . }}.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        {{ . }}
+                                    </span>
+                                </span>
+                            </span>
+                            {{ end }}
+                            {{ with .Params.stars }}
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        {{ lang.NumFmt 0 . }}
+                                    </span>
+                                </span>
+                            </span>
+                            {{ end }}
+                            {{ with .Params.forks }}
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        {{ lang.NumFmt 0 . }}
+                                    </span>
+                                </span>
+                            </span>
+                            {{ end }}
+                            {{ with .Params.open_issues }}
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        {{ lang.NumFmt 0 . }}
+                                    </span>
+                                </span>
+                            </span>
+                            {{ end }}
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="{{ .Params.updated }}" class="no-wrap">
+                                    {{dateFormat "2006-01-02" .Params.updated}}</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                {{ end }}
+            </ul>
+
+            <div class="ajax-pagination-form js-ajax-pagination">
+                <a href="https://github.com/{{ .Params.loging }}?tab=repositories" target="_blank">
+                    <button class="ajax-pagination-btn mt-3">
+                        More
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-12 col-lg-3 float-md-left pl-md-2">
+    <div class="Box box-shadow mb-4">
+        <div class="Box-header d-flex">
+              <span class="text-gray tooltipped tooltipped-ne mr-2">
+                  <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+              </span>
+            <h2 class="Box-title">
+                <span class="text-gray-dark">Repositories Statistics</span>
+            </h2>
+        </div>
+
+        <div>
+            {{ with .Params.public_repos }}
+            <div class="Box-row">
+                <span class="float-right text-bold no-wrap mb-2 ml-2">
+                    {{ lang.NumFmt 0 . }}
+                </span>
+                <div class="d-flex">
+                    <h1 class="f4 text-gray text-normal lh-condensed css-truncate">
+                        Public Repos
+                    </h1>
+                </div>
+            </div>
+            {{ end }}
+            {{ with .Params.stars }}
+            <div class="Box-row">
+                <span class="float-right text-bold no-wrap mb-2 ml-2">
+                    {{ lang.NumFmt 0 . }}
+                </span>
+                <div class="d-flex">
+                    <h1 class="f4 text-gray text-normal lh-condensed css-truncate">
+                        Total Stars
+                    </h1>
+                </div>
+            </div>
+            {{ end }}
+            {{ with .Params.forks }}
+            <div class="Box-row">
+                <span class="float-right text-bold no-wrap mb-2 ml-2">
+                    {{ lang.NumFmt 0 . }}
+                </span>
+                <div class="d-flex">
+                    <h1 class="f4 text-gray text-normal lh-condensed css-truncate">
+                        Total Forks
+                    </h1>
+                </div>
+            </div>
+            {{ end }}
+            {{ with .Params.open_issues }}
+            <div class="Box-row">
+                <span class="float-right text-bold no-wrap mb-2 ml-2">
+                    {{ lang.NumFmt 0 . }}
+                </span>
+                <div class="d-flex">
+                    <h1 class="f4 text-gray text-normal lh-condensed css-truncate">
+                        Total Open Issues
+                    </h1>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>

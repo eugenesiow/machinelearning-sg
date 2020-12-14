@@ -5,7 +5,7 @@ authors:
   slug: zhiqiang_toh
 - affiliation: null
   name: Wenting Wang
-  slug: wenting_wang
+  url: https://academic.microsoft.com/author/3089089874/
 date: '2014-08-11'
 estimated_citations: 114
 fields:

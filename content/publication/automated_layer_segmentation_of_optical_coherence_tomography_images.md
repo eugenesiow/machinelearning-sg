@@ -14,7 +14,7 @@ authors:
   slug: joohwee_lim
 - affiliation: The Chinese University Of Hong Kong
   name: Christopher Kai-shun Leung
-  slug: christopher_kaishun_leung
+  url: https://academic.microsoft.com/author/2100909475/
 - affiliation: Singapore National Eye Center
   name: Tien Yin Wong
   slug: tien_yin_wong

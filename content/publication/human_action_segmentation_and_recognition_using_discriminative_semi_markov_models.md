@@ -2,16 +2,16 @@
 authors:
 - affiliation: University Of Adelaide
   name: Qinfeng Shi
-  slug: qinfeng_shi
+  url: https://academic.microsoft.com/author/2160774113/
 - affiliation: Agency For Science Technology And Research
   name: Li Cheng
   slug: li_cheng
 - affiliation: Nanjing Forestry University
   name: Li Wang
-  slug: li_wang
+  url: https://academic.microsoft.com/author/2708730429/
 - affiliation: Yahoo
   name: Alex Smola
-  slug: alexander_j_smola
+  url: https://academic.microsoft.com/author/1972291593/
 date: '2011-05-01'
 estimated_citations: 121
 fields:

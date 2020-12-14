@@ -8,7 +8,7 @@ authors:
   slug: weisi_lin
 - affiliation: null
   name: X. Yang
-  slug: xiaokang_yang
+  url: https://academic.microsoft.com/author/2165386180/
 - affiliation: null
   name: EePing Ong
   slug: ee_ping_ong

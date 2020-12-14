@@ -5,7 +5,7 @@ authors:
   slug: kai_keng_ang
 - affiliation: Agency For Science Technology And Research
   name: Zhang Yang Chin
-  slug: zhang_yang_chin
+  url: https://academic.microsoft.com/author/2974130654/
 - affiliation: Agency For Science Technology And Research
   name: Haihong Zhang
   slug: haihong_zhang

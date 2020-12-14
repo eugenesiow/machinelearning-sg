@@ -2,22 +2,22 @@
 authors:
 - affiliation: Nankai University
   name: Yun Liu
-  slug: yun_liu
+  url: https://academic.microsoft.com/author/2487333351/
 - affiliation: Nankai University
   name: Ming-Ming Cheng
-  slug: mingming_cheng
+  url: https://academic.microsoft.com/author/2776929763/
 - affiliation: Nankai University
   name: Xiaowei Hu
-  slug: xiaowei_hu
+  url: https://academic.microsoft.com/author/2776272940/
 - affiliation: Nankai University
   name: Jia-Wang Bian
-  slug: jiawang_bian
+  url: https://academic.microsoft.com/author/2562745442/
 - affiliation: Agency For Science Technology And Research
   name: Le Zhang
   slug: le_zhang
 - affiliation: Huazhong University Of Science And Technology
   name: Xiang Bai
-  slug: xiang_bai
+  url: https://academic.microsoft.com/author/2168860362/
 - affiliation: Nanjing University Of Science And Technology
   name: Jinhui Tang
   slug: jinhui_tang

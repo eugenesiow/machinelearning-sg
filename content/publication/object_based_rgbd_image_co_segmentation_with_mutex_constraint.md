@@ -8,7 +8,7 @@ authors:
   slug: dong_xu
 - affiliation: Microsoft
   name: Stephen Lin
-  slug: stephen_lin
+  url: https://academic.microsoft.com/author/2167032303/
 - affiliation: Agency For Science Technology And Research
   name: Jiang Liu
   slug: jiang_liu

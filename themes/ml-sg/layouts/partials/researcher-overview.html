@@ -3,10 +3,23 @@
         <div class="Box-body">
             <h4 class="f4 mb-2 text-normal">Interests / Fields</h4>
             {{ range .Params.interests }}
-            <a class="topic-tag topic-tag-link ">
+            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q={{ . | safeURL }}"
+               target="_blank">
                 {{ . }}
             </a>
             {{ end }}
+        </div>
+    </div>
+    <div class="Box mb-3">
+        <div class="Box-body">
+            <h4 class="f4 mb-2 text-normal">Publications List</h4>
+            <div class="ajax-pagination-form js-ajax-pagination">
+                <a href="https://academic.microsoft.com/author/{{ .Params.author_id }}" target="_blank">
+                    <button class="ajax-pagination-btn mt-3">
+                        View all on Microsoft Academic
+                    </button>
+                </a>
+            </div>
         </div>
     </div>
 </div>

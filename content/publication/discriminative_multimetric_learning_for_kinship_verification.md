@@ -8,10 +8,10 @@ authors:
   slug: jiwen_lu
 - affiliation: Beijing University Of Posts And Telecommunications
   name: Weihong Deng
-  slug: weihong_deng
+  url: https://academic.microsoft.com/author/2099485827/
 - affiliation: Capital Normal University
   name: Xiuzhuang Zhou
-  slug: xiuzhuang_zhou
+  url: https://academic.microsoft.com/author/2159199194/
 date: '2014-07-01'
 estimated_citations: 165
 fields:

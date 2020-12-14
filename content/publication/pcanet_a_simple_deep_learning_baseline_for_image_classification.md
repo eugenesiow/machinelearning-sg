@@ -17,7 +17,7 @@ authors:
   slug: zinan_zeng
 - affiliation: Shanghaitech University
   name: Yi Ma
-  slug: yi_ma
+  url: https://academic.microsoft.com/author/2145586907/
 date: '2015-09-01'
 estimated_citations: 1037
 fields:

@@ -2,13 +2,13 @@
 authors:
 - affiliation: Beijing Jiaotong University
   name: Yi Jin
-  slug: yi_jin
+  url: https://academic.microsoft.com/author/2132272750/
 - affiliation: Agency For Science Technology And Research
   name: Jiwen Lu
   slug: jiwen_lu
 - affiliation: Beijing Jiaotong University
   name: Qiuqi Ruan
-  slug: qiuqi_ruan
+  url: https://academic.microsoft.com/author/2951737594/
 date: '2015-01-09'
 estimated_citations: 93
 fields:

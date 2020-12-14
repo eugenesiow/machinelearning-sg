@@ -5,10 +5,10 @@ authors:
   slug: haiping_lu
 - affiliation: University Of Toronto
   name: Konstantinos N. Plataniotis
-  slug: konstantinos_n_plataniotis
+  url: https://academic.microsoft.com/author/2024212165/
 - affiliation: University Of Toronto
   name: Anastasios N. Venetsanopoulos
-  slug: a_n_venetsanopoulos
+  url: https://academic.microsoft.com/author/2091697727/
 date: '2011-07-01'
 estimated_citations: 376
 fields:

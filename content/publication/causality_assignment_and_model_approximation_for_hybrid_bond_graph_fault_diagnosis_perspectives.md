@@ -8,10 +8,10 @@ authors:
   slug: danwei_wang
 - affiliation: Ben Gurion University Of The Negev
   name: Shai Arogeti
-  slug: shai_arogeti
+  url: https://academic.microsoft.com/author/2275702097/
 - affiliation: Agency For Science Technology And Research
   name: Jing Bing Zhang
-  slug: jing_bing_zhang
+  url: https://academic.microsoft.com/author/2851522125/
 date: '2010-07-01'
 estimated_citations: 111
 fields:

@@ -5,13 +5,13 @@ authors:
   slug: etienne_becht
 - affiliation: null
   name: Leland McInnes
-  slug: leland_mcinnes
+  url: https://academic.microsoft.com/author/2598493516/
 - affiliation: null
   name: John Healy
-  slug: john_healy
+  url: https://academic.microsoft.com/author/2703096784/
 - affiliation: Agency For Science Technology And Research
   name: Charles-Antoine Dutertre
-  slug: charles_antoine_dutertre
+  url: https://academic.microsoft.com/author/2947741400/
 - affiliation: Agency For Science Technology And Research
   name: Immanuel W H Kwok
   slug: immanuel_kwok

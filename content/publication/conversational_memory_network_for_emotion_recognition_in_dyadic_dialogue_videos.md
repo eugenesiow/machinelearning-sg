@@ -8,13 +8,13 @@ authors:
   slug: soujanya_poria
 - affiliation: Carnegie Mellon University
   name: Amir Zadeh
-  slug: amir_zadeh
+  url: https://academic.microsoft.com/author/2343600773/
 - affiliation: Nanyang Technological University
   name: Erik Cambria
   slug: erik_cambria
 - affiliation: Carnegie Mellon University
   name: Louis-Philippe Morency
-  slug: louisphilippe_morency
+  url: https://academic.microsoft.com/author/2055927854/
 - affiliation: National University Of Singapore
   name: Roger Zimmermann
   slug: roger_zimmermann

@@ -20,7 +20,7 @@ authors:
   slug: narendra_ahuja
 - affiliation: University Of California Merced
   name: Ming-Hsuan Yang
-  slug: minghsuan_yang
+  url: https://academic.microsoft.com/author/2112462370/
 date: '2015-06-07'
 estimated_citations: 189
 fields:

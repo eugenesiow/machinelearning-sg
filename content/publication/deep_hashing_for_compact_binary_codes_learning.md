@@ -14,7 +14,7 @@ authors:
   slug: pierre_moulin
 - affiliation: Tsinghua University
   name: Jie Zhou
-  slug: jie_zhou
+  url: https://academic.microsoft.com/author/2304890293/
 date: '2015-06-07'
 estimated_citations: 424
 fields:

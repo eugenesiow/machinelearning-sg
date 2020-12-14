@@ -2,19 +2,19 @@
 authors:
 - affiliation: Nankai University
   name: Jia-Xing Zhao
-  slug: jiaxing_zhao
+  url: https://academic.microsoft.com/author/2583371342/
 - affiliation: Nankai University
   name: Yang Cao
-  slug: yang_cao
+  url: https://academic.microsoft.com/author/2686717349/
 - affiliation: Nankai University
   name: Deng-Ping Fan
-  slug: dengping_fan
+  url: https://academic.microsoft.com/author/2740765359/
 - affiliation: Nankai University
   name: Ming-Ming Cheng
-  slug: mingming_cheng
+  url: https://academic.microsoft.com/author/2776929763/
 - affiliation: Agency For Science Technology And Research
   name: Xuan-Yi Li
-  slug: xuanyi_li
+  url: https://academic.microsoft.com/author/2945564341/
 - affiliation: Nankai University
   name: Le Zhang
   slug: le_zhang

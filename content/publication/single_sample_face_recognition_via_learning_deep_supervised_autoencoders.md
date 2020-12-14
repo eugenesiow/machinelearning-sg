@@ -5,7 +5,7 @@ authors:
   slug: shenghua_gao
 - affiliation: Shanghaitech University
   name: Y. Zhang
-  slug: yuting_zhang
+  url: https://academic.microsoft.com/author/2311101318/
 - affiliation: University Of Macau
   name: K. Jia
   slug: kui_jia

@@ -2,13 +2,13 @@
 authors:
 - affiliation: Agency For Science Technology And Research
   name: Hooi Been Lim
-  slug: hooi_been_lim
+  url: https://academic.microsoft.com/author/2303232679/
 - affiliation: Agency For Science Technology And Research
   name: Nguyen Thi Tuyet Nhung
-  slug: nguyen_thi_tuyet_nhung
+  url: https://academic.microsoft.com/author/2224862081/
 - affiliation: Agency For Science Technology And Research
   name: Er-Ping Li
-  slug: erping_li
+  url: https://academic.microsoft.com/author/2097348215/
 - affiliation: Nanyang Technological University
   name: Nguyen Duc Thang
   slug: nguyen_duc_thang

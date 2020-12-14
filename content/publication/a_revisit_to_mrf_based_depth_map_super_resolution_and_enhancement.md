@@ -11,7 +11,7 @@ authors:
   slug: ramanpreet_singh_pahwa
 - affiliation: University Of Illinois At Urbana Champaign
   name: Minh N. Do
-  slug: minh_n_do
+  url: https://academic.microsoft.com/author/2153512210/
 date: '2011-05-22'
 estimated_citations: 97
 fields:

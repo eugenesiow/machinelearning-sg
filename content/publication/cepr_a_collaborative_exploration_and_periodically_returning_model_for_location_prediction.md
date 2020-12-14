@@ -2,22 +2,22 @@
 authors:
 - affiliation: University Of Science And Technology Of China
   name: Defu Lian
-  slug: defu_lian
+  url: https://academic.microsoft.com/author/2110195189/
 - affiliation: Microsoft
   name: Xing Xie
-  slug: xing_xie
+  url: https://academic.microsoft.com/author/2125800575/
 - affiliation: Agency For Science Technology And Research
   name: Vincent W. Zheng
   slug: vincent_w_zheng
 - affiliation: Microsoft
   name: Nicholas Jing Yuan
-  slug: nicholas_jing_yuan
+  url: https://academic.microsoft.com/author/2096490164/
 - affiliation: University Of Science And Technology Of China
   name: Fuzheng Zhang
-  slug: fuzheng_zhang
+  url: https://academic.microsoft.com/author/2110384818/
 - affiliation: University Of Science And Technology Of China
   name: Enhong Chen
-  slug: enhong_chen
+  url: https://academic.microsoft.com/author/2136372366/
 date: '2015-03-11'
 estimated_citations: 86
 fields:

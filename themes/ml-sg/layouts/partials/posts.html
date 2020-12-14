@@ -2,17 +2,17 @@
     {{ partial "research-navbar.html" .}}
 
     <div class="position-relative">
-        <div id="user-repositories-list">
-            <ul data-filterable-for="your-repos-filter" data-filterable-type="substring">
+        <div id="researchers-list">
+            <ul>
                 {{ range (.Paginate (.Data.Pages.ByParam "estimated_citations").Reverse).Pages }}
-                <li class="col-12 d-flex width-full py-4 border-bottom public fork">
+                <li class="col-12 d-flex width-full py-4 border-bottom">
                     <div class="col-12 col-lg-12 d-inline-block">
                         <div class="d-inline-block mb-1">
                             <h3>
                                 <a href="{{ .Permalink }}">{{ .Title }}</a>
-                                <a class="f5 link-gray no-underline" href="" itemprop="institution">
+                                <span class="f5" itemprop="institution">
                                     {{ .Params.current_institute_name }}
-                                </a>
+                                </span>
                             </h3>
                         </div>
 
@@ -26,7 +26,8 @@
 
                         <div class="f6 text-gray mt-2">
                             {{ range (first 5 .Params.interests) }}
-                            <a class="topic-tag topic-tag-link ">
+                            <a class="topic-tag topic-tag-link" href="https://academic.microsoft.com/search?q={{ . | safeURL }}"
+                               target="_blank">
                                 {{ . }}
                             </a>
                             {{ end }}

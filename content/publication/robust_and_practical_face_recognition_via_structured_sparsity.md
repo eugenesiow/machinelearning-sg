@@ -8,7 +8,7 @@ authors:
   slug: tsunghan_chan
 - affiliation: University Of Illinois At Urbana Champaign
   name: Yi Ma
-  slug: yi_ma
+  url: https://academic.microsoft.com/author/2145586907/
 date: '2012-10-07'
 estimated_citations: 127
 fields:

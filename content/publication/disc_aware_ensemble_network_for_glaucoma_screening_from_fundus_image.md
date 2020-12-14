@@ -11,7 +11,7 @@ authors:
   slug: yanwu_xu
 - affiliation: Tianjin University
   name: Changqing Zhang
-  slug: changqing_zhang
+  url: https://academic.microsoft.com/author/2330906412/
 - affiliation: Agency For Science Technology And Research
   name: Damon Wing Kee Wong
   slug: damon_wing_kee_wong
@@ -20,7 +20,7 @@ authors:
   slug: jiang_liu
 - affiliation: Chinese Academy Of Sciences
   name: Xiaochun Cao
-  slug: xiaochun_cao
+  url: https://academic.microsoft.com/author/2143652190/
 date: '2018-05-15'
 estimated_citations: 105
 fields:

@@ -1,0 +1,105 @@
+<div class="col-lg-12 col-md-12 col-12 float-md-left pl-md-2">
+    {{ partial "code-navbar.html" .}}
+
+    <div class="position-relative">
+        <div id="repos-list">
+            <ul>
+                {{ range (.Paginate (.Data.Pages.ByParam "stars").Reverse).Pages }}
+                <li class="col-12 d-flex width-full py-4 border-bottom">
+                    <div class="col-12 col-lg-12 d-inline-block">
+                        <div class="d-inline-block mb-1">
+                            <h3>
+                                <a href="{{ absURL (printf "%s%s" "/coder/" (lower .Params.owner)) }}" target="_blank">{{ .Params.owner }}</a> /
+                                <a href="{{ .Params.html_url }}" target="_blank">{{ .Title }}</a>
+                            </h3>
+                        </div>
+
+                        {{ if .Params.description }}
+                        <div class="d-inline-block mt-1 mb-1">
+                            <span class="mr-3">
+                                    <span itemprop="description">{{ .Params.description | truncate 255 }}</span>
+                                </span>
+                        </div>
+                        {{ end }}
+
+                        <div class="f6 text-gray mt-2">
+                            {{ with .Params.license }}
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="License">
+                                    <img class="octicon" src="/images/license.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        {{ . }}
+                                    </span>
+                                </span>
+                            </span>
+                            {{ end }}
+                            {{ with .Params.language }}
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Language">
+                                    <img class="octicon" src="/images/lang_{{ . }}.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        {{ . }}
+                                    </span>
+                                </span>
+                            </span>
+                            {{ end }}
+                            {{ with .Params.stars }}
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" title="Stars" />
+                                    <span class="text-bold text-gray-dark">
+                                        {{ lang.NumFmt 0 . }}
+                                    </span>
+                                </span>
+                            </span>
+                            {{ end }}
+                            {{ with .Params.forks }}
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        {{ lang.NumFmt 0 . }}
+                                    </span>
+                                </span>
+                            </span>
+                            {{ end }}
+                            {{ with .Params.open_issues }}
+                            <span class="d-inline-block text-gray mr-3">
+                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                    <span class="text-bold text-gray-dark">
+                                        {{ lang.NumFmt 0 . }}
+                                    </span>
+                                </span>
+                            </span>
+                            {{ end }}
+                            <span class="d-inline-block mr-3">
+                                Updated
+                                <time-ago datetime="{{ .Params.updated }}" class="no-wrap">
+                                    {{dateFormat "2006-01-02" .Params.updated}}</time-ago>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                {{ end }}
+            </ul>
+            {{ if gt .Paginator.TotalPages 1}}
+            <div class="paginate-container">
+                <div class="BtnGroup" data-test-selector="pagination">
+                    {{ if .Paginator.HasPrev }}
+                    <a rel="nofollow" class="btn btn-outline BtnGroup-item"
+                        href="{{ .Paginator.Prev.URL }}">Previous</a>
+                    {{ else }}
+                    <button class="btn btn-outline BtnGroup-item" disabled="disabled">Previous</button>
+                    {{ end }}
+                    {{ if .Paginator.HasNext }}
+                    <a rel="nofollow" class="btn btn-outline BtnGroup-item" href="{{ .Paginator.Next.URL }}">Next</a>
+                    {{ else }}
+                    <button class="btn btn-outline BtnGroup-item" disabled="disabled">Next</button>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>

@@ -2,7 +2,7 @@
 authors:
 - affiliation: Institut Mines Telecom
   name: Dingqi Yang
-  slug: dingqi_yang
+  url: https://academic.microsoft.com/author/2122296249/
 - affiliation: Institut Mines Telecom
   name: Daqing Zhang
   slug: daqing_zhang
@@ -11,7 +11,7 @@ authors:
   slug: vincent_w_zheng
 - affiliation: Fuzhou University
   name: Zhiyong Yu
-  slug: zhiyong_yu
+  url: https://academic.microsoft.com/author/2483532834/
 date: '2015-01-01'
 estimated_citations: 301
 fields:

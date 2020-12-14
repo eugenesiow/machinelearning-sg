@@ -2,7 +2,7 @@
 authors:
 - affiliation: Capital Normal University
   name: Xiuzhuang Zhou
-  slug: xiuzhuang_zhou
+  url: https://academic.microsoft.com/author/2159199194/
 - affiliation: Agency For Science Technology And Research
   name: Jiwen Lu
   slug: jiwen_lu
@@ -11,7 +11,7 @@ authors:
   slug: junlin_hu
 - affiliation: Capital Normal University
   name: Yuanyuan Shang
-  slug: yuanyuan_shang
+  url: https://academic.microsoft.com/author/2126624353/
 date: '2012-10-29'
 estimated_citations: 92
 fields:

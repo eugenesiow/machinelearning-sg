@@ -11,10 +11,10 @@ authors:
   slug: cuntai_guan
 - affiliation: University Of Toronto
   name: Konstantinos N Plataniotis
-  slug: konstantinos_n_plataniotis
+  url: https://academic.microsoft.com/author/2024212165/
 - affiliation: Ryerson University
   name: Anastasios N Venetsanopoulos
-  slug: a_n_venetsanopoulos
+  url: https://academic.microsoft.com/author/2091697727/
 date: '2010-09-30'
 estimated_citations: 220
 fields:

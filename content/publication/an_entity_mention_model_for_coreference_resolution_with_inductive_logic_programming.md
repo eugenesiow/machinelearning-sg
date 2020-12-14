@@ -8,13 +8,13 @@ authors:
   slug: jian_su
 - affiliation: Harbin Institute Of Technology
   name: Jun Lang
-  slug: jun_lang
+  url: https://academic.microsoft.com/author/2135737083/
 - affiliation: Harbin Institute Of Technology
   name: Chew Lim Tan
   slug: chew_lim_tan
 - affiliation: Harbin Institute Of Technology
   name: Ting Liu
-  slug: ting_liu
+  url: https://academic.microsoft.com/author/2142255895/
 - affiliation: National University Of Singapore
   name: Sheng Li
   slug: sheng_li

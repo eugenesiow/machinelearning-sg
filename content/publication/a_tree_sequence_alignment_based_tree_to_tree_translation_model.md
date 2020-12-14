@@ -5,7 +5,7 @@ authors:
   slug: min_zhang
 - affiliation: Harbin Institute Of Technology
   name: Hongfei Jiang
-  slug: hongfei_jiang
+  url: https://academic.microsoft.com/author/2779466127/
 - affiliation: National University Of Singapore
   name: Aiti Aw
   slug: aiti_aw

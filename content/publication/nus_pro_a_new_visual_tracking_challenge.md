@@ -8,10 +8,10 @@ authors:
   slug: min_lin
 - affiliation: Nanjing University Of Information Science And Technology
   name: Yi Wu
-  slug: yi_wu
+  url: https://academic.microsoft.com/author/2290847454/
 - affiliation: University Of California Merced
   name: Ming-Hsuan Yang
-  slug: minghsuan_yang
+  url: https://academic.microsoft.com/author/2112462370/
 - affiliation: National University Of Singapore
   name: Shuicheng Yan
   slug: shuicheng_yan

@@ -1,11 +1,13 @@
-baseURL = "http://machinelearning.sg/"
+baseURL = "https://machinelearning.sg/"
 languageCode = "en-us"
 title = "Machine Learning SG"
 theme = "ml-sg"
 paginate = 20
+googleAnalytics = "UA-185405110-2"
 
 [params]
 recent_posts_number = 6
+description = "machinelearning.sg is a ground-up effort to build, grow and celebrate the machine learning community in Singapore. It also aims to be a place to feature and discuss research and trends in artificial intelligence and machine learning."
 
 [menu]
     [[menu.main]]
@@ -36,6 +38,18 @@ recent_posts_number = 6
         title = "Code"
         url = "/code"
         weight = 2
+    [[menu.main]]
+        identifier = "coder"
+        title = "Coders"
+        url = "/coder"
+        parent = "code"
+        weight = 2
+    [[menu.main]]
+        identifier = "repo"
+        title = "Repos"
+        url = "/repo"
+        parent = "code"
+        weight = 3
     [[menu.main]]
         identifier = "jobs"
         title = "Jobs"
@@ -69,5 +83,22 @@ recent_posts_number = 6
         url = "/institution"
         name = "institution"
         weight = 4
+    [[menu.code]]
+        identifier = "code-overview"
+        title = "Code"
+        url = "/code"
+        weight = 1
+    [[menu.code]]
+        identifier = "code-coder"
+        title = "Coders"
+        url = "/coder"
+        name = "coder"
+        weight = 2
+    [[menu.code]]
+        identifier = "code-repo"
+        title = "Repos"
+        url = "/repo"
+        name = "repo"
+        weight = 3
 
 

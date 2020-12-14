@@ -1,0 +1,17 @@
+<div class="UnderlineNav width-full user-profile-nav js-sticky top-0">
+    <nav class="UnderlineNav-body" aria-label="User profile">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.code }}
+        {{ $active := eq $currentPage.Name .Title }}
+        <a aria-current="page" class="UnderlineNav-item mr-0 mr-md-1 mr-lg-3 {{ if $active }}selected{{ end }} "
+        href="{{ .URL }}">
+            {{ .Title }}
+            {{ if .Name }}
+            <span class="Counter hide-lg hide-md hide-sm">
+                {{ len (where $currentPage.Site.RegularPages "Section" "==" .Name) }}
+            </span>
+            {{ end }}
+        </a>
+        {{ end }}
+    </nav>
+</div>

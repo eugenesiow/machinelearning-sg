@@ -3,29 +3,32 @@ authors:
 - affiliation: Nanyang Technological University
   name: Junlin Hu
   slug: junlin_hu
-- affiliation: Agency For Science Technology And Research
+- affiliation: Tsinghua University
   name: Jiwen Lu
   slug: jiwen_lu
 - affiliation: Nanyang Technological University
   name: Yap-Peng Tan
   slug: yappeng_tan
-date: '2015-06-07'
-estimated_citations: 238
+- affiliation: Tsinghua University
+  name: Jie Zhou
+  url: https://academic.microsoft.com/author/2304890293/
+date: '2016-12-01'
+estimated_citations: 225
 fields:
+- autoencoder
 - semi supervised learning
-- unsupervised learning
+- metric space
+- artificial neural network
 - discriminative model
-- facial recognition system
+- data point
 - pattern recognition
+- regularization
 - visualization
 - machine learning
-- computer science
-- nonlinear system
-- exploit
+- mathematics
 - artificial intelligence
-- learning methods
-in: 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
-src: https://dr.ntu.edu.sg/bitstream/10220/40552/1/Deep%20transfer%20metric%20learning.pdf
-title: Deep transfer metric learning
-year: 2015
+in: IEEE Transactions on Image Processing
+src: http://dx.doi.org/10.1109/TIP.2016.2612827
+title: Deep Transfer Metric Learning
+year: 2016
 ---

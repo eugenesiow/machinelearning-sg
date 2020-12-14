@@ -5,7 +5,7 @@ authors:
   slug: xiaoli_li
 - affiliation: University Of Illinois At Chicago
   name: Philip S. Yu
-  slug: philip_s_yu
+  url: https://academic.microsoft.com/author/2125104194/
 - affiliation: University Of Illinois At Chicago
   name: Bing Liu
   slug: bing_liu

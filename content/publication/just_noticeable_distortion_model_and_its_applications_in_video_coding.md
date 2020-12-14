@@ -2,10 +2,10 @@
 authors:
 - affiliation: Shanghai Jiao Tong University
   name: Xiaokang Yang
-  slug: xiaokang_yang
+  url: https://academic.microsoft.com/author/2165386180/
 - affiliation: Agency For Science Technology And Research
   name: W. S. Ling
-  slug: w_s_ling
+  url: https://academic.microsoft.com/author/2630903630/
 - affiliation: Agency For Science Technology And Research
   name: Zhongkang Lu
   slug: zhongkang_lu

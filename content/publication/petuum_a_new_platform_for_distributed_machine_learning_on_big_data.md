@@ -2,34 +2,34 @@
 authors:
 - affiliation: Carnegie Mellon University
   name: Eric P. Xing
-  slug: eric_p_xing
+  url: https://academic.microsoft.com/author/351197510/
 - affiliation: Agency For Science Technology And Research
   name: Qirong Ho
-  slug: qirong_ho
+  url: https://academic.microsoft.com/author/2171689288/
 - affiliation: Carnegie Mellon University
   name: Wei Dai
-  slug: wei_dai
+  url: https://academic.microsoft.com/author/2194200048/
 - affiliation: Carnegie Mellon University
   name: Jin Kyu Kim
-  slug: jinkyu_kim
+  url: https://academic.microsoft.com/author/2574175097/
 - affiliation: Carnegie Mellon University
   name: Jinliang Wei
-  slug: jinliang_wei
+  url: https://academic.microsoft.com/author/2113580177/
 - affiliation: Carnegie Mellon University
   name: Seunghak Lee
-  slug: seunghak_lee
+  url: https://academic.microsoft.com/author/2115333817/
 - affiliation: Carnegie Mellon University
   name: Xun Zheng
-  slug: xun_zheng
+  url: https://academic.microsoft.com/author/2132416899/
 - affiliation: Carnegie Mellon University
   name: Pengtao Xie
-  slug: pengtao_xie
+  url: https://academic.microsoft.com/author/2157788543/
 - affiliation: Carnegie Mellon University
   name: Abhimanu Kumar
-  slug: abhimanu_kumar
+  url: https://academic.microsoft.com/author/2132492541/
 - affiliation: Carnegie Mellon University
   name: Yaoliang Yu
-  slug: yaoliang_yu
+  url: https://academic.microsoft.com/author/2119954973/
 date: '2015-06-01'
 estimated_citations: 283
 fields:

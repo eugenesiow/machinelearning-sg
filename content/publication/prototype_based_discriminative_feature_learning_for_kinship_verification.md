@@ -8,7 +8,7 @@ authors:
   slug: jiwen_lu
 - affiliation: Capital Normal University
   name: Xiuzhuang Zhou
-  slug: xiuzhuang_zhou
+  url: https://academic.microsoft.com/author/2159199194/
 date: '2015-11-01'
 estimated_citations: 138
 fields:

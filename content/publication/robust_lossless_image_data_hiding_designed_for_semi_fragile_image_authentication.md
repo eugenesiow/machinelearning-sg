@@ -2,22 +2,22 @@
 authors:
 - affiliation: null
   name: Zhicheng Ni
-  slug: zhicheng_ni
+  url: https://academic.microsoft.com/author/2930883547/
 - affiliation: New Jersey Institute Of Technology
   name: Y.Q. Shi
-  slug: yun_q_shi
+  url: https://academic.microsoft.com/author/2259538074/
 - affiliation: New Jersey Institute Of Technology
   name: N. Ansari
-  slug: nirwan_ansari
+  url: https://academic.microsoft.com/author/2143120161/
 - affiliation: null
   name: Wei Su
-  slug: wei_su
+  url: https://academic.microsoft.com/author/2126003530/
 - affiliation: Agency For Science Technology And Research
   name: Qibin Sun
   slug: qibin_sun
 - affiliation: null
   name: Xiao Lin
-  slug: xiao_lin
+  url: https://academic.microsoft.com/author/2803558362/
 date: '2008-04-01'
 estimated_citations: 241
 fields:

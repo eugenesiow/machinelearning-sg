@@ -5,10 +5,10 @@ authors:
   slug: yuanqing_li
 - affiliation: South China University Of Technology
   name: Jinyi Long
-  slug: jinyi_long
+  url: https://academic.microsoft.com/author/2149484846/
 - affiliation: South China University Of Technology
   name: Tianyou Yu
-  slug: tianyou_yu
+  url: https://academic.microsoft.com/author/2145687247/
 - affiliation: South China University Of Technology
   name: Zhuliang Yu
   slug: zhu_liang_yu

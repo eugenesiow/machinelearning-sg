@@ -8,10 +8,10 @@ authors:
   slug: junlin_hu
 - affiliation: Capital Normal University
   name: Xiuzhuang Zhou
-  slug: xiuzhuang_zhou
+  url: https://academic.microsoft.com/author/2159199194/
 - affiliation: Capital Normal University
   name: Yuanyuan Shang
-  slug: yuanyuan_shang
+  url: https://academic.microsoft.com/author/2126624353/
 - affiliation: Nanyang Technological University
   name: Yap-Peng Tan
   slug: yappeng_tan

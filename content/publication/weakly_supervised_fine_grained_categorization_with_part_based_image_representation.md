@@ -5,7 +5,7 @@ authors:
   slug: yu_zhang
 - affiliation: Nanjing University
   name: Xiu-Shen Wei
-  slug: xiushen_wei
+  url: https://academic.microsoft.com/author/2168047776/
 - affiliation: Nanjing University
   name: Jianxin Wu
   slug: jianxin_wu
@@ -20,7 +20,7 @@ authors:
   slug: vietanh_nguyen
 - affiliation: University Of Illinois At Urbana Champaign
   name: Minh N. Do
-  slug: minh_n_do
+  url: https://academic.microsoft.com/author/2153512210/
 date: '2016-04-01'
 estimated_citations: 93
 fields:

@@ -5,16 +5,16 @@ authors:
   slug: xiangnan_he
 - affiliation: Fudan University
   name: Zhankui He
-  slug: zhankui_he
+  url: https://academic.microsoft.com/author/2799677316/
 - affiliation: University Of Electronic Science And Technology Of China
   name: Jingkuan Song
-  slug: jingkuan_song
+  url: https://academic.microsoft.com/author/2127452354/
 - affiliation: Agency For Science Technology And Research
   name: Zhenguang Liu
   slug: zhenguang_liu
 - affiliation: Fudan University
   name: Yu-Gang Jiang
-  slug: yugang_jiang
+  url: https://academic.microsoft.com/author/2143115300/
 - affiliation: National University Of Singapore
   name: Tat-Seng Chua
   slug: tatseng_chua
