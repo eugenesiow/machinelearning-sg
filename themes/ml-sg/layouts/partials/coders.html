@@ -2,84 +2,101 @@
     {{ partial "code-navbar.html" .}}
 
     <div class="position-relative">
+        <div class="border-bottom color-border-secondary py-3">
+            <div class="d-block d-md-flex">
+                <div class="mb-3 mb-md-0 mr-md-3 flex-auto">
+                    <input type="search" id="aa-search-input" name="search" class="form-control width-full"
+                           placeholder="Search for coders…" autocomplete="off">
+                </div>
+            </div>
+        </div>
         <div id="researchers-list">
             <ul>
                 {{ range (.Paginate (.Data.Pages.ByParam "stars").Reverse).Pages }}
                 <li class="col-12 d-flex width-full py-4 border-bottom">
                     <div class="col-12 col-lg-12 d-inline-block">
-                        <div class="d-inline-block mb-1">
-                            <h3>
-                                <a href="{{ .Permalink }}">{{ .Title }}</a>
-                                <span class="f5">
-                                    {{ .Params.login }}
-                                </span>
-                            </h3>
-                        </div>
+                        <div class="d-flex">
+                            <a href="{{ .Permalink }}">
+                                <img class="avatar avatar-user mr-2" alt="{{ .Params.login }}" src="{{ .Params.avatar }}" width="64" height="64">
+                            </a>
+                            <div class="width-full ml-1">
+                                <div class="d-inline-block mb-1">
+                                    <h3>
+                                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                                        <span class="f5">
+                                            {{ .Params.login }}
+                                        </span>
+                                    </h3>
+                                </div>
 
-                        {{ if .Params.bio }}
-                        <div class="d-inline-block mt-1 mb-1">
-                            <span class="mr-3">
-                                    <span itemprop="description">{{ .Params.bio | truncate 255 }}</span>
-                                </span>
-                        </div>
-                        {{ end }}
+                                {{ if .Params.bio }}
+                                <div class="d-inline-block mt-1 mb-1">
+                                    <span class="mr-3">
+                                            <span itemprop="description">{{ .Params.bio | truncate 255 }}</span>
+                                        </span>
+                                </div>
+                                {{ end }}
 
-                        <div class="f6 text-gray mt-2">
-                            <span class="d-inline-block text-gray mr-3">
-                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
-                                {{ with .Params.followers }}
-                                <span class="text-bold text-gray-dark">
-                                    {{ lang.NumFmt 0 . }}
-                                </span>
-                                followers ·
-                                {{ end }}
-                                {{ with .Params.following }}
-                                <span class="text-bold text-gray-dark" itemprop="publications">
-                                    {{ lang.NumFmt 0 . }}
-                                </span>
-                                following
-                                {{ end }}
-                            </span>
-                            {{ with .Params.public_repos }}
-                            <span class="d-inline-block text-gray mr-3">
-                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
-                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
-                                    <span class="text-bold text-gray-dark">
-                                        {{ lang.NumFmt 0 . }}
+                                <div class="f6 text-gray mt-2">
+                                    {{ if .Params.following }}
+                                    <span class="d-inline-block text-gray mr-3">
+                                        <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                        {{ with .Params.followers }}
+                                        <span class="text-bold text-gray-dark">
+                                            {{ lang.NumFmt 0 . }}
+                                        </span>
+                                        followers ·
+                                        {{ end }}
+                                        {{ with .Params.following }}
+                                        <span class="text-bold text-gray-dark" itemprop="publications">
+                                            {{ lang.NumFmt 0 . }}
+                                        </span>
+                                        following
+                                        {{ end }}
                                     </span>
-                                </span>
-                            </span>
-                            {{ end }}
-                            {{ with .Params.stars }}
-                            <span class="d-inline-block text-gray mr-3">
-                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
-                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
-                                    <span class="text-bold text-gray-dark">
-                                        {{ lang.NumFmt 0 . }}
+                                    {{ end }}
+                                    {{ with .Params.public_repos }}
+                                    <span class="d-inline-block text-gray mr-3">
+                                        <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                            <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                            <span class="text-bold text-gray-dark">
+                                                {{ lang.NumFmt 0 . }}
+                                            </span>
+                                        </span>
                                     </span>
-                                </span>
-                            </span>
-                            {{ end }}
-                            {{ with .Params.forks }}
-                            <span class="d-inline-block text-gray mr-3">
-                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
-                                    <img class="octicon" src="/images/forks.svg" width="16" height="16" />
-                                    <span class="text-bold text-gray-dark">
-                                        {{ lang.NumFmt 0 . }}
+                                    {{ end }}
+                                    {{ with .Params.stars }}
+                                    <span class="d-inline-block text-gray mr-3">
+                                        <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                            <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                            <span class="text-bold text-gray-dark">
+                                                {{ lang.NumFmt 0 . }}
+                                            </span>
+                                        </span>
                                     </span>
-                                </span>
-                            </span>
-                            {{ end }}
-                            {{ with .Params.open_issues }}
-                            <span class="d-inline-block text-gray mr-3">
-                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
-                                    <img class="octicon" src="/images/issues.svg" width="16" height="16" />
-                                    <span class="text-bold text-gray-dark">
-                                        {{ lang.NumFmt 0 . }}
+                                    {{ end }}
+                                    {{ with .Params.forks }}
+                                    <span class="d-inline-block text-gray mr-3">
+                                        <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Forks">
+                                            <img class="octicon" src="/images/forks.svg" width="16" height="16" />
+                                            <span class="text-bold text-gray-dark">
+                                                {{ lang.NumFmt 0 . }}
+                                            </span>
+                                        </span>
                                     </span>
-                                </span>
-                            </span>
-                            {{ end }}
+                                    {{ end }}
+                                    {{ with .Params.open_issues }}
+                                    <span class="d-inline-block text-gray mr-3">
+                                        <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Issues">
+                                            <img class="octicon" src="/images/issues.svg" width="16" height="16" />
+                                            <span class="text-bold text-gray-dark">
+                                                {{ lang.NumFmt 0 . }}
+                                            </span>
+                                        </span>
+                                    </span>
+                                    {{ end }}
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </li>
@@ -105,3 +122,7 @@
         </div>
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@3/dist/algoliasearchLite.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+<script src="{{ "js/searchCoder.js" | absURL }}"></script>
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="{{ "css/search.css" | absURL }}" />

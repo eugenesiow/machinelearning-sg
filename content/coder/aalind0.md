@@ -4,11 +4,11 @@ bio: Research interests in NLP, Computer Vision and Human-Robot Interaction.
 email: null
 followers: 71
 following: 28
-forks: 30
+forks: 23
 login: aalind0
-open_issues: 7
+open_issues: 2
 public_repos: 43
-stars: 66
+stars: 38
 title: Aalind Singh
 user_type: User
 website: https://aalind0.github.io/

@@ -1,0 +1,15 @@
+---
+avatar: https://avatars0.githubusercontent.com/u/328039?v=4
+bio: null
+email: ardy.dedase@gmail.com
+followers: 26
+following: 4
+forks: 26
+login: ardydedase
+open_issues: 2
+public_repos: 48
+stars: 67
+title: Ardy Dedase
+user_type: User
+website: https://ardy.me
+---

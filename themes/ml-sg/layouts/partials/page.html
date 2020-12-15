@@ -1,0 +1,26 @@
+<div class="application-main " data-commit-hovercards-enabled="">
+    <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
+        <main>
+            <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav pt-0 pt-lg-4 ">
+                <div class="repohead-details-container clearfix container-lg p-responsive d-none d-lg-block">
+                    <div class="d-flex">
+                        <h1 class="public css-truncate float-none flex-auto width-fit pl-0">
+                            <span class="d-inline-block text-gray mr-3">
+                                <a class="avatar" href="{{ .Site.BaseURL }}">
+                                    <img src="{{ "images/logo.svg" | absURL }}"
+                                        class="octicon" style="margin-top: 0px;" width="26" height="26">
+                                </a>
+                            </span>
+                            <span class="path-divider">/</span>
+                            <strong itemprop="name" class="css-truncate-target" style="max-width: 410px"><a
+                                    href="{{ .Permalink }}">{{ .Title }}</a></strong>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container-lg clearfix new-discussion-timeline experiment-repo-nav p-responsive f3">
+                {{- .Content -}}
+            </div>
+        </main>
+    </div>
+</div>

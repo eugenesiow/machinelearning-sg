@@ -8,12 +8,27 @@
 {{ $codersCount := len $codersSection }}
 {{ $reposSection := where .Site.RegularPages "Section" "==" "repo" }}
 {{ $reposCount := len $reposSection }}
+{{ $jobsSection := where .Site.RegularPages "Section" "==" "job" }}
+{{ $jobsCount := len $jobsSection }}
 <div class="application-main " data-commit-hovercards-enabled>
     <div class="d-flex flex-wrap color-bg-canvas-inset" style="min-height: 100vh;">
         <aside class="team-left-column col-12 col-md-4 col-lg-3 bg-white border-right color-border-secondary border-bottom hide-md hide-sm" aria-label="Account">
 
             <div class="dashboard-sidebar js-sticky top-0 px-3 px-md-4 px-lg-5 overflow-auto" style="width: auto; height: 661px; position: static; top: 0px !important; left: 0px;" data-original-top="0px">
-                <div class="border-bottom color-border-secondary py-3 mt-3 mb-4">
+
+                <div class="border-bottom color-border-secondary mb-0" id="dashboard-user-teams" data-pjax-container="">
+
+                    <div class="Details js-repos-container" data-team-hovercards-enabled="">
+                        <h2 class="hide-sm hide-md f5 mb-1 border-top color-border-secondary pt-3">Search</h2>
+                        <div class="mt-2 mb-3" role="search">
+                            <input type="search" id="aa-search-input" name="search" class="form-control width-full"
+                                   placeholder="Search…" autocomplete="off">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="border-bottom color-border-secondary py-3 mt-0 mb-4">
 
                     <details class="details-reset details-overlay d-inline-block">
                         <summary class="no-underline btn-link text-gray-dark text-bold width-full" data-ga-click="Quick Navigation Menu" aria-haspopup="menu" role="button">
@@ -41,7 +56,7 @@
                                             {{ if .HasChildren }}
                                                 {{ range .Children }}
                                                 <a class="SelectMenu-item" href="{{ .URL }}" role="menuitemradio" aria-checked="false">
-                                                    <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"></svg>
+                                                    <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" height="16" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"></svg>
                                                     <span class="flex-1 css-truncate css-truncate-overflow">{{ .Title }}</span>
                                                 </a>
                                                 {{ end }}
@@ -116,6 +131,17 @@
                                         {{ lang.NumFmt 0 $reposCount }}
                                     </span>
                                     repositories
+                                </a>
+                            </div>
+                        </li>
+                        <li class="mb-2">
+                            <div class="width-full">
+                                <img class="octicon" src="/images/work.svg" width="16" height="16" />
+                                <a href="{{ absURL "/job" }}" class="link-gray-dark">
+                                <span class="text-bold">
+                                        {{ lang.NumFmt 0 $jobsCount }}
+                                    </span>
+                                jobs
                                 </a>
                             </div>
                         </li>
@@ -450,6 +476,17 @@
                     Repositories →
                 </a>
             </div>
+
+            <h2 class="f5 text-bold mt-3 mb-1">Join the community</h2>
+            <div class="py-2 my-2 border-bottom color-border-secondary">
+                <a class="link-gray no-underline f6 mr-2" href="https://www.facebook.com/MachineLearning.sg">
+                Like on Facebook →
+                </a>
+                <a class="link-gray no-underline f6 mr-2" href="https://news.machinelearning.sg">
+                Get News →
+                </a>
+            </div>
         </aside>
     </div>
 </div>
+{{ partial "script-search-all.html" . }}

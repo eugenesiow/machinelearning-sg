@@ -6,6 +6,14 @@
     {{ partial "code-navbar.html" .}}
 
     <div class="position-relative">
+        <div class="border-bottom color-border-secondary py-3">
+            <div class="d-block d-md-flex">
+                <div class="mb-3 mb-md-0 mr-md-3 flex-auto">
+                    <input type="search" id="aa-search-input" name="search" class="form-control width-full"
+                           placeholder="Search for coders…" autocomplete="off">
+                </div>
+            </div>
+        </div>
         <div class="mt-4">
             <div class="js-pinned-items-reorder-container">
                 <h2 class="f4 mb-2 text-normal">
@@ -18,49 +26,56 @@
                         <div
                             class="Box pinned-item-list-item d-flex p-3 width-full js-pinned-item-list-item public source  sortable-button-item">
                             <div class="pinned-item-list-item-content">
-                                <div class="f4 lh-condensed text-bold text-gray-dark">
-                                    <a class="link-gray-dark no-underline text-bold wb-break-all d-inline-block" href="{{ .Permalink }}">{{ .Title }}</a>
-                                </div>
-                                <div class="dashboard-break-word text-gray mt-1 mb-0 repo-description">
-                                    <p>{{ .Params.login }}</p>
-                                </div>
-                                <p class="f6 text-gray mt-2 mb-0">
-                                    <span class="d-inline-block text-gray mr-3">
-                                        <img class="octicon" src="/images/follows.svg" width="16" height="16" />
-                                        {{ with .Params.followers }}
-                                        <span class="text-bold text-gray-dark">
-                                            {{ lang.NumFmt 0 . }}
-                                        </span>
-                                        followers ·
-                                        {{ end }}
-                                        {{ with .Params.following }}
-                                        <span class="text-bold text-gray-dark" itemprop="publications">
-                                            {{ lang.NumFmt 0 . }}
-                                        </span>
-                                        following
-                                        {{ end }}
-                                    </span>
-                                    {{ with .Params.public_repos }}
-                                    <span class="d-inline-block text-gray mr-3">
-                                        <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
-                                            <img class="octicon" src="/images/repos.svg" width="16" height="16" />
-                                            <span class="text-bold text-gray-dark">
-                                                {{ lang.NumFmt 0 . }}
+                                <div class="d-flex">
+                                    <a href="{{ .Permalink }}">
+                                        <img class="avatar avatar-user mr-2" alt="{{ .Params.login }}" src="{{ .Params.avatar }}" width="64" height="64">
+                                    </a>
+                                    <div class="width-full ml-1">
+                                        <div class="f4 lh-condensed text-bold text-gray-dark">
+                                            <a class="link-gray-dark no-underline text-bold wb-break-all d-inline-block" href="{{ .Permalink }}">{{ .Title }}</a>
+                                        </div>
+                                        <div class="dashboard-break-word text-gray mt-1 mb-0 repo-description">
+                                            <p>{{ .Params.login }}</p>
+                                        </div>
+                                        <p class="f6 text-gray mt-0 mb-0">
+                                            <span class="d-inline-block text-gray mr-3">
+                                                <img class="octicon" src="/images/follows.svg" width="16" height="16" />
+                                                {{ with .Params.followers }}
+                                                <span class="text-bold text-gray-dark">
+                                                    {{ lang.NumFmt 0 . }}
+                                                </span>
+                                                followers ·
+                                                {{ end }}
+                                                {{ with .Params.following }}
+                                                <span class="text-bold text-gray-dark" itemprop="publications">
+                                                    {{ lang.NumFmt 0 . }}
+                                                </span>
+                                                following
+                                                {{ end }}
                                             </span>
-                                        </span>
-                                    </span>
-                                    {{ end }}
-                                    {{ with .Params.stars }}
-                                    <span class="d-inline-block text-gray mr-3">
-                                        <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
-                                            <img class="octicon" src="/images/stars.svg" width="16" height="16" />
-                                            <span class="text-bold text-gray-dark">
-                                                {{ lang.NumFmt 0 . }}
+                                            {{ with .Params.public_repos }}
+                                            <span class="d-inline-block text-gray mr-3">
+                                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Public Repos">
+                                                    <img class="octicon" src="/images/repos.svg" width="16" height="16" />
+                                                    <span class="text-bold text-gray-dark">
+                                                        {{ lang.NumFmt 0 . }}
+                                                    </span>
+                                                </span>
                                             </span>
-                                        </span>
-                                    </span>
-                                    {{ end }}
-                                </p>
+                                            {{ end }}
+                                            {{ with .Params.stars }}
+                                            <span class="d-inline-block text-gray mr-3">
+                                                <span class="tooltipped tooltipped-n tooltipped-no-delay" aria-label="Stars">
+                                                    <img class="octicon" src="/images/stars.svg" width="16" height="16" />
+                                                    <span class="text-bold text-gray-dark">
+                                                        {{ lang.NumFmt 0 . }}
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            {{ end }}
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -71,3 +86,7 @@
     </div>
 </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@3/dist/algoliasearchLite.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+<script src="{{ "js/searchCoder.js" | absURL }}"></script>
+<link crossorigin="anonymous" media="all" rel="stylesheet" href="{{ "css/search.css" | absURL }}" />

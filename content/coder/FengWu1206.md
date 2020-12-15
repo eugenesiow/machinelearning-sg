@@ -1,0 +1,22 @@
+---
+avatar: https://avatars2.githubusercontent.com/u/36037086?v=4
+bio: "IEEE\u534F\u4F1A\u4F1A\u5458, \u5DE5\u5B66\u535A\u58EB\uFF0C\u73B0\u4E3A\u5357\
+  \u6D0B\u7406\u5DE5\u5927\u5B66\u535A\u540E\u7814\u7A76\u5458\u3002\u7814\u7A76\u9886\
+  \u57DF\uFF1A\u63A7\u5236\u7406\u8BBA\uFF0C\u6570\u636E\u6316\u6398\uFF0C\u8F6F\u4EF6\
+  \u5DE5\u7A0B\uFF0C\u667A\u80FD\u7B97\u6CD5\uFF0C\u8BA1\u7B97\u673A\u89C6\u89C9\u3002\
+  \u5728IEEE Trans. Microelectronics Reliability\u7B49\u53D1\u8868SCI\u8BBA\u6587\
+  10\u4F59\u7BC7\uFF0C\u62C5\u4EFB\u591A\u4E2ASCI\u671F\u520A\u7684\u5BA1\u7A3F\u4EBA\
+  \uFF0C\u8BBA\u6587google\u88AB\u5F15\u6B21\u6570200+\uFF0C\u4E2D\u56FD\u53D1\u660E\
+  \u4E13\u5229\u6388\u67436\u9879."
+email: null
+followers: 4
+following: 3
+forks: 1
+login: FengWu1206
+open_issues: null
+public_repos: 13
+stars: 2
+title: FengWu1206
+user_type: User
+website: null
+---
