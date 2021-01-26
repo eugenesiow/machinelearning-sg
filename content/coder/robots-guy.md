@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/15800958?v=4
+avatar: https://avatars.githubusercontent.com/u/15800958?v=4
 bio: ' Product developer | Roboticist | Digital artist '
 email: nareshkumarindia93@gmail.com
 followers: null

@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: Merium88
-stars: 4
+stars: 8
 title: Edge-Aware-PointNet
-updated: '2020-10-29T01:10:18Z'
+updated: '2021-01-22T16:29:14Z'
 ---

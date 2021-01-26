@@ -1,7 +1,7 @@
 ---
 description: Extracting the multiscale backbone of complex weighted networks (Serrano
   et al. 2009)
-forks: 20
+forks: 19
 html_url: https://github.com/aekpalakorn/python-backbone-network
 language: Python
 license: null

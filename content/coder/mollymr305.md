@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/19423962?v=4
+avatar: https://avatars.githubusercontent.com/u/19423962?v=4
 bio: Sleep when you're dead.
 email: null
 followers: 4

@@ -1,10 +1,10 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/39975048?v=4
+avatar: https://avatars.githubusercontent.com/u/39975048?v=4
 bio: Research group @ NUS DSAP
 email: null
 followers: null
 following: null
-forks: 2
+forks: 3
 login: thiery-lab
 open_issues: null
 public_repos: 5

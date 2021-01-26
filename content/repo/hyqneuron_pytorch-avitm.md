@@ -1,12 +1,12 @@
 ---
 description: PyTorch implementation of AVITM
-forks: 38
+forks: 39
 html_url: https://github.com/hyqneuron/pytorch-avitm
 language: Python
 license: null
 open_issues: 5
 owner: hyqneuron
-stars: 139
+stars: 142
 title: pytorch-avitm
-updated: '2020-11-30T17:56:00Z'
+updated: '2021-01-21T08:12:18Z'
 ---

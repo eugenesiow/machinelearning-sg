@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: DanielBok
-stars: 7
+stars: 8
 title: muarch
-updated: '2020-05-20T06:37:56Z'
+updated: '2021-01-04T07:55:34Z'
 ---

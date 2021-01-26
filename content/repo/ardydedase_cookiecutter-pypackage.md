@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: 1
 owner: ardydedase
-stars: 44
+stars: 45
 title: cookiecutter-pypackage
-updated: '2020-11-30T12:00:10Z'
+updated: '2020-12-16T12:23:31Z'
 ---

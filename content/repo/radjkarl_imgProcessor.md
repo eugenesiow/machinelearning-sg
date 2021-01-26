@@ -7,7 +7,7 @@ language: Python
 license: GNU General Public License v3.0
 open_issues: 3
 owner: radjkarl
-stars: 14
+stars: 15
 title: imgProcessor
-updated: '2020-12-02T12:34:21Z'
+updated: '2021-01-11T08:23:38Z'
 ---

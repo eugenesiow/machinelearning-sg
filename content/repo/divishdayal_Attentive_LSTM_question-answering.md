@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 1
 owner: divishdayal
-stars: 12
+stars: 14
 title: Attentive_LSTM_question-answering
-updated: '2020-10-10T23:29:36Z'
+updated: '2021-01-17T18:05:23Z'
 ---

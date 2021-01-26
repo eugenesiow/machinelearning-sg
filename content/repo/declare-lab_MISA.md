@@ -1,13 +1,13 @@
 ---
 description: 'MISA: Modality-Invariant and -Specific Representations for Multimodal
   Sentiment Analysis'
-forks: null
+forks: 2
 html_url: https://github.com/declare-lab/MISA
 language: Python
 license: MIT License
 open_issues: null
 owner: declare-lab
-stars: 14
+stars: 17
 title: MISA
-updated: '2020-11-11T01:00:50Z'
+updated: '2021-01-01T11:12:07Z'
 ---

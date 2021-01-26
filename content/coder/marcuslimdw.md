@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/42759889?v=4
+avatar: https://avatars.githubusercontent.com/u/42759889?v=4
 bio: I like coding, solving problems and building things.
 email: null
 followers: 6

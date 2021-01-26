@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: shivam5992
-stars: 3
+stars: 4
 title: DeepFraudDetection
-updated: '2019-05-14T19:37:19Z'
+updated: '2020-12-22T20:50:06Z'
 ---

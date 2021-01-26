@@ -7,7 +7,7 @@ language: Python
 license: Other
 open_issues: null
 owner: WING-NUS
-stars: 7
+stars: 8
 title: ResearchTrends
-updated: '2020-01-07T14:49:24Z'
+updated: '2021-01-14T07:39:27Z'
 ---

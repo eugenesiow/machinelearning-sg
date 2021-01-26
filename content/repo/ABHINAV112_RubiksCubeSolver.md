@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: ABHINAV112
-stars: 2
+stars: 3
 title: RubiksCubeSolver
-updated: '2020-05-26T16:58:47Z'
+updated: '2021-01-10T16:28:03Z'
 ---

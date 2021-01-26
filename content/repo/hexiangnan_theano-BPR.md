@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 3
 owner: hexiangnan
-stars: 34
+stars: 35
 title: theano-BPR
-updated: '2020-10-30T17:38:26Z'
+updated: '2021-01-02T01:22:19Z'
 ---

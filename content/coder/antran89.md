@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/2399449?v=4
+avatar: https://avatars.githubusercontent.com/u/2399449?v=4
 bio: A computer vision, machine learning researcher.
 email: null
 followers: 56

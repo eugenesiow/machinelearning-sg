@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/30972043?v=4
+avatar: https://avatars.githubusercontent.com/u/30972043?v=4
 bio: Web developer
 email: null
 followers: 2

@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: 2
 owner: MLDroid
-stars: 23
+stars: 24
 title: subgraph2vec_tf
-updated: '2020-10-08T14:21:19Z'
+updated: '2021-01-24T13:34:02Z'
 ---

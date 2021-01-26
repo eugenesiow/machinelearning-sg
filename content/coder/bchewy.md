@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/16286067?v=4
+avatar: https://avatars.githubusercontent.com/u/16286067?v=4
 bio: I like code, servers, and devops.
 email: brian@bchewy.com
 followers: 28
-following: 67
+following: 68
 forks: 11
 login: bchewy
 open_issues: 2

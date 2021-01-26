@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: FlankMe
-stars: 5
+stars: 4
 title: general-gym-player
-updated: '2020-06-27T12:35:54Z'
+updated: '2021-01-15T15:51:39Z'
 ---

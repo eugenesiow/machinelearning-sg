@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/10956124?v=4
+avatar: https://avatars.githubusercontent.com/u/10956124?v=4
 bio: machine learning enthusiast / data science practitioner / learning data science
   from everywhere
 email: chaoran.liu@icloud.com

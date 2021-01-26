@@ -1,6 +1,6 @@
 ---
 description: Eyespy - Capture screenshot of subdomains for Bug Bounty and PT use.
-forks: null
+forks: 1
 html_url: https://github.com/dtyj/eyespy_subdomain
 language: Python
 license: MIT License

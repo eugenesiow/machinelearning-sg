@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/12974685?v=4
+avatar: https://avatars.githubusercontent.com/u/12974685?v=4
 bio: Hacking to the gate
 email: kemingy94@gmail.com
-followers: 21
-following: 79
+followers: 22
+following: 80
 forks: null
 login: kemingy
 open_issues: 2

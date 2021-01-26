@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/15232303?v=4
+avatar: https://avatars.githubusercontent.com/u/15232303?v=4
 bio: null
 email: weishenbs@gmail.com
 followers: 1

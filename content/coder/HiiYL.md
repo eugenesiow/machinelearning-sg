@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/7908951?v=4
+avatar: https://avatars.githubusercontent.com/u/7908951?v=4
 bio: null
 email: yonglian146@gmail.com
 followers: 39

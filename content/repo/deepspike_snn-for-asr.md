@@ -6,7 +6,7 @@ language: Python
 license: GNU General Public License v3.0
 open_issues: 1
 owner: deepspike
-stars: 4
+stars: 6
 title: snn-for-asr
-updated: '2020-12-03T09:55:05Z'
+updated: '2021-01-05T09:27:01Z'
 ---

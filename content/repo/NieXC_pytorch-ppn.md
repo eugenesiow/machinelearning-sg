@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: 8
 owner: NieXC
-stars: 84
+stars: 87
 title: pytorch-ppn
-updated: '2020-11-15T06:34:16Z'
+updated: '2021-01-14T15:40:43Z'
 ---

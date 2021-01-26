@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/20612205?v=4
+avatar: https://avatars.githubusercontent.com/u/20612205?v=4
 bio: 'Learner '
 email: wangpjdevin@gmail.com
 followers: null

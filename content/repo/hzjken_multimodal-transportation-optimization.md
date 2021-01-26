@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: 1
 owner: hzjken
-stars: 51
+stars: 53
 title: multimodal-transportation-optimization
-updated: '2020-12-10T22:44:14Z'
+updated: '2020-12-28T18:21:03Z'
 ---

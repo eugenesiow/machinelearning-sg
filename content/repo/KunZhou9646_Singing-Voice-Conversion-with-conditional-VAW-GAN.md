@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: 2
 owner: KunZhou9646
-stars: 30
+stars: 33
 title: Singing-Voice-Conversion-with-conditional-VAW-GAN
-updated: '2020-12-08T03:31:32Z'
+updated: '2021-01-25T09:34:42Z'
 ---

@@ -1,15 +1,15 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/15151719?v=4
+avatar: https://avatars.githubusercontent.com/u/15151719?v=4
 bio: Presidential Postdoctoral Fellow with the Nanyang Technological University. Research
   interests are computer vision, image processing, deep learning.
 email: tsingqguo@tju.edu.cn
-followers: 13
+followers: 16
 following: null
-forks: 4
+forks: 18
 login: tsingqguo
-open_issues: null
-public_repos: 15
-stars: 10
+open_issues: 1
+public_repos: 17
+stars: 49
 title: Qing Guo
 user_type: User
 website: https://tsingqguo.github.io

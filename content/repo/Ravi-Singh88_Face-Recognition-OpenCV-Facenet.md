@@ -1,12 +1,12 @@
 ---
 description: Facial Recognition using OpenCV implementation of Facenet and SVM
-forks: 10
+forks: 12
 html_url: https://github.com/Ravi-Singh88/Face-Recognition-OpenCV-Facenet
 language: Python
 license: null
 open_issues: 1
 owner: Ravi-Singh88
-stars: 21
+stars: 20
 title: Face-Recognition-OpenCV-Facenet
-updated: '2020-11-25T10:16:51Z'
+updated: '2020-12-23T14:37:39Z'
 ---

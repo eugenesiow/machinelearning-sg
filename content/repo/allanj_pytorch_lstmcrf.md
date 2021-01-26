@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 1
 owner: allanj
-stars: 131
+stars: 142
 title: pytorch_lstmcrf
-updated: '2020-12-11T20:40:32Z'
+updated: '2021-01-25T03:16:08Z'
 ---

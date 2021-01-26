@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/36907818?v=4
+avatar: https://avatars.githubusercontent.com/u/36907818?v=4
 bio: A full time earth dweller. Part time coder, photo+video-grapher, physicist+statistician.
   @NTUsg 2018 Alumni.
 email: null

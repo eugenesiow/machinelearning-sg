@@ -7,7 +7,7 @@ language: Python
 license: GNU General Public License v3.0
 open_issues: 9
 owner: nusnlp
-stars: 158
+stars: 161
 title: nea
-updated: '2020-12-14T23:26:25Z'
+updated: '2021-01-20T21:25:50Z'
 ---

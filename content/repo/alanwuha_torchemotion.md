@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: alanwuha
-stars: 3
+stars: 6
 title: torchemotion
-updated: '2020-11-06T02:58:59Z'
+updated: '2021-01-21T07:49:17Z'
 ---

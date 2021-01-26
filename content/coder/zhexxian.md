@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/13634934?v=4
+avatar: https://avatars.githubusercontent.com/u/13634934?v=4
 bio: null
 email: null
-followers: 17
+followers: 16
 following: 6
 forks: 7
 login: zhexxian

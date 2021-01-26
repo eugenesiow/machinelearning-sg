@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/10401996?v=4
+avatar: https://avatars.githubusercontent.com/u/10401996?v=4
 bio: '@sibosutd'
 email: null
 followers: 14

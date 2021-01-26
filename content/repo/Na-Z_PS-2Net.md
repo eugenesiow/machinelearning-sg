@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: Na-Z
-stars: 5
+stars: 6
 title: PS-2Net
-updated: '2020-09-27T07:37:09Z'
+updated: '2020-12-20T23:33:03Z'
 ---

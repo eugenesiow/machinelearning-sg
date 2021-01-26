@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/10800566?v=4
+avatar: https://avatars.githubusercontent.com/u/10800566?v=4
 bio: Data Scientist. Working on deeplearning stuff
 email: uditsrn28@gmail.com
 followers: 5

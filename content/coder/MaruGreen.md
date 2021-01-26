@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/37184942?v=4
+avatar: https://avatars.githubusercontent.com/u/37184942?v=4
 bio: 'A PhD student working on Robot Reinforcement Learning in NUS since 2016. '
 email: null
 followers: 3

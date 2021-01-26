@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: cenit-io
-stars: 16
+stars: 17
 title: odoo-cenit
-updated: '2020-11-17T08:51:51Z'
+updated: '2021-01-16T02:41:39Z'
 ---

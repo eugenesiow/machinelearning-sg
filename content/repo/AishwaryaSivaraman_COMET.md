@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: AishwaryaSivaraman
-stars: 5
+stars: 6
 title: COMET
-updated: '2020-11-15T06:42:57Z'
+updated: '2021-01-16T11:36:40Z'
 ---

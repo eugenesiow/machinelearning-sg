@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/25785480?v=4
+avatar: https://avatars.githubusercontent.com/u/25785480?v=4
 bio: Data Scientist, specializing in machine learning and data mining
 email: zhual.sg@gmail.com
 followers: null

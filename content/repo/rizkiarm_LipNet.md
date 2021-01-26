@@ -1,12 +1,12 @@
 ---
 description: 'Keras implementation of ''LipNet: End-to-End Sentence-level Lipreading'''
-forks: 190
+forks: 193
 html_url: https://github.com/rizkiarm/LipNet
 language: Python
 license: MIT License
-open_issues: 57
+open_issues: 59
 owner: rizkiarm
-stars: 459
+stars: 464
 title: LipNet
-updated: '2020-12-08T16:57:25Z'
+updated: '2021-01-25T08:13:59Z'
 ---

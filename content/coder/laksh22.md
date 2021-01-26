@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/9462834?v=4
+avatar: https://avatars.githubusercontent.com/u/9462834?v=4
 bio: SWE @whizzscooters
 email: lakshyajeet22@gmail.com
-followers: 34
-following: 34
+followers: 35
+following: 35
 forks: null
 login: laksh22
 open_issues: null

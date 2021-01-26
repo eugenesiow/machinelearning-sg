@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/14261518?v=4
+avatar: https://avatars.githubusercontent.com/u/14261518?v=4
 bio: NLP Engineer
 email: abhishek.pradhan2008@gmail.com
 followers: 5

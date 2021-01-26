@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: 1
 owner: SuyashLakhotia
-stars: 24
+stars: 25
 title: TextCategorization
-updated: '2020-07-28T09:36:15Z'
+updated: '2020-12-21T01:50:42Z'
 ---

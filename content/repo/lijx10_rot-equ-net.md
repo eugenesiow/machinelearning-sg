@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: 1
 owner: lijx10
-stars: 21
+stars: 23
 title: rot-equ-net
-updated: '2020-09-03T17:51:17Z'
+updated: '2020-12-27T10:11:08Z'
 ---

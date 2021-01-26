@@ -1,6 +1,6 @@
 ---
 description: benchmark data + benchmark script to benchmark well known databases
-forks: 9
+forks: 8
 html_url: https://github.com/nghenglim/database_benchmark
 language: Python
 license: null

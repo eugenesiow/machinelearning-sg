@@ -4,7 +4,7 @@ forks: 10
 html_url: https://github.com/fterh/sneakpeek
 language: Python
 license: MIT License
-open_issues: 5
+open_issues: 6
 owner: fterh
 stars: 43
 title: sneakpeek

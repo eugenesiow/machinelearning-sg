@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/29734120?v=4
+avatar: https://avatars.githubusercontent.com/u/29734120?v=4
 bio: Primas
 email: hi@primas.io
 followers: null

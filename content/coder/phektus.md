@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/310303?v=4
+avatar: https://avatars.githubusercontent.com/u/310303?v=4
 bio: null
 email: phektus@gmail.com
 followers: 36

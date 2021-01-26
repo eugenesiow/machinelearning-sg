@@ -1,7 +1,7 @@
 ---
 description: A classifier for cat and dog images (Response to Siraj's challenge of
   the week)
-forks: 31
+forks: 30
 html_url: https://github.com/jiexunsee/Simple-Inception-Transfer-Learning
 language: Python
 license: null

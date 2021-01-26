@@ -1,10 +1,10 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/29032402?v=4
+avatar: https://avatars.githubusercontent.com/u/29032402?v=4
 bio: PhD Student at National University of Singapore
 email: a0072211@u.nus.edu
 followers: 2
 following: 2
-forks: null
+forks: 1
 login: SJ-Ang
 open_issues: null
 public_repos: 2

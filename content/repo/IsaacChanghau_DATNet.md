@@ -8,5 +8,5 @@ open_issues: null
 owner: IsaacChanghau
 stars: 3
 title: DATNet
-updated: '2020-11-26T03:43:51Z'
+updated: '2021-01-24T02:43:55Z'
 ---

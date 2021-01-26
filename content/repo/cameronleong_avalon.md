@@ -1,6 +1,6 @@
 ---
 description: Discord bot built using discord.py library.
-forks: 11
+forks: 12
 html_url: https://github.com/cameronleong/avalon
 language: Python
 license: null

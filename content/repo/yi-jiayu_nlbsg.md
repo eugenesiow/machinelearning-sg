@@ -4,7 +4,7 @@ forks: 1
 html_url: https://github.com/yi-jiayu/nlbsg
 language: Python
 license: MIT License
-open_issues: 2
+open_issues: 3
 owner: yi-jiayu
 stars: 4
 title: nlbsg

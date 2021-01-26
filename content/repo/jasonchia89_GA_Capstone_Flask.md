@@ -1,7 +1,7 @@
 ---
 description: 'Flask App: Local Coffee Outlet Recommender based on scraped Yelp data
   (GA Capstone Project)'
-forks: null
+forks: 1
 html_url: https://github.com/jasonchia89/GA_Capstone_Flask
 language: Python
 license: null

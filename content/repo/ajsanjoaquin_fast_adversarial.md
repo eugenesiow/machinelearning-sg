@@ -9,5 +9,5 @@ open_issues: null
 owner: ajsanjoaquin
 stars: 2
 title: fast_adversarial
-updated: '2020-08-07T09:38:24Z'
+updated: '2020-12-24T02:03:48Z'
 ---

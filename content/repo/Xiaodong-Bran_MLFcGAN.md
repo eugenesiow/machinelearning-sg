@@ -4,9 +4,9 @@ forks: 3
 html_url: https://github.com/Xiaodong-Bran/MLFcGAN
 language: Python
 license: null
-open_issues: null
+open_issues: 1
 owner: Xiaodong-Bran
-stars: 7
+stars: 8
 title: MLFcGAN
-updated: '2020-12-08T08:45:05Z'
+updated: '2021-01-03T10:51:44Z'
 ---

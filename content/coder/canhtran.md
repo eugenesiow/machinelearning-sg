@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/3214379?v=4
+avatar: https://avatars.githubusercontent.com/u/3214379?v=4
 bio: Data Engineer
 email: trandcanh@gmail.com
-followers: 55
+followers: 59
 following: 17
 forks: null
 login: canhtran

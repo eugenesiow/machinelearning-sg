@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: jamesmawm
-stars: 33
+stars: 34
 title: Options-Modelling
-updated: '2020-11-10T15:44:25Z'
+updated: '2020-12-20T00:27:23Z'
 ---

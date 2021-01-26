@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 2
 owner: Dhivin
-stars: 9
+stars: 10
 title: 5-DOF-ARM-IN-ROS
-updated: '2020-12-06T18:29:03Z'
+updated: '2020-12-29T13:15:26Z'
 ---

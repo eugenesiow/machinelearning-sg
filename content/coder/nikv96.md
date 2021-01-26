@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/10889883?v=4
+avatar: https://avatars.githubusercontent.com/u/10889883?v=4
 bio: ROS developer, working on mobile robots. Areas of interest include navigation
   and vision.
 email: null
-followers: 29
+followers: 30
 following: 23
 forks: 15
 login: nikv96

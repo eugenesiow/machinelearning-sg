@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: heyhujiao
-stars: 5
+stars: 7
 title: speechlab-aims-kaldi-aks
-updated: '2020-06-15T12:21:27Z'
+updated: '2021-01-02T02:56:40Z'
 ---

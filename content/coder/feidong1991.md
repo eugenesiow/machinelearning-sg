@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/7910510?v=4
+avatar: https://avatars.githubusercontent.com/u/7910510?v=4
 bio: eBay, China
 email: null
 followers: 8
@@ -8,7 +8,7 @@ forks: 20
 login: feidong1991
 open_issues: 2
 public_repos: 21
-stars: 29
+stars: 31
 title: feidong1991
 user_type: User
 website: null

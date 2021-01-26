@@ -8,5 +8,5 @@ open_issues: null
 owner: tanchangsheng
 stars: 3
 title: covid19-search-and-qa
-updated: '2020-09-16T14:05:41Z'
+updated: '2021-01-25T16:07:23Z'
 ---

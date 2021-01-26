@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/16144833?v=4
+avatar: https://avatars.githubusercontent.com/u/16144833?v=4
 bio: What does not kill me makes me stronger.
 email: liangrenhong2017@gmail.com
 followers: 22

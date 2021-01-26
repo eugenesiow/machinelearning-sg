@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/1888062?v=4
+avatar: https://avatars.githubusercontent.com/u/1888062?v=4
 bio: Technologist, DevSecOps. Improving security and efficiency of software deployment
   pipelines and developer workflows.
 email: null

@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/22096708?v=4
+avatar: https://avatars.githubusercontent.com/u/22096708?v=4
 bio: I'm an economist interested in machine learning and data visualisation.
 email: null
 followers: 1

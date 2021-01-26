@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: 2
 owner: WING-NUS
-stars: 5
+stars: 7
 title: slsql
-updated: '2020-12-13T16:18:32Z'
+updated: '2021-01-11T09:23:40Z'
 ---

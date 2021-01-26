@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/6969514?v=4
+avatar: https://avatars.githubusercontent.com/u/6969514?v=4
 bio: PhD. student at The National University of Singapore NUS
 email: arch.mahmoud.ouf111@gmail.com
-followers: 84
-following: 68
+followers: 86
+following: 69
 forks: 2
 login: MahmoudAbdelRahman
 open_issues: null

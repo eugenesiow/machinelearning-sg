@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: mdda
-stars: 4
+stars: 5
 title: worldtree_corpus
-updated: '2020-07-03T02:28:08Z'
+updated: '2020-12-29T16:56:25Z'
 ---

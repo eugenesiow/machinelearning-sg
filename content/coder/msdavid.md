@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/4695093?v=4
+avatar: https://avatars.githubusercontent.com/u/4695093?v=4
 bio: null
 email: mauro@sauco.net
 followers: 2

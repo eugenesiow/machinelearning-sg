@@ -1,12 +1,12 @@
 ---
 description: Automated Tactics Techniques & Procedures
-forks: 58
+forks: 59
 html_url: https://github.com/jymcheong/AutoTTP
 language: Python
 license: null
 open_issues: null
 owner: jymcheong
-stars: 211
+stars: 213
 title: AutoTTP
-updated: '2020-11-27T15:22:07Z'
+updated: '2021-01-23T19:52:14Z'
 ---

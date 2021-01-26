@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/20267562?v=4
+avatar: https://avatars.githubusercontent.com/u/20267562?v=4
 bio: Software Engineer. NLP. Knowledge Graphs.
 email: null
 followers: 1

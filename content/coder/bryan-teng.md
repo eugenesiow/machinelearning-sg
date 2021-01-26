@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/58055157?v=4
+avatar: https://avatars.githubusercontent.com/u/58055157?v=4
 bio: A second-year University of Cambridge Engineering undergraduate student.
 email: teng.weiyan.bryan@gmail.com
 followers: 2

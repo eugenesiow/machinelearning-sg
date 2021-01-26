@@ -9,5 +9,5 @@ open_issues: null
 owner: zen-juen
 stars: 8
 title: AutoRemind
-updated: '2020-11-18T12:15:16Z'
+updated: '2021-01-22T12:43:51Z'
 ---

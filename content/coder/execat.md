@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/432489?v=4
+avatar: https://avatars.githubusercontent.com/u/432489?v=4
 bio: null
 email: anujmorex@gmail.com
 followers: 37

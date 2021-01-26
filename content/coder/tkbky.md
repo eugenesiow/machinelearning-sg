@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/12711548?v=4
+avatar: https://avatars.githubusercontent.com/u/12711548?v=4
 bio: null
 email: null
 followers: 11
-following: 22
+following: 23
 forks: null
 login: tkbky
 open_issues: null

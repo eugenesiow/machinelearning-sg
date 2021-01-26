@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/3971838?v=4
+avatar: https://avatars.githubusercontent.com/u/3971838?v=4
 bio: Bioinformatician, Data Enthusiast, Certified AWS Solution Architect, Top Ranking
   R Package Developer
 email: haoeric@hotmail.com

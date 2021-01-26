@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: wudaown
-stars: 79
+stars: 78
 title: yandeDL
-updated: '2020-10-31T13:33:21Z'
+updated: '2021-01-25T16:00:33Z'
 ---

@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/15154469?v=4
+avatar: https://avatars.githubusercontent.com/u/15154469?v=4
 bio: null
 email: chitralekha.gupta18@gmail.com
-followers: 14
+followers: 16
 following: 3
 forks: null
 login: chitralekha18

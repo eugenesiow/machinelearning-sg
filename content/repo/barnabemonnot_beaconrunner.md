@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: barnabemonnot
-stars: 7
+stars: 8
 title: beaconrunner
-updated: '2020-11-05T08:58:08Z'
+updated: '2021-01-18T03:05:47Z'
 ---

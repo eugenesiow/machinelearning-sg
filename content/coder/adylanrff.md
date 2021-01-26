@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/19769774?v=4
+avatar: https://avatars.githubusercontent.com/u/19769774?v=4
 bio: I do keyboard bashing
 email: null
 followers: 50
-following: 41
+following: 46
 forks: null
 login: adylanrff
 open_issues: null

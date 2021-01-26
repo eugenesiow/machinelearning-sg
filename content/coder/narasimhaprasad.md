@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/1472063?v=4
+avatar: https://avatars.githubusercontent.com/u/1472063?v=4
 bio: null
 email: narasimha.89@gmail.com
-followers: 8
+followers: 9
 following: null
 forks: 14
 login: narasimhaprasad

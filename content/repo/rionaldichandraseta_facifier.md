@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: rionaldichandraseta
-stars: 49
+stars: 50
 title: facifier
-updated: '2020-11-14T13:07:28Z'
+updated: '2021-01-02T16:27:29Z'
 ---

@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/33056757?v=4
+avatar: https://avatars.githubusercontent.com/u/33056757?v=4
 bio: Powering the next-gen bot economy on blockchain
 email: info@seedtoken.io
 followers: null

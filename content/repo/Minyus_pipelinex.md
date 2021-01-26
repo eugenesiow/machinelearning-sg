@@ -5,9 +5,9 @@ forks: 8
 html_url: https://github.com/Minyus/pipelinex
 language: Python
 license: Other
-open_issues: 1
+open_issues: null
 owner: Minyus
-stars: 104
+stars: 114
 title: pipelinex
-updated: '2020-12-13T06:30:05Z'
+updated: '2021-01-24T23:33:37Z'
 ---

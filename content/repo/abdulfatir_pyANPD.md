@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 9
 owner: abdulfatir
-stars: 59
+stars: 58
 title: pyANPD
-updated: '2020-09-25T13:50:20Z'
+updated: '2020-12-22T08:54:30Z'
 ---

@@ -1,12 +1,12 @@
 ---
 description: Audio processing by using pytorch 1D convolution network
-forks: 35
+forks: 37
 html_url: https://github.com/KinWaiCheuk/nnAudio
 language: Python
 license: MIT License
-open_issues: 6
+open_issues: 7
 owner: KinWaiCheuk
-stars: 341
+stars: 382
 title: nnAudio
-updated: '2020-12-14T05:42:10Z'
+updated: '2021-01-23T00:53:07Z'
 ---

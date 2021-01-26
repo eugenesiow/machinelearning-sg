@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/20591922?v=4
+avatar: https://avatars.githubusercontent.com/u/20591922?v=4
 bio: Genie ICO's official Github
 email: null
 followers: 3

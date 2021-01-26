@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/1917982?v=4
+avatar: https://avatars.githubusercontent.com/u/1917982?v=4
 bio: Python/Django Backend Developer
 email: gdazeysinc@gmail.com
-followers: 5
+followers: 7
 following: 3
 forks: null
 login: cthtuf

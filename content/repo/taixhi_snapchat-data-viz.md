@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: taixhi
-stars: 4
+stars: 5
 title: snapchat-data-viz
-updated: '2019-07-16T08:05:27Z'
+updated: '2021-01-14T22:40:55Z'
 ---

@@ -1,6 +1,6 @@
 ---
 description: Code that goes along with https://humansofdata.atlan.com/2018/06/apache-airflow-disease-outbreaks-india/
-forks: 7
+forks: 8
 html_url: https://github.com/atlanhq/airflow_blog
 language: Python
 license: null

@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/33287281?v=4
+avatar: https://avatars.githubusercontent.com/u/33287281?v=4
 bio: Construction Industry Smart Contract DApp. Donate to 0xFE072BfD4821A541209c3559B86f63bcb70fFbD4
   (https://goo.gl/8zERWU)
 email: support@block5d.com

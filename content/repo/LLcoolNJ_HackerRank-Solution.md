@@ -1,6 +1,6 @@
 ---
 description: Solutions of problems from HackerRank
-forks: 14
+forks: 13
 html_url: https://github.com/LLcoolNJ/HackerRank-Solution
 language: Python
 license: null

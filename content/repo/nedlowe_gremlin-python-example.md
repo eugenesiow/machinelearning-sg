@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: 4
 owner: nedlowe
-stars: 29
+stars: 28
 title: gremlin-python-example
-updated: '2020-11-15T10:20:25Z'
+updated: '2020-12-19T17:08:50Z'
 ---

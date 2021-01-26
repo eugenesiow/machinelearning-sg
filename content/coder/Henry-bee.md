@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/19780110?v=4
+avatar: https://avatars.githubusercontent.com/u/19780110?v=4
 bio: Cares about clean code and scalability. Growing really fond of Rust.
 email: henrybyhee@gmail.com
 followers: 12

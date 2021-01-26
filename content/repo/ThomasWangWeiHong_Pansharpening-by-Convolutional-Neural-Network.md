@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: ThomasWangWeiHong
-stars: 10
+stars: 11
 title: Pansharpening-by-Convolutional-Neural-Network
-updated: '2020-11-18T16:11:54Z'
+updated: '2020-12-20T22:18:19Z'
 ---

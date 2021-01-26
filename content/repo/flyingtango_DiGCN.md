@@ -4,9 +4,9 @@ forks: 1
 html_url: https://github.com/flyingtango/DiGCN
 language: Python
 license: MIT License
-open_issues: 1
+open_issues: null
 owner: flyingtango
-stars: 9
+stars: 14
 title: DiGCN
-updated: '2020-12-14T15:37:08Z'
+updated: '2021-01-22T01:51:47Z'
 ---

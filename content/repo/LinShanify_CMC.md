@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 2
 owner: LinShanify
-stars: 11
+stars: 12
 title: CMC
-updated: '2020-09-01T06:54:21Z'
+updated: '2020-12-17T19:49:39Z'
 ---

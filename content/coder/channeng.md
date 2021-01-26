@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/10406498?v=4
+avatar: https://avatars.githubusercontent.com/u/10406498?v=4
 bio: null
 email: channeng@hotmail.com
 followers: 10

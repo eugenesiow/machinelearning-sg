@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/1113286?v=4
+avatar: https://avatars.githubusercontent.com/u/1113286?v=4
 bio: "Researcher on natural language understanding and machine translation.   I work\
   \ with wordnets, HPSG and Sherlock Holmes.\r\n\r\nLAB: @bond-lab"
 email: bond@ieee.org
-followers: 24
+followers: 25
 following: null
 forks: 1
 login: fcbond

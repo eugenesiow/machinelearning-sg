@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: plkmo
-stars: 84
+stars: 87
 title: Bible_Text_GCN
-updated: '2020-12-13T09:30:23Z'
+updated: '2021-01-17T04:53:04Z'
 ---

@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/4110567?v=4
+avatar: https://avatars.githubusercontent.com/u/4110567?v=4
 bio: A stranger in a strange land.
 email: null
-followers: 37
+followers: 40
 following: null
 forks: 3
 login: thdoan

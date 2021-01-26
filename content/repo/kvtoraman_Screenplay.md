@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: kvtoraman
-stars: 8
+stars: 9
 title: Screenplay
-updated: '2020-10-12T13:00:11Z'
+updated: '2021-01-16T09:39:43Z'
 ---

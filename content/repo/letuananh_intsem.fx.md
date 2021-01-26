@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: 3
 owner: letuananh
-stars: 5
+stars: 6
 title: intsem.fx
-updated: '2020-01-28T17:34:44Z'
+updated: '2021-01-01T09:27:42Z'
 ---

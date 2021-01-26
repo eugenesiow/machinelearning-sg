@@ -4,7 +4,7 @@ forks: 5
 html_url: https://github.com/gangeshwark/hierarchical_document_modeling
 language: Python
 license: null
-open_issues: 1
+open_issues: null
 owner: gangeshwark
 stars: 3
 title: hierarchical_document_modeling

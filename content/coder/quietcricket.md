@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/284142?v=4
+avatar: https://avatars.githubusercontent.com/u/284142?v=4
 bio: Loves C/C++ but seldom works on it. Not a fan of JavaScript but codes it everyday.
 email: shang@wewearglasses.com
 followers: 10

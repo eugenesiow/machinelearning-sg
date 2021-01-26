@@ -47,4 +47,4 @@ donations, which will help to cover additional hosting costs of services like cr
 
 ## Community on Facebook
 
-{{< facebook 400 300 >}}
+{{< facebook >}}

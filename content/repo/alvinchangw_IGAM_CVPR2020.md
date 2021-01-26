@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: 1
 owner: alvinchangw
-stars: 11
+stars: 13
 title: IGAM_CVPR2020
-updated: '2020-10-21T11:33:38Z'
+updated: '2021-01-22T01:15:15Z'
 ---

@@ -6,7 +6,7 @@ language: Python
 license: BSD 3-Clause Clear License
 open_issues: 9
 owner: ACCLAB
-stars: 213
+stars: 216
 title: DABEST-python
-updated: '2020-12-13T18:33:19Z'
+updated: '2021-01-21T07:04:21Z'
 ---

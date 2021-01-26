@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/37483719?v=4
+avatar: https://avatars.githubusercontent.com/u/37483719?v=4
 bio: null
 email: contact@originsport.io
 followers: null

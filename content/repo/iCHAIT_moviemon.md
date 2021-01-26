@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: 7
 owner: iCHAIT
-stars: 163
+stars: 164
 title: moviemon
-updated: '2020-12-01T10:37:50Z'
+updated: '2021-01-02T11:34:12Z'
 ---

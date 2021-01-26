@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: SudoFoundry
-stars: 3
+stars: 4
 title: Granite
-updated: '2020-07-29T03:36:56Z'
+updated: '2020-12-20T09:48:56Z'
 ---

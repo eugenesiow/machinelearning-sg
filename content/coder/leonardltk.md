@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/22384973?v=4
+avatar: https://avatars.githubusercontent.com/u/22384973?v=4
 bio: Audio Processing & Deep Learning Developer
 email: a0098795@u.nus.edu
 followers: null

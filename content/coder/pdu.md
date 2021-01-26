@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/278147?v=4
+avatar: https://avatars.githubusercontent.com/u/278147?v=4
 bio: null
 email: peng.du.hust@gmail.com
 followers: 26

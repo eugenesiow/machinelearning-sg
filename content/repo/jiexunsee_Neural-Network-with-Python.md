@@ -1,6 +1,6 @@
 ---
 description: A neural network with 3 layers made with just numpy as dependency
-forks: 26
+forks: 27
 html_url: https://github.com/jiexunsee/Neural-Network-with-Python
 language: Python
 license: null

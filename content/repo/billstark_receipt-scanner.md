@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 3
 owner: billstark
-stars: 48
+stars: 51
 title: receipt-scanner
-updated: '2020-11-25T18:49:00Z'
+updated: '2021-01-19T10:09:57Z'
 ---

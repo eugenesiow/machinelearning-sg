@@ -4,9 +4,9 @@ forks: 23
 html_url: https://github.com/Minyus/causallift
 language: Python
 license: Other
-open_issues: 1
+open_issues: 2
 owner: Minyus
-stars: 145
+stars: 158
 title: causallift
-updated: '2020-12-14T01:47:01Z'
+updated: '2021-01-25T06:30:21Z'
 ---

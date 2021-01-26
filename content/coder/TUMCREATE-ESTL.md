@@ -1,12 +1,12 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/40760591?v=4
+avatar: https://avatars.githubusercontent.com/u/40760591?v=4
 bio: null
 email: null
 followers: null
 following: null
-forks: 1
+forks: 2
 login: TUMCREATE-ESTL
-open_issues: 4
+open_issues: 7
 public_repos: 4
 stars: 7
 title: TUMCREATE Electrification Suite & Test Lab

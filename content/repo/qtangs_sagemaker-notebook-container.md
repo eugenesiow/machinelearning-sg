@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: 3
 owner: qtangs
-stars: 37
+stars: 39
 title: sagemaker-notebook-container
-updated: '2020-12-10T00:39:57Z'
+updated: '2021-01-25T00:09:31Z'
 ---

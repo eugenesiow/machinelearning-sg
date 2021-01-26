@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: 12
 owner: MoonshineSG
-stars: 16
+stars: 17
 title: OctoPrint-MultiColors
-updated: '2020-10-08T19:57:25Z'
+updated: '2020-12-15T06:32:20Z'
 ---

@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: yewzijian
-stars: 159
+stars: 161
 title: 3DFeatNet
-updated: '2020-12-07T23:50:35Z'
+updated: '2021-01-15T03:54:06Z'
 ---

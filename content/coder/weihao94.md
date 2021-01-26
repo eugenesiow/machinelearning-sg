@@ -1,10 +1,10 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/19281620?v=4
+avatar: https://avatars.githubusercontent.com/u/19281620?v=4
 bio: M.Sc. Statistics (In Progress), B.Sc. (Hons.) Applied Mathematics, Analyst, Kaggle
   Master
 email: null
 followers: 13
-following: 1
+following: 2
 forks: 3
 login: weihao94
 open_issues: null

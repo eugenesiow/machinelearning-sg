@@ -5,9 +5,9 @@ forks: null
 html_url: https://github.com/wakatara/rofi-org-todo
 language: Python
 license: null
-open_issues: null
+open_issues: 1
 owner: wakatara
-stars: 3
+stars: 7
 title: rofi-org-todo
-updated: '2020-11-29T02:38:44Z'
+updated: '2021-01-20T10:10:06Z'
 ---

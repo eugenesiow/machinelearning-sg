@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: tonghuikang
-stars: 5
+stars: 6
 title: codecomp
-updated: '2020-12-06T04:57:47Z'
+updated: '2021-01-25T14:31:09Z'
 ---

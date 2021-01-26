@@ -9,5 +9,5 @@ open_issues: null
 owner: Minyus
 stars: 3
 title: pipelinex_sklearn
-updated: '2020-11-28T13:20:49Z'
+updated: '2021-01-09T09:04:53Z'
 ---

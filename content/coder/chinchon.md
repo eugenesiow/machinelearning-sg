@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/5833944?v=4
+avatar: https://avatars.githubusercontent.com/u/5833944?v=4
 bio: null
 email: chinchon91@gmail.com
-followers: 4
+followers: 5
 following: 3
 forks: 4
 login: chinchon

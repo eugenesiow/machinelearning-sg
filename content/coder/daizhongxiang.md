@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/12882841?v=4
+avatar: https://avatars.githubusercontent.com/u/12882841?v=4
 bio: PhD student in machine learning
 email: null
 followers: 9

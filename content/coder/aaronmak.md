@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/3712602?v=4
+avatar: https://avatars.githubusercontent.com/u/3712602?v=4
 bio: Data Engineer
 email: im@arnmk.com
 followers: 8

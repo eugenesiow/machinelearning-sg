@@ -5,9 +5,9 @@ forks: 24
 html_url: https://github.com/nginyc/rafiki
 language: Python
 license: Apache License 2.0
-open_issues: 56
+open_issues: 57
 owner: nginyc
-stars: 27
+stars: 28
 title: rafiki
-updated: '2020-10-09T09:10:40Z'
+updated: '2021-01-04T14:28:07Z'
 ---

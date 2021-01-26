@@ -8,7 +8,7 @@ language: Python
 license: null
 open_issues: 2
 owner: Lucas170
-stars: 23
+stars: 24
 title: Interactive-brokers-python-native-api-guide
-updated: '2020-11-30T00:19:02Z'
+updated: '2021-01-11T01:52:02Z'
 ---

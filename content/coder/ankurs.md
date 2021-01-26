@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/7549?v=4
+avatar: https://avatars.githubusercontent.com/u/7549?v=4
 bio: Works at one of those Software Companies, Likes Linux/C/Python/Go/Vim and Sarcasm
 email: ankur@ankurs.com
 followers: 46

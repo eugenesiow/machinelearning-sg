@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/20509343?v=4
+avatar: https://avatars.githubusercontent.com/u/20509343?v=4
 bio: Machine Learning Engineer in Singapore
 email: null
 followers: 8

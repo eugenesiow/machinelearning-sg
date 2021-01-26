@@ -1,14 +1,14 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/6576108?v=4
+avatar: https://avatars.githubusercontent.com/u/6576108?v=4
 bio: Human
 email: null
 followers: 36
 following: null
-forks: 190
+forks: 193
 login: rizkiarm
-open_issues: 57
+open_issues: 59
 public_repos: 19
-stars: 459
+stars: 464
 title: Muhammad Rizki A.R.M
 user_type: User
 website: rizkiarm.com

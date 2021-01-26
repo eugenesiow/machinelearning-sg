@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/47899887?v=4
+avatar: https://avatars.githubusercontent.com/u/47899887?v=4
 bio: PhD student and bioinformatics researcher @ School of Computer Science and Engineering.
 email: ahmed.khalil.bioinformatics@gmail.com
-followers: null
+followers: 1
 following: 8
 forks: 1
 login: AISKhalil

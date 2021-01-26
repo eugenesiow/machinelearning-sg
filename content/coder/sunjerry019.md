@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/9073779?v=4
+avatar: https://avatars.githubusercontent.com/u/9073779?v=4
 bio: moshi moshi
 email: null
 followers: 11

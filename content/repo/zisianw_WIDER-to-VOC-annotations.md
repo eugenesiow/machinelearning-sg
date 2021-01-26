@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: zisianw
-stars: 9
+stars: 8
 title: WIDER-to-VOC-annotations
-updated: '2020-11-06T13:44:26Z'
+updated: '2021-01-24T18:29:29Z'
 ---

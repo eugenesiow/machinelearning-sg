@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/33078851?v=4
+avatar: https://avatars.githubusercontent.com/u/33078851?v=4
 bio: "NTU 21' | EEE | Full Stack Developer\r\n"
 email: ashivalagar@gmail.com
-followers: 33
-following: 43
+followers: 35
+following: 45
 forks: 1
 login: ashivalagar
 open_issues: null

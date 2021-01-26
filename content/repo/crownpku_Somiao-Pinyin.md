@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: 10
 owner: crownpku
-stars: 211
+stars: 210
 title: Somiao-Pinyin
-updated: '2020-12-11T08:28:23Z'
+updated: '2021-01-06T09:05:44Z'
 ---

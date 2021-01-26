@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/15715608?v=4
+avatar: https://avatars.githubusercontent.com/u/15715608?v=4
 bio: I'm a software engineer who works about Machine Learning, Deep Learning.
 email: null
 followers: 1

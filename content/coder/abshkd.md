@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/771356?v=4
+avatar: https://avatars.githubusercontent.com/u/771356?v=4
 bio: "Hack job. Now @scalyr previously @splunk, @phantomcyber, @akamai and Razer\r\
   \n"
 email: ab@singularity.sg

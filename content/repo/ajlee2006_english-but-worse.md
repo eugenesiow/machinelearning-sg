@@ -8,5 +8,5 @@ open_issues: 8
 owner: ajlee2006
 stars: 2
 title: english-but-worse
-updated: '2020-06-06T03:02:16Z'
+updated: '2021-01-16T03:03:58Z'
 ---

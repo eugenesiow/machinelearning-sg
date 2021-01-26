@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: 14
 owner: goodmami
-stars: 57
+stars: 59
 title: penman
-updated: '2020-11-19T07:10:21Z'
+updated: '2020-12-26T23:23:26Z'
 ---

@@ -1,10 +1,10 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/35628361?v=4
+avatar: https://avatars.githubusercontent.com/u/35628361?v=4
 bio: null
 email: null
 followers: 8
 following: 1
-forks: 19
+forks: 20
 login: ISS-Kerui
 open_issues: 4
 public_repos: 22

@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/11680179?v=4
+avatar: https://avatars.githubusercontent.com/u/11680179?v=4
 bio: null
 email: utsav1996@ymail.com
-followers: 44
+followers: 46
 following: 6
 forks: 24
 login: utsavgarg

@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/32510504?v=4
+avatar: https://avatars.githubusercontent.com/u/32510504?v=4
 bio: Undergraduate student of Singapore University of Technology and Design (SUTD)
   - Class of 2020
 email: null

@@ -8,7 +8,7 @@ language: Python
 license: GNU General Public License v3.0
 open_issues: 2
 owner: Nasdin
-stars: 34
+stars: 35
 title: VideoRecognition-realtime-autotrainer-alerts
-updated: '2020-09-25T01:00:57Z'
+updated: '2021-01-10T19:44:51Z'
 ---

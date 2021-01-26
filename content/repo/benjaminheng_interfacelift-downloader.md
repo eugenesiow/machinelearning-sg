@@ -1,12 +1,12 @@
 ---
 description: A Python script to download wallpapers from interfacelift.com.
-forks: 24
+forks: 25
 html_url: https://github.com/benjaminheng/interfacelift-downloader
 language: Python
 license: MIT License
-open_issues: 2
+open_issues: 3
 owner: benjaminheng
-stars: 68
+stars: 69
 title: interfacelift-downloader
-updated: '2020-09-14T12:47:38Z'
+updated: '2021-01-04T07:01:55Z'
 ---

@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/1462301?v=4
+avatar: https://avatars.githubusercontent.com/u/1462301?v=4
 bio: Software Engineer / Ex-founder @Komyla & @multimeo / Ex Nantais (FR), Beijing
   (CN) /
 email: guillaume@teillet.eu

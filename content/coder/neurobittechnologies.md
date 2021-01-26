@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/37391689?v=4
+avatar: https://avatars.githubusercontent.com/u/37391689?v=4
 bio: 'We provide health data analytics as a service. '
 email: admin@neurobit.io
 followers: 1

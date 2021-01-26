@@ -6,7 +6,7 @@ language: Python
 license: Apache License 2.0
 open_issues: 2
 owner: plkmo
-stars: 40
+stars: 46
 title: AlphaZero_Connect4
-updated: '2020-11-02T17:24:17Z'
+updated: '2021-01-19T01:36:26Z'
 ---

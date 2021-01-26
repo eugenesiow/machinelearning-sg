@@ -4,7 +4,7 @@ forks: null
 html_url: https://github.com/alanwuha/ntucourses
 language: Python
 license: MIT License
-open_issues: null
+open_issues: 1
 owner: alanwuha
 stars: 2
 title: ntucourses

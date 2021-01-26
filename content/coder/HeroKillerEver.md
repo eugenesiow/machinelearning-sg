@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/24193556?v=4
+avatar: https://avatars.githubusercontent.com/u/24193556?v=4
 bio: A graduate Ph.D. and actively looking for a job
 email: null
-followers: 79
+followers: 81
 following: 20
 forks: 8
 login: HeroKillerEver

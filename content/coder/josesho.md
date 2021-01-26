@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/12838917?v=4
+avatar: https://avatars.githubusercontent.com/u/12838917?v=4
 bio: "Estimation statistics, craft beer, data visualization, web scraping, poetry\r\
   \n\r\n"
 email: null

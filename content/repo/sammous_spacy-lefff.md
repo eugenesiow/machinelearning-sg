@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: 3
 owner: sammous
-stars: 46
+stars: 47
 title: spacy-lefff
-updated: '2020-11-19T13:48:12Z'
+updated: '2021-01-03T22:51:49Z'
 ---

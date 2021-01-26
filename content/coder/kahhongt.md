@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/33640882?v=4
+avatar: https://avatars.githubusercontent.com/u/33640882?v=4
 bio: ".statistical modelling and analytics\r\nData Scientist, Product Analytics at\
   \ Grab"
 email: null

@@ -8,5 +8,5 @@ open_issues: 1
 owner: yxtay
 stars: 6
 title: glove-tensorflow
-updated: '2020-05-20T09:44:03Z'
+updated: '2021-01-06T07:55:58Z'
 ---

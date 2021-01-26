@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/26759417?v=4
+avatar: https://avatars.githubusercontent.com/u/26759417?v=4
 bio: "Georgia Tech M.S. Computer Science \r\n\r\nOxford B.A. Physics "
 email: wzbstudy@hotmail.com
 followers: null

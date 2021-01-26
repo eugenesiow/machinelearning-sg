@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/8367964?v=4
+avatar: https://avatars.githubusercontent.com/u/8367964?v=4
 bio: Full stack developer fluent in react and react-native. Currently interested in
   deep learning and its applications in self-driving cars!
 email: null

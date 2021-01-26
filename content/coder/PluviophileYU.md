@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/31844125?v=4
+avatar: https://avatars.githubusercontent.com/u/31844125?v=4
 bio: Old unfortunate egg
 email: null
 followers: 7

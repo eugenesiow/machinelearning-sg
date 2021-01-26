@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/15504304?v=4
+avatar: https://avatars.githubusercontent.com/u/15504304?v=4
 bio: Computer Science student at Nanyang Technological University.
 email: simrankhare115@gmail.com
 followers: 4

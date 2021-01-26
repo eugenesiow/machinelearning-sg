@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/40821628?v=4
+avatar: https://avatars.githubusercontent.com/u/40821628?v=4
 bio: null
 email: lee.wei.min@u.nus.edu
 followers: 7

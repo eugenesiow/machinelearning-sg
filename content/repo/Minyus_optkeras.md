@@ -4,7 +4,7 @@ forks: 3
 html_url: https://github.com/Minyus/optkeras
 language: Python
 license: Other
-open_issues: 3
+open_issues: 4
 owner: Minyus
 stars: 19
 title: optkeras

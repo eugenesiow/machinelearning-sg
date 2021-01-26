@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/2324958?v=4
+avatar: https://avatars.githubusercontent.com/u/2324958?v=4
 bio: Python Developer working @ Lazada Group, Singapore
 email: hussaintamboli18@gmail.com
 followers: 23

@@ -1,10 +1,10 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/66061799?v=4
+avatar: https://avatars.githubusercontent.com/u/66061799?v=4
 bio: Streaming Anomaly Detection
 email: siddharth@comp.nus.edu.sg
 followers: null
 following: null
-forks: 3
+forks: 4
 login: Stream-AD
 open_issues: null
 public_repos: 3

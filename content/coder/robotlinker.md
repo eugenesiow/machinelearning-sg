@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/24693929?v=4
+avatar: https://avatars.githubusercontent.com/u/24693929?v=4
 bio: Smart Connectivity Device and Disruptive Software Solution Provider for the Robotics
   Industry
 email: null

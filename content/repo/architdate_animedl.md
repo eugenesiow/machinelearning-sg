@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: 1
 owner: architdate
-stars: 3
+stars: 4
 title: animedl
-updated: '2020-07-03T18:36:02Z'
+updated: '2020-12-30T09:25:43Z'
 ---

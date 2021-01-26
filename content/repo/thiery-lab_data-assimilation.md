@@ -1,6 +1,6 @@
 ---
 description: Python code for data assimilation methods
-forks: 2
+forks: 3
 html_url: https://github.com/thiery-lab/data-assimilation
 language: Python
 license: MIT License

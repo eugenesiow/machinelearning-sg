@@ -1,12 +1,12 @@
 ---
 description: ':angel: Morph faces with Python, Numpy, Scipy'
-forks: 197
+forks: 200
 html_url: https://github.com/alyssaq/face_morpher
 language: Python
 license: null
 open_issues: 32
 owner: alyssaq
-stars: 709
+stars: 725
 title: face_morpher
-updated: '2020-12-09T11:56:20Z'
+updated: '2021-01-19T23:25:09Z'
 ---

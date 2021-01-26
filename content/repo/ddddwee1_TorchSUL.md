@@ -8,5 +8,5 @@ open_issues: null
 owner: ddddwee1
 stars: 4
 title: TorchSUL
-updated: '2020-12-14T18:24:39Z'
+updated: '2020-12-30T09:09:16Z'
 ---

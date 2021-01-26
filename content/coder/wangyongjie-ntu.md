@@ -1,14 +1,14 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/12019443?v=4
+avatar: https://avatars.githubusercontent.com/u/12019443?v=4
 bio: Second-year PHD in Nanyang technological university, Singapore
 email: null
-followers: 6
+followers: 10
 following: 10
-forks: null
+forks: 1
 login: wangyongjie-ntu
 open_issues: null
-public_repos: 41
-stars: 6
+public_repos: 47
+stars: 7
 title: wangyongjie-ntu
 user_type: User
 website: null

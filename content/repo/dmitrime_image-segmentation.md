@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: dmitrime
-stars: 4
+stars: 5
 title: image-segmentation
-updated: '2019-10-27T09:49:00Z'
+updated: '2021-01-24T08:30:52Z'
 ---

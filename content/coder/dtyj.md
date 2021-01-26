@@ -1,10 +1,10 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/10340503?v=4
+avatar: https://avatars.githubusercontent.com/u/10340503?v=4
 bio: cat /dev/null
 email: null
 followers: 1
 following: null
-forks: null
+forks: 1
 login: dtyj
 open_issues: null
 public_repos: 18

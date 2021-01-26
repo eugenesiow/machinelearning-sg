@@ -1,12 +1,12 @@
 ---
 description: Attention-based multimodal fusion for sentiment analysis
-forks: 47
+forks: 50
 html_url: https://github.com/soujanyaporia/multimodal-sentiment-analysis
 language: Python
 license: MIT License
 open_issues: 3
 owner: soujanyaporia
-stars: 156
+stars: 167
 title: multimodal-sentiment-analysis
-updated: '2020-11-24T00:28:17Z'
+updated: '2021-01-23T12:16:46Z'
 ---

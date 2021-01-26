@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 3
 owner: sushinoya
-stars: 2
+stars: 3
 title: leetcode-downloader
-updated: '2019-10-16T20:18:54Z'
+updated: '2021-01-10T14:07:38Z'
 ---

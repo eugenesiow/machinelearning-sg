@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: carlohamalainen
-stars: 29
+stars: 30
 title: pysecd
-updated: '2020-01-26T03:38:03Z'
+updated: '2021-01-01T22:01:24Z'
 ---

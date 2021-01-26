@@ -7,7 +7,7 @@ language: Python
 license: GNU General Public License v3.0
 open_issues: null
 owner: nusnlp
-stars: 41
+stars: 42
 title: neuqe
-updated: '2020-11-26T03:23:33Z'
+updated: '2021-01-04T02:26:08Z'
 ---

@@ -1,10 +1,10 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/26837304?v=4
+avatar: https://avatars.githubusercontent.com/u/26837304?v=4
 bio: A self-motivated and passionate individual with interest in programming, mathematics
   and data science.
 email: chiaweiwoo123@gmail.com
 followers: 20
-following: 40
+following: 41
 forks: 2
 login: woo-chia-wei
 open_issues: 6

@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: chaitjo
-stars: 118
+stars: 119
 title: personalized-dialog
-updated: '2020-11-07T20:25:11Z'
+updated: '2020-12-24T22:14:52Z'
 ---

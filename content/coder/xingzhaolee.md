@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/49442025?v=4
+avatar: https://avatars.githubusercontent.com/u/49442025?v=4
 bio: Deep learning enthusiast, also a Computer Science graduate.
 email: null
 followers: 16
-following: 16
+following: 15
 forks: 1
 login: xingzhaolee
 open_issues: null

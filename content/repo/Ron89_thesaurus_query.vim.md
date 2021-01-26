@@ -6,7 +6,7 @@ language: Python
 license: Apache License 2.0
 open_issues: 14
 owner: Ron89
-stars: 170
+stars: 172
 title: thesaurus_query.vim
-updated: '2020-12-11T22:21:07Z'
+updated: '2021-01-24T23:40:32Z'
 ---

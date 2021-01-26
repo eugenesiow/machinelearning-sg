@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: gnosis-agora
-stars: 10
+stars: 11
 title: stanford_cs246
-updated: '2020-05-23T04:57:01Z'
+updated: '2020-12-28T13:07:41Z'
 ---

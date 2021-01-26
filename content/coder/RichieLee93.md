@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/28982124?v=4
+avatar: https://avatars.githubusercontent.com/u/28982124?v=4
 bio: Geek Geekie
 email: lrq19930222@gmail.com
 followers: 1

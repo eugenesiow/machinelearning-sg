@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/4179149?v=4
+avatar: https://avatars.githubusercontent.com/u/4179149?v=4
 bio: chmod 777 me
 email: null
 followers: 20

@@ -1,6 +1,6 @@
 ---
 description: Code exercise for python learning
-forks: 1
+forks: 2
 html_url: https://github.com/Silverneo/pylearn
 language: Python
 license: null

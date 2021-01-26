@@ -1,10 +1,10 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/26264086?v=4
+avatar: https://avatars.githubusercontent.com/u/26264086?v=4
 bio: Building and Urban Data Science (BUDS) at the National University of Singapore
 email: clayton@nus.edu.sg
 followers: null
 following: null
-forks: 8
+forks: 7
 login: buds-lab
 open_issues: null
 public_repos: 45

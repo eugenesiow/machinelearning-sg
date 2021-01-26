@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/9462321?v=4
+avatar: https://avatars.githubusercontent.com/u/9462321?v=4
 bio: Computer Vision, Machine Learning, Deep Learning, Histopathology
 email: null
-followers: 10
-following: 15
+followers: 11
+following: 16
 forks: 1
 login: AahanSingh
 open_issues: null

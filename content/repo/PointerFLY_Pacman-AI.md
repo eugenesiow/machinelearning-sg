@@ -8,5 +8,5 @@ open_issues: null
 owner: PointerFLY
 stars: 7
 title: Pacman-AI
-updated: '2020-12-07T11:13:02Z'
+updated: '2020-12-31T08:35:54Z'
 ---

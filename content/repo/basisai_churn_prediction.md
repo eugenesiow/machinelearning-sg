@@ -8,5 +8,5 @@ open_issues: null
 owner: basisai
 stars: 3
 title: churn_prediction
-updated: '2020-12-07T05:26:52Z'
+updated: '2021-01-20T03:36:30Z'
 ---

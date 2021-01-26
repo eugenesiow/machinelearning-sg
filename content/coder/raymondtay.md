@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/447680?v=4
+avatar: https://avatars.githubusercontent.com/u/447680?v=4
 bio: Software developer; co-author of "Developing an Akka Edge" and author of "OpenCL
   Parallel Programming Development Cookbook"
 email: raymond.tay@yahoo.com

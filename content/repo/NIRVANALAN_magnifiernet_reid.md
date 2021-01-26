@@ -1,6 +1,6 @@
 ---
 description: pytorch code for MagnifierNet, BMVC2020
-forks: 2
+forks: 3
 html_url: https://github.com/NIRVANALAN/magnifiernet_reid
 language: Python
 license: MIT License

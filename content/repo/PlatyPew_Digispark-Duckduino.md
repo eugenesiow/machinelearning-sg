@@ -1,12 +1,12 @@
 ---
 description: Poor man's rubber ducky
-forks: 8
+forks: 7
 html_url: https://github.com/PlatyPew/Digispark-Duckduino
 language: Python
 license: GNU General Public License v2.0
 open_issues: 1
 owner: PlatyPew
-stars: 48
+stars: 49
 title: Digispark-Duckduino
-updated: '2020-09-09T14:43:43Z'
+updated: '2021-01-09T15:33:28Z'
 ---

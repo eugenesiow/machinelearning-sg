@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/32613870?v=4
+avatar: https://avatars.githubusercontent.com/u/32613870?v=4
 bio: null
 email: kwanmeng_lee@mymail.sutd.edu.sg
 followers: 4

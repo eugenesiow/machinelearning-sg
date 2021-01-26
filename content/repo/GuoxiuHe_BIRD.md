@@ -7,7 +7,7 @@ language: Python
 license: Other
 open_issues: null
 owner: GuoxiuHe
-stars: 9
+stars: 10
 title: BIRD
-updated: '2020-05-31T11:54:44Z'
+updated: '2020-12-18T05:42:50Z'
 ---

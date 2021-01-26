@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: 5
 owner: Eve-ning
-stars: 2
+stars: 4
 title: reamberPy
-updated: '2020-09-24T02:29:49Z'
+updated: '2020-12-24T01:44:33Z'
 ---

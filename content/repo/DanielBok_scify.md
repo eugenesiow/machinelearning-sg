@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: DanielBok
-stars: 4
+stars: 5
 title: scify
-updated: '2019-06-22T02:36:19Z'
+updated: '2020-12-27T19:05:16Z'
 ---

@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/19705598?v=4
+avatar: https://avatars.githubusercontent.com/u/19705598?v=4
 bio: Dr. in Cognitive Systems and Visual Computing | visual understanding; summarization;
   personalization; generative models
 email: null

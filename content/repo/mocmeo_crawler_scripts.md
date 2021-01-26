@@ -1,6 +1,6 @@
 ---
 description: Several scripts for extracting data from common webpages.
-forks: 5
+forks: 6
 html_url: https://github.com/mocmeo/crawler_scripts
 language: Python
 license: null

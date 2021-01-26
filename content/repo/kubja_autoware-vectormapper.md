@@ -8,5 +8,5 @@ open_issues: null
 owner: kubja
 stars: 2
 title: autoware-vectormapper
-updated: '2020-11-04T20:26:00Z'
+updated: '2021-01-19T08:57:42Z'
 ---

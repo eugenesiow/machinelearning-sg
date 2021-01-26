@@ -5,7 +5,7 @@ forks: 2
 html_url: https://github.com/Reine0017/pyFlaskOpenCV
 language: Python
 license: MIT License
-open_issues: null
+open_issues: 1
 owner: Reine0017
 stars: 5
 title: pyFlaskOpenCV

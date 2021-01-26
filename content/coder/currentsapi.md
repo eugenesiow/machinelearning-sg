@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/52959491?v=4
+avatar: https://avatars.githubusercontent.com/u/52959491?v=4
 bio: Aggregate and analyse the state of the world
 email: hi@currentsapi.services
 followers: null

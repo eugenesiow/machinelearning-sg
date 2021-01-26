@@ -1,12 +1,12 @@
 ---
 description: color recognition methods(kmeans and hsv)
-forks: 5
+forks: 6
 html_url: https://github.com/walton-wang929/Color_Recognition
 language: Python
 license: null
 open_issues: 2
 owner: walton-wang929
-stars: 12
+stars: 13
 title: Color_Recognition
-updated: '2020-11-17T04:13:44Z'
+updated: '2021-01-14T14:05:43Z'
 ---

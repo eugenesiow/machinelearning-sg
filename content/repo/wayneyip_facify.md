@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: wayneyip
-stars: 7
+stars: 8
 title: facify
-updated: '2020-11-27T19:33:26Z'
+updated: '2021-01-13T11:00:48Z'
 ---

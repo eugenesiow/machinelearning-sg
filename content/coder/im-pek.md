@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/41651636?v=4
+avatar: https://avatars.githubusercontent.com/u/41651636?v=4
 bio: Data Scientist | with exceptional focus on NLP, Text Analytics, Topic Modelling,
   Recommendation Systems, Trend Analysis, Pattern Recognition, Novel Algorithms
 email: pek.alpha@gmail.com

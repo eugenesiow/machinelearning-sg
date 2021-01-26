@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/17728663?v=4
+avatar: https://avatars.githubusercontent.com/u/17728663?v=4
 bio: Robotics engineer and explorer. I am currently building robot teleoperation systems
   at Cognicept.
 email: jakubtom@gmail.com

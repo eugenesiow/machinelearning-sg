@@ -7,7 +7,7 @@ language: Python
 license: GNU General Public License v2.0
 open_issues: 4
 owner: nusnlp
-stars: 62
+stars: 63
 title: m2scorer
-updated: '2020-11-30T05:04:34Z'
+updated: '2021-01-08T09:30:12Z'
 ---

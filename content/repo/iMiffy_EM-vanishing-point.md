@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: iMiffy
-stars: 5
+stars: 6
 title: EM-vanishing-point
-updated: '2020-08-03T07:11:49Z'
+updated: '2020-12-15T08:34:18Z'
 ---

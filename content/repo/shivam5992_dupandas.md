@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: 2
 owner: shivam5992
-stars: 19
+stars: 20
 title: dupandas
-updated: '2020-10-17T20:09:35Z'
+updated: '2020-12-22T20:49:51Z'
 ---

@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: iMiffy
-stars: 3
+stars: 4
 title: viterbi-cv
-updated: '2020-06-23T01:54:19Z'
+updated: '2020-12-15T08:33:44Z'
 ---

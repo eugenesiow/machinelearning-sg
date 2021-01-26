@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 1
 owner: syltruong
-stars: 3
+stars: 4
 title: sklearn-gae-sample
-updated: '2020-04-30T19:25:59Z'
+updated: '2021-01-20T13:50:24Z'
 ---

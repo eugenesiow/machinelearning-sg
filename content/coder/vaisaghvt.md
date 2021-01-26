@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/1639105?v=4
+avatar: https://avatars.githubusercontent.com/u/1639105?v=4
 bio: Programmer, Scientist, Geek. In charge of all things technology at impress.ai;
   Previously a researcher on simulating crowds and traffic.
 email: vaisaghvt@gmail.com

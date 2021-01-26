@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/24970386?v=4
+avatar: https://avatars.githubusercontent.com/u/24970386?v=4
 bio: Check out my Data Science blog on Medium!
 email: jasonyip184@gmail.com
 followers: 62

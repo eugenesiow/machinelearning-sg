@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/20219832?v=4
+avatar: https://avatars.githubusercontent.com/u/20219832?v=4
 bio: "PhD:   Nanyang Technological University\r\nBEng: University of Electronic Science\
   \ and Technology of China"
 email: null
@@ -9,7 +9,7 @@ forks: 4
 login: ZhangLeUestc
 open_issues: null
 public_repos: 40
-stars: 19
+stars: 20
 title: Zhang Le
 user_type: User
 website: https://sites.google.com/site/zhangleuestc/

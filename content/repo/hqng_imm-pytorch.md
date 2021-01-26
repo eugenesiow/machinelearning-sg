@@ -8,7 +8,7 @@ language: Python
 license: null
 open_issues: 1
 owner: hqng
-stars: 6
+stars: 7
 title: imm-pytorch
-updated: '2020-11-01T11:18:54Z'
+updated: '2021-01-05T02:36:16Z'
 ---

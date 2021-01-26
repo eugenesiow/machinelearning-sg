@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/358319?v=4
+avatar: https://avatars.githubusercontent.com/u/358319?v=4
 bio: 'Test Automation Architect / DevOps / Problem Solver / Performance Testing Specialist. '
 email: sahajamit@gmail.com
-followers: 55
+followers: 56
 following: 12
 forks: null
 login: sahajamit

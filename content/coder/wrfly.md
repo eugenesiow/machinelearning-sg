@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/7827389?v=4
+avatar: https://avatars.githubusercontent.com/u/7827389?v=4
 bio: I code things.
 email: mr.wrfly@gmail.com
-followers: 196
-following: 32
+followers: 197
+following: 33
 forks: 11
 login: wrfly
 open_issues: null

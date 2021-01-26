@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/3502540?v=4
+avatar: https://avatars.githubusercontent.com/u/3502540?v=4
 bio: null
 email: li.zuwei.tolma@gmail.com
 followers: 12

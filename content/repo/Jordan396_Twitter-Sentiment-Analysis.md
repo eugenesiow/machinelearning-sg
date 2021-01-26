@@ -1,6 +1,6 @@
 ---
 description: Perform sentiment analysis on tweets using NLTK and TextBlob!
-forks: 3
+forks: 4
 html_url: https://github.com/Jordan396/Twitter-Sentiment-Analysis
 language: Python
 license: MIT License

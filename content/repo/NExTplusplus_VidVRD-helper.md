@@ -8,7 +8,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: NExTplusplus
-stars: 7
+stars: 6
 title: VidVRD-helper
-updated: '2020-11-03T06:54:12Z'
+updated: '2021-01-07T14:15:09Z'
 ---

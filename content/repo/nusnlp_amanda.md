@@ -1,12 +1,12 @@
 ---
 description: A Neural Reading Comprehension-based Question Answering System
-forks: 24
+forks: 25
 html_url: https://github.com/nusnlp/amanda
 language: Python
 license: null
 open_issues: null
 owner: nusnlp
-stars: 79
+stars: 78
 title: amanda
-updated: '2020-08-24T08:19:27Z'
+updated: '2021-01-06T07:13:34Z'
 ---

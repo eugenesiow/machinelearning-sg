@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/48649186?v=4
+avatar: https://avatars.githubusercontent.com/u/48649186?v=4
 bio: Collection of CTF writeups by zst123 (Manzel Seet)
 email: null
 followers: null

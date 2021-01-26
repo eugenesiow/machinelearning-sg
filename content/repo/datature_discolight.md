@@ -5,9 +5,9 @@ forks: 6
 html_url: https://github.com/datature/discolight
 language: Python
 license: MIT License
-open_issues: 2
+open_issues: 3
 owner: datature
-stars: 17
+stars: 18
 title: discolight
-updated: '2020-12-10T07:26:11Z'
+updated: '2021-01-16T03:06:15Z'
 ---

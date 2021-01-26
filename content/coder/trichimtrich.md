@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/7029140?v=4
+avatar: https://avatars.githubusercontent.com/u/7029140?v=4
 bio: Security Engineer / Researcher
 email: trichimtrich@gmail.com
-followers: 47
+followers: 49
 following: 19
 forks: 10
 login: trichimtrich

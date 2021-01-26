@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/4966393?v=4
+avatar: https://avatars.githubusercontent.com/u/4966393?v=4
 bio: Data Science Lover
 email: paul.lo@uber.com
-followers: 21
+followers: 22
 following: 25
 forks: 5
 login: paullo0106

@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/45908091?v=4
+avatar: https://avatars.githubusercontent.com/u/45908091?v=4
 bio: null
 email: null
-followers: 19
+followers: 20
 following: null
 forks: null
 login: nusfintech

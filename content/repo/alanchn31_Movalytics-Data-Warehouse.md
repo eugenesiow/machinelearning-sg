@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: alanchn31
-stars: 18
+stars: 20
 title: Movalytics-Data-Warehouse
-updated: '2020-11-27T09:28:20Z'
+updated: '2021-01-22T04:01:50Z'
 ---

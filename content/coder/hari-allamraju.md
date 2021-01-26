@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/4755451?v=4
+avatar: https://avatars.githubusercontent.com/u/4755451?v=4
 bio: null
 email: anarahari@gmail.com
 followers: 17
-following: null
+following: 1
 forks: 3
 login: hari-allamraju
 open_issues: null

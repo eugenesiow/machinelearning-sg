@@ -6,7 +6,7 @@ language: Python
 license: Apache License 2.0
 open_issues: 2
 owner: crownpku
-stars: 115
+stars: 114
 title: text2vec
-updated: '2020-12-03T08:04:56Z'
+updated: '2020-12-30T05:50:33Z'
 ---

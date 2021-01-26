@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: remykarem
-stars: 6
+stars: 7
 title: py2pddl
-updated: '2020-11-23T10:59:37Z'
+updated: '2021-01-10T11:51:46Z'
 ---

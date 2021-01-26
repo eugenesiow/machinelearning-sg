@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 1
 owner: gsartoretti
-stars: 5
+stars: 4
 title: Deep-SEA-Snake
-updated: '2020-07-03T02:34:57Z'
+updated: '2021-01-09T11:17:06Z'
 ---

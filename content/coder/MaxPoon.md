@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/18631871?v=4
+avatar: https://avatars.githubusercontent.com/u/18631871?v=4
 bio: A hacker at heart
 email: maxpanziyuan@gmail.com
-followers: 482
+followers: 481
 following: 75
 forks: 5
 login: MaxPoon

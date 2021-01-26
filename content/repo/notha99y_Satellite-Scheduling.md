@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: notha99y
-stars: 10
+stars: 11
 title: Satellite-Scheduling
-updated: '2020-09-15T08:06:04Z'
+updated: '2021-01-04T03:33:05Z'
 ---

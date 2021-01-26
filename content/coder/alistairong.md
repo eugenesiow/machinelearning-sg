@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/28925565?v=4
+avatar: https://avatars.githubusercontent.com/u/28925565?v=4
 bio: Hello I'm an NUS Computer Science major. I build things :)
 email: e0032281@u.nus.edu
 followers: 18

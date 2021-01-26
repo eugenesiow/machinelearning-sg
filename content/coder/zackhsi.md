@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/806101?v=4
+avatar: https://avatars.githubusercontent.com/u/806101?v=4
 bio: null
 email: zackhsi@gmail.com
-followers: 19
+followers: 20
 following: 11
 forks: 11
 login: zackhsi

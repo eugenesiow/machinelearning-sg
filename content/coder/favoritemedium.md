@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/559083?v=4
+avatar: https://avatars.githubusercontent.com/u/559083?v=4
 bio: We design and build great digital products
 email: null
 followers: null

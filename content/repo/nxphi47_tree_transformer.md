@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 3
 owner: nxphi47
-stars: 27
+stars: 31
 title: tree_transformer
-updated: '2020-12-04T23:20:30Z'
+updated: '2021-01-24T12:34:29Z'
 ---

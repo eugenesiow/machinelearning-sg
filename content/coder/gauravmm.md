@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/445477?v=4
+avatar: https://avatars.githubusercontent.com/u/445477?v=4
 bio: null
 email: gaurav@gauravmanek.com
 followers: 37

@@ -1,12 +1,12 @@
 ---
 description: Checkout.com SDK for Python
-forks: 12
+forks: 14
 html_url: https://github.com/checkout/checkout-sdk-python
 language: Python
 license: MIT License
-open_issues: 4
+open_issues: 5
 owner: checkout
-stars: 6
+stars: 7
 title: checkout-sdk-python
-updated: '2020-09-15T07:59:17Z'
+updated: '2021-01-13T09:18:14Z'
 ---

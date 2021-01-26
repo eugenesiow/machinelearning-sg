@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/7062505?v=4
+avatar: https://avatars.githubusercontent.com/u/7062505?v=4
 bio: null
 email: sky@u.nus.edu
 followers: 32
@@ -8,7 +8,7 @@ forks: 3
 login: yulonglong
 open_issues: null
 public_repos: 30
-stars: 4
+stars: 5
 title: Steven Kester Yuwono
 user_type: User
 website: https://yulonglong.com

@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: sbmaruf
-stars: 2
+stars: 3
 title: Deep-Learning-Papers-Reading-Roadmap
-updated: '2019-03-23T18:24:02Z'
+updated: '2021-01-09T13:03:19Z'
 ---

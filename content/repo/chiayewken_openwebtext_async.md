@@ -4,7 +4,7 @@ forks: null
 html_url: https://github.com/chiayewken/openwebtext_async
 language: Python
 license: GNU General Public License v3.0
-open_issues: 2
+open_issues: 3
 owner: chiayewken
 stars: 2
 title: openwebtext_async

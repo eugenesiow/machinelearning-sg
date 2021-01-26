@@ -1,7 +1,7 @@
 ---
 description: This is a prototype to schedule jobs in the backend based on some priority
   using Rabbitmq and Celery.
-forks: 5
+forks: 6
 html_url: https://github.com/vijeth-aradhya/celery-priority-tasking
 language: Python
 license: null

@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 1
 owner: nguyenhuyanhh
-stars: 25
+stars: 24
 title: nlp_speech
-updated: '2020-01-22T06:24:01Z'
+updated: '2020-12-22T08:00:21Z'
 ---

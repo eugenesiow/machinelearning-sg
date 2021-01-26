@@ -1,6 +1,6 @@
 ---
 description: Simplified Building Simulation Engine
-forks: 8
+forks: 7
 html_url: https://github.com/buds-lab/simple-building
 language: Python
 license: Other

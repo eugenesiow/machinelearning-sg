@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: fangyu1006
-stars: 7
+stars: 8
 title: Lightweight-Face-Detector-With-Landmarks
-updated: '2020-12-02T02:47:34Z'
+updated: '2020-12-19T10:02:39Z'
 ---

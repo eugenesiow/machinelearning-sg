@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/47876361?v=4
+avatar: https://avatars.githubusercontent.com/u/47876361?v=4
 bio: I am currently a Alibaba PhD Candidate
 email: null
-followers: 5
+followers: 6
 following: 3
 forks: null
 login: alibabadoufu

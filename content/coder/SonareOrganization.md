@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/30269186?v=4
+avatar: https://avatars.githubusercontent.com/u/30269186?v=4
 bio: "Sonar\xE9, An All-In-One AI-Assisted Automated Penetration Testing Suite"
 email: null
 followers: null

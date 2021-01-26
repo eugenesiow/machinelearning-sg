@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: 1
 owner: zeyu2001
-stars: 15
+stars: 20
 title: quarantine-bot
-updated: '2020-12-02T13:41:34Z'
+updated: '2021-01-13T08:52:50Z'
 ---

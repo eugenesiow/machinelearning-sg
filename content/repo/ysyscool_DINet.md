@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 1
 owner: ysyscool
-stars: 18
+stars: 19
 title: DINet
-updated: '2020-11-09T09:11:48Z'
+updated: '2021-01-26T07:34:48Z'
 ---

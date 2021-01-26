@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/1754060?v=4
+avatar: https://avatars.githubusercontent.com/u/1754060?v=4
 bio: null
 email: dhlong.hp@gmail.com
 followers: 2

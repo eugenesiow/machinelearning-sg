@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: Wentong-DST
-stars: 12
+stars: 14
 title: self-critical
-updated: '2020-11-16T17:28:07Z'
+updated: '2020-12-28T20:42:14Z'
 ---

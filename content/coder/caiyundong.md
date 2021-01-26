@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/1865812?v=4
+avatar: https://avatars.githubusercontent.com/u/1865812?v=4
 bio: "\u53BB\u4E0D\u77E5\u4F55\u5F80 \u53D6\u4E0D\u77E5\u4F55\u7269"
 email: yundong.cai@gmail.com
 followers: 3

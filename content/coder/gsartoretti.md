@@ -1,10 +1,10 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/19690764?v=4
+avatar: https://avatars.githubusercontent.com/u/19690764?v=4
 bio: null
 email: guillaume.sartoretti@nus.edu.sg
-followers: 31
+followers: 35
 following: null
-forks: 27
+forks: 28
 login: gsartoretti
 open_issues: 4
 public_repos: 5

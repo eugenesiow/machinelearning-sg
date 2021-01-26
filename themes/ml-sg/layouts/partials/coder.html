@@ -19,7 +19,7 @@
                     <span class="p-nickname vcard-username d-block"
                           itemprop="affiliation">
                         <img class="octicon" src="/images/{{ cond (eq .Params.user_type "User") "user" "organization" }}.svg" width="24" height="24" />
-                        <a href="https://github.com/{{ .Params.loging }}"
+                        <a href="https://github.com/{{ .Params.login }}"
                            class="link-gray-dark no-underline" target="_blank">{{ .Params.login }}</a>
                     </span>
                 </h1>
@@ -160,7 +160,7 @@
             </ul>
 
             <div class="ajax-pagination-form js-ajax-pagination">
-                <a href="https://github.com/{{ .Params.loging }}?tab=repositories" target="_blank">
+                <a href="https://github.com/{{ .Params.login }}?tab=repositories" target="_blank">
                     <button class="ajax-pagination-btn mt-3">
                         More
                     </button>

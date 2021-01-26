@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: yi-jiayu
-stars: 2
+stars: 3
 title: FPL
-updated: '2018-08-14T14:30:30Z'
+updated: '2021-01-15T01:06:04Z'
 ---

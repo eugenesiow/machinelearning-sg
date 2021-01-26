@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: 5
 owner: braedon
-stars: 61
+stars: 62
 title: prometheus-kafka-consumer-group-exporter
-updated: '2020-09-09T02:25:02Z'
+updated: '2021-01-09T20:30:13Z'
 ---

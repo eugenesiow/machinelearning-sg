@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: 11
 owner: abhinavkashyap
-stars: 39
+stars: 41
 title: sciwing
-updated: '2020-12-12T05:44:36Z'
+updated: '2021-01-16T11:45:28Z'
 ---

@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/15698751?v=4
+avatar: https://avatars.githubusercontent.com/u/15698751?v=4
 bio: null
 email: rpd@gis.a-star.edu.sg
 followers: null

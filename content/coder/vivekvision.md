@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/10449567?v=4
+avatar: https://avatars.githubusercontent.com/u/10449567?v=4
 bio: null
 email: vivek.vision@gmail.com
-followers: 3
+followers: 4
 following: null
 forks: 5
 login: vivekvision

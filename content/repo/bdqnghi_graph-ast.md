@@ -5,9 +5,9 @@ forks: 3
 html_url: https://github.com/bdqnghi/graph-ast
 language: Python
 license: null
-open_issues: 6
+open_issues: 7
 owner: bdqnghi
-stars: 13
+stars: 15
 title: graph-ast
-updated: '2020-09-28T08:12:55Z'
+updated: '2020-12-30T11:53:12Z'
 ---

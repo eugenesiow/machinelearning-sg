@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: HandsomeBrotherShuaiLi
-stars: 14
+stars: 15
 title: ThaiAddressParser
-updated: '2020-10-30T08:43:04Z'
+updated: '2021-01-24T16:21:32Z'
 ---

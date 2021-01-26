@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/5699797?v=4
+avatar: https://avatars.githubusercontent.com/u/5699797?v=4
 bio: Learner.
 email: rajesh.kc.r.1993@gmail.com
 followers: 22

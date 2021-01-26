@@ -7,7 +7,7 @@ language: Python
 license: Apache License 2.0
 open_issues: null
 owner: songshan0321
-stars: 3
+stars: 2
 title: ros-ssd-tensorflow
-updated: '2020-11-29T17:09:22Z'
+updated: '2021-01-19T08:57:00Z'
 ---

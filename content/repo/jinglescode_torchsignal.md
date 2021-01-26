@@ -7,7 +7,7 @@ language: Python
 license: BSD 2-Clause "Simplified" License
 open_issues: null
 owner: jinglescode
-stars: 2
+stars: 5
 title: torchsignal
-updated: '2020-12-09T02:31:23Z'
+updated: '2021-01-07T20:05:00Z'
 ---

@@ -1,10 +1,10 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/500948?v=4
+avatar: https://avatars.githubusercontent.com/u/500948?v=4
 bio: Senior Research Scientist
 email: palakorn@gmail.com
 followers: 12
 following: 4
-forks: 20
+forks: 19
 login: aekpalakorn
 open_issues: null
 public_repos: 7

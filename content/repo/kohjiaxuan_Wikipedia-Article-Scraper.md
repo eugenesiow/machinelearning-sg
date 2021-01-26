@@ -8,7 +8,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: kohjiaxuan
-stars: 4
+stars: 7
 title: Wikipedia-Article-Scraper
-updated: '2020-12-09T15:47:31Z'
+updated: '2021-01-23T17:16:52Z'
 ---

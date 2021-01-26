@@ -7,7 +7,7 @@ language: Python
 license: Other
 open_issues: null
 owner: kmonsoor
-stars: 20
+stars: 22
 title: awesome-pelican
-updated: '2020-12-09T18:03:48Z'
+updated: '2021-01-11T14:18:28Z'
 ---

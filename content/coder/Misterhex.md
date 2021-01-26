@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/1956951?v=4
+avatar: https://avatars.githubusercontent.com/u/1956951?v=4
 bio: null
 email: yongheng@live.com.sg
 followers: 49

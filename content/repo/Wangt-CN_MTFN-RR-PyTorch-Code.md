@@ -5,9 +5,9 @@ forks: 9
 html_url: https://github.com/Wangt-CN/MTFN-RR-PyTorch-Code
 language: Python
 license: null
-open_issues: 3
+open_issues: 4
 owner: Wangt-CN
-stars: 41
+stars: 42
 title: MTFN-RR-PyTorch-Code
-updated: '2020-12-10T09:08:56Z'
+updated: '2021-01-19T14:37:23Z'
 ---

@@ -5,7 +5,7 @@ forks: 4
 html_url: https://github.com/ThomasWangWeiHong/Shadow-Detection-Algorithm-for-Aerial-and-Satellite-Images
 language: Python
 license: null
-open_issues: 3
+open_issues: 2
 owner: ThomasWangWeiHong
 stars: 11
 title: Shadow-Detection-Algorithm-for-Aerial-and-Satellite-Images

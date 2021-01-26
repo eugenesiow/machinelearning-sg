@@ -1,12 +1,12 @@
 ---
 description: Personalized MusicVAE
-forks: 5
+forks: 4
 html_url: https://github.com/Elvenson/midiMe
 language: Python
 license: null
 open_issues: null
 owner: Elvenson
-stars: 21
+stars: 24
 title: midiMe
-updated: '2020-12-01T13:39:44Z'
+updated: '2021-01-17T14:20:01Z'
 ---

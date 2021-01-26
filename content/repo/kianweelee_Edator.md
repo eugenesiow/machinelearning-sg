@@ -8,7 +8,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: kianweelee
-stars: 75
+stars: 77
 title: Edator
-updated: '2020-12-08T15:50:24Z'
+updated: '2021-01-06T05:21:12Z'
 ---

@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/31003560?v=4
+avatar: https://avatars.githubusercontent.com/u/31003560?v=4
 bio: I am a game designer by education, ethical hacker by ambition and robotics enthusiast
   by nature. I love to take things apart and reassembling them again.
 email: jinwei3000@gmail.com

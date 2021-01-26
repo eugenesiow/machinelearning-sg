@@ -1,6 +1,6 @@
 ---
 description: Some Deep Learning and Machine learning models for stock market
-forks: 12
+forks: 13
 html_url: https://github.com/SJ-byte/Deep-Learning-For-Finance
 language: Python
 license: null

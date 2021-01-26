@@ -7,7 +7,7 @@ language: Python
 license: Apache License 2.0
 open_issues: 2
 owner: ruidan
-stars: 132
+stars: 134
 title: Aspect-level-sentiment
-updated: '2020-11-06T11:23:24Z'
+updated: '2020-12-30T19:26:19Z'
 ---

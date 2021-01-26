@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/8122852?v=4
+avatar: https://avatars.githubusercontent.com/u/8122852?v=4
 bio: Software Engineer
 email: ariefrahmansyah@hotmail.com
-followers: 150
-following: 64
+followers: 152
+following: 65
 forks: 3
 login: ariefrahmansyah
 open_issues: null

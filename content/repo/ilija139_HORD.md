@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: ilija139
-stars: 100
+stars: 99
 title: HORD
-updated: '2020-10-13T12:55:37Z'
+updated: '2021-01-15T00:46:00Z'
 ---

@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/6675?v=4
+avatar: https://avatars.githubusercontent.com/u/6675?v=4
 bio: HPC as a Hobby
 email: null
-followers: 35
+followers: 34
 following: 48
 forks: 3
 login: xman

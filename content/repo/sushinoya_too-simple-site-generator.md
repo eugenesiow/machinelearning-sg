@@ -8,5 +8,5 @@ open_issues: 1
 owner: sushinoya
 stars: 2
 title: too-simple-site-generator
-updated: '2020-09-21T16:27:35Z'
+updated: '2021-01-01T17:28:22Z'
 ---

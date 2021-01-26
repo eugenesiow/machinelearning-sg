@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/26876782?v=4
+avatar: https://avatars.githubusercontent.com/u/26876782?v=4
 bio: R&D Engineer- Robotics
 email: vineet.jk@gmail.com
 followers: 1
-following: 2
+following: 3
 forks: 8
 login: vinjk
 open_issues: 2

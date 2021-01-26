@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: sidml
-stars: 42
+stars: 43
 title: Understanding-Centernet
-updated: '2020-10-15T02:44:23Z'
+updated: '2020-12-31T12:10:57Z'
 ---

@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/26521863?v=4
+avatar: https://avatars.githubusercontent.com/u/26521863?v=4
 bio: I love writing deep learning codes.
 email: null
-followers: 212
+followers: 215
 following: 17
 forks: 4
 login: jianchao-li

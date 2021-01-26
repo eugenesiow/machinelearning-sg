@@ -1,12 +1,12 @@
 ---
 description: Airflow Unit Tests and Integration Tests
-forks: 34
+forks: 36
 html_url: https://github.com/chandulal/airflow-testing
 language: Python
 license: null
-open_issues: 1
+open_issues: 2
 owner: chandulal
-stars: 163
+stars: 168
 title: airflow-testing
-updated: '2020-11-28T14:14:54Z'
+updated: '2021-01-14T08:10:24Z'
 ---

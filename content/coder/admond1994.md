@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/35163759?v=4
+avatar: https://avatars.githubusercontent.com/u/35163759?v=4
 bio: "Learning everyday.\r\n\r\nPython enthusiast, Machine learner, Deep learner"
 email: null
-followers: 103
+followers: 102
 following: 7
 forks: 4
 login: admond1994

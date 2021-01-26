@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: WING-NUS
-stars: 39
+stars: 40
 title: SG-Deep-Question-Generation
-updated: '2020-12-10T02:23:15Z'
+updated: '2020-12-22T02:02:12Z'
 ---

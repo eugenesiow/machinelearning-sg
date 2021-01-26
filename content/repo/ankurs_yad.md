@@ -9,5 +9,5 @@ open_issues: 1
 owner: ankurs
 stars: 8
 title: yad
-updated: '2016-09-22T18:46:50Z'
+updated: '2021-01-13T19:26:54Z'
 ---

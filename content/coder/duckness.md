@@ -1,10 +1,10 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/6380270?v=4
+avatar: https://avatars.githubusercontent.com/u/6380270?v=4
 bio: null
 email: mail@bjornl.im
 followers: 5
 following: 1
-forks: 2
+forks: 1
 login: duckness
 open_issues: null
 public_repos: 20

@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/36564050?v=4
+avatar: https://avatars.githubusercontent.com/u/36564050?v=4
 bio: Data Scientist|Master of Business Analytics
 email: null
 followers: 7
-following: 5
+following: 6
 forks: null
 login: TangHan54
 open_issues: null

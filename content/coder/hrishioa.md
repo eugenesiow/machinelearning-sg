@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/973967?v=4
+avatar: https://avatars.githubusercontent.com/u/973967?v=4
 bio: CTO at https://grey-wing.com
 email: null
-followers: 31
+followers: 32
 following: 7
 forks: 1
 login: hrishioa

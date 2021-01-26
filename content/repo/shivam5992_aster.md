@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 3
 owner: shivam5992
-stars: 25
+stars: 26
 title: aster
-updated: '2020-06-19T09:33:55Z'
+updated: '2020-12-22T20:49:57Z'
 ---

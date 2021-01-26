@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/3621529?v=4
+avatar: https://avatars.githubusercontent.com/u/3621529?v=4
 bio: null
 email: gregoire@pailler.fr
 followers: 17

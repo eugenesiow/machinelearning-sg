@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/21044243?v=4
+avatar: https://avatars.githubusercontent.com/u/21044243?v=4
 bio: Security Consultant
 email: null
-followers: 4
+followers: 6
 following: 56
 forks: 8
 login: jimmy-ly00

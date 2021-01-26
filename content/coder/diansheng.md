@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/1451996?v=4
+avatar: https://avatars.githubusercontent.com/u/1451996?v=4
 bio: A machine learner
 email: chnlds@gmail.com
 followers: 6
-following: 2
+following: 3
 forks: null
 login: diansheng
 open_issues: null

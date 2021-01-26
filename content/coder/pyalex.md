@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/1303659?v=4
+avatar: https://avatars.githubusercontent.com/u/1303659?v=4
 bio: null
 email: moskalenko.alexey@gmail.com
 followers: 9

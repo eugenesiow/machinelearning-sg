@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/13558465?v=4
+avatar: https://avatars.githubusercontent.com/u/13558465?v=4
 bio: "\U0001F4AF "
 email: khprasad123@gmail.com
 followers: 1

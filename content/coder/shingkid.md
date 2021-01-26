@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/17784977?v=4
+avatar: https://avatars.githubusercontent.com/u/17784977?v=4
 bio: Software Engineer
 email: null
 followers: 10

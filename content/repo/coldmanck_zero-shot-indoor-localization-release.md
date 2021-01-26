@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: 2
 owner: coldmanck
-stars: 11
+stars: 21
 title: zero-shot-indoor-localization-release
-updated: '2020-12-02T13:09:20Z'
+updated: '2021-01-13T08:44:45Z'
 ---

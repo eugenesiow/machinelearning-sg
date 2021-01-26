@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: liqilei
-stars: 8
+stars: 7
 title: RCGAN
-updated: '2020-11-28T09:23:06Z'
+updated: '2021-01-04T04:20:50Z'
 ---

@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: 1
 owner: emadeldeen24
-stars: 9
+stars: 10
 title: face-anti-spoofing
-updated: '2020-10-31T09:36:30Z'
+updated: '2021-01-14T09:41:15Z'
 ---

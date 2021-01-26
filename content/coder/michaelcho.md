@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/1950226?v=4
+avatar: https://avatars.githubusercontent.com/u/1950226?v=4
 bio: null
 email: michael.cho@mail.com
 followers: 7

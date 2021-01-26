@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/8550379?v=4
+avatar: https://avatars.githubusercontent.com/u/8550379?v=4
 bio: Research Fellow at SUTD
 email: null
 followers: 7

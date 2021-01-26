@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/16152871?v=4
+avatar: https://avatars.githubusercontent.com/u/16152871?v=4
 bio: "Problem Solver. \r\nI know a thing or two about a thing or two !!"
 email: varun.singh2729@gmail.com
 followers: 42

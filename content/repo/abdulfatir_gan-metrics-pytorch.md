@@ -6,7 +6,7 @@ language: Python
 license: Apache License 2.0
 open_issues: 1
 owner: abdulfatir
-stars: 28
+stars: 32
 title: gan-metrics-pytorch
-updated: '2020-12-10T08:39:29Z'
+updated: '2021-01-26T02:27:38Z'
 ---

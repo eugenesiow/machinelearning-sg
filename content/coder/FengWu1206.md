@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/36037086?v=4
+avatar: https://avatars.githubusercontent.com/u/36037086?v=4
 bio: "IEEE\u534F\u4F1A\u4F1A\u5458, \u5DE5\u5B66\u535A\u58EB\uFF0C\u73B0\u4E3A\u5357\
   \u6D0B\u7406\u5DE5\u5927\u5B66\u535A\u540E\u7814\u7A76\u5458\u3002\u7814\u7A76\u9886\
   \u57DF\uFF1A\u63A7\u5236\u7406\u8BBA\uFF0C\u6570\u636E\u6316\u6398\uFF0C\u8F6F\u4EF6\
@@ -9,7 +9,7 @@ bio: "IEEE\u534F\u4F1A\u4F1A\u5458, \u5DE5\u5B66\u535A\u58EB\uFF0C\u73B0\u4E3A\u
   \uFF0C\u8BBA\u6587google\u88AB\u5F15\u6B21\u6570200+\uFF0C\u4E2D\u56FD\u53D1\u660E\
   \u4E13\u5229\u6388\u67436\u9879."
 email: null
-followers: 4
+followers: 5
 following: 3
 forks: 1
 login: FengWu1206

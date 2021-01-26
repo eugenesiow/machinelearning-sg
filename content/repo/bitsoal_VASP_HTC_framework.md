@@ -8,5 +8,5 @@ open_issues: 1
 owner: bitsoal
 stars: 3
 title: VASP_HTC_framework
-updated: '2020-12-14T05:31:04Z'
+updated: '2021-01-25T11:44:56Z'
 ---

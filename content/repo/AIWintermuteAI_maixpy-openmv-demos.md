@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: AIWintermuteAI
-stars: 9
+stars: 10
 title: maixpy-openmv-demos
-updated: '2020-11-22T12:11:31Z'
+updated: '2021-01-01T09:52:55Z'
 ---

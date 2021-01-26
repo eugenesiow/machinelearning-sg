@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: chaitjo
-stars: 30
+stars: 31
 title: markowitz-portfolio-optimization
-updated: '2020-12-03T12:50:58Z'
+updated: '2020-12-29T10:26:02Z'
 ---

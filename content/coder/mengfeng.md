@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/1183028?v=4
+avatar: https://avatars.githubusercontent.com/u/1183028?v=4
 bio: null
 email: mengfeng0904@gmail.com
 followers: 14

@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: 1
 owner: NExTplusplus
-stars: 19
+stars: 18
 title: NeuRec
-updated: '2020-12-05T06:38:34Z'
+updated: '2021-01-13T07:32:54Z'
 ---

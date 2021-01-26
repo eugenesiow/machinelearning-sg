@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/5163345?v=4
+avatar: https://avatars.githubusercontent.com/u/5163345?v=4
 bio: Originally from San Francisco, where I launched my first digital agency back
   in the 90s, now I'm living life in Bangkok with my dog, Astro.
 email: michael.lisboa@gmail.com

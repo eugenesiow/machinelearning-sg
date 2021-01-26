@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: 2
 owner: chiayewken
-stars: 145
+stars: 148
 title: bert-qa
-updated: '2020-12-13T18:23:06Z'
+updated: '2021-01-20T05:06:18Z'
 ---

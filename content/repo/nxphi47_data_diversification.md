@@ -1,12 +1,12 @@
 ---
 description: Instruction to data diversification
-forks: 4
+forks: 5
 html_url: https://github.com/nxphi47/data_diversification
 language: Python
 license: null
-open_issues: 1
+open_issues: 2
 owner: nxphi47
-stars: 16
+stars: 18
 title: data_diversification
-updated: '2020-12-04T02:30:28Z'
+updated: '2021-01-04T08:14:04Z'
 ---

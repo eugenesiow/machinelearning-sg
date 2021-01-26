@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/1012037?v=4
+avatar: https://avatars.githubusercontent.com/u/1012037?v=4
 bio: null
 email: null
-followers: 25
+followers: 26
 following: null
 forks: 3
 login: AlexBinder

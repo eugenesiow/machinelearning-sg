@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/5037305?v=4
+avatar: https://avatars.githubusercontent.com/u/5037305?v=4
 bio: "Passionate Python Developer with 4 years professional experience building financial\
   \ algorithms, automation software. I dabble with Bots\U0001F916  and the Cloud too\
   \ \U0001F329 "

@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: charulagrl
-stars: 82
+stars: 83
 title: data-structures-and-algorithms
-updated: '2020-12-12T14:45:12Z'
+updated: '2021-01-25T20:10:17Z'
 ---

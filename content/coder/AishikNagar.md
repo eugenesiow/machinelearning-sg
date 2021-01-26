@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/45652112?v=4
+avatar: https://avatars.githubusercontent.com/u/45652112?v=4
 bio: Penultimate year student at Nanyang Tehnological University.
 email: null
-followers: 17
-following: 15
+followers: 20
+following: 17
 forks: null
 login: AishikNagar
 open_issues: null

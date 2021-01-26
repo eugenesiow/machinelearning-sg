@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/11803421?v=4
+avatar: https://avatars.githubusercontent.com/u/11803421?v=4
 bio: Coder for fun =)
 email: null
 followers: 17

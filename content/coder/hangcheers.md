@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/43411453?v=4
+avatar: https://avatars.githubusercontent.com/u/43411453?v=4
 bio: " ~( \u2022\u0300 \u03C9 \u2022\u0301 ) "
 email: hang_yang@u.nus.edu
 followers: 5

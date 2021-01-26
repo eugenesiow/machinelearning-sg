@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/66690007?v=4
+avatar: https://avatars.githubusercontent.com/u/66690007?v=4
 bio: Bot MD is an A.I. assistant for Doctors. Get instant answers to your questions
   on hospital call rosters, drug formulary, guidelines, protocols and more.
 email: hello@botmd.io

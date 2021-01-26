@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 2
 owner: XinyiZ001
-stars: 63
+stars: 65
 title: CapsGNN
-updated: '2020-11-01T14:19:52Z'
+updated: '2021-01-12T01:15:19Z'
 ---

@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/7753721?v=4
+avatar: https://avatars.githubusercontent.com/u/7753721?v=4
 bio: Hi! Currently a Software Engineering Undergraduate at Singapore Institute of
   Technology. I love anything tech-related, React, NodeJS, AWS, Linux, etc.
 email: darrenong53@gmail.com

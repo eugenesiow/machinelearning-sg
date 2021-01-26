@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/610163?v=4
+avatar: https://avatars.githubusercontent.com/u/610163?v=4
 bio: "Engineering Manager @paypal\r\n\r\nUsing tech to reduce overhead from social\
   \ initiatives. Currently involved in @stablestaples, @iamtalented and @blesssg "
 email: null

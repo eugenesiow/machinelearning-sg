@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/6292676?v=4
+avatar: https://avatars.githubusercontent.com/u/6292676?v=4
 bio: null
 email: neotwt@gmail.com
 followers: 2

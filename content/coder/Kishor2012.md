@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/2624817?v=4
+avatar: https://avatars.githubusercontent.com/u/2624817?v=4
 bio: Centre for Quantum Technologies
 email: kishor.bharti1@gmail.com
 followers: 6

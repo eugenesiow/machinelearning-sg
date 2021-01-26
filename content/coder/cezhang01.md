@@ -1,6 +1,6 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/46065600?v=4
-bio: PhD Candidate in Computer Science. Focus on learning-to-rank, text analytics,
+avatar: https://avatars.githubusercontent.com/u/46065600?v=4
+bio: PhD Candidate in Computer Science. Focus on recommender systems, text mining,
   and data visualization.
 email: cezhang.2018@smu.edu.sg
 followers: 5

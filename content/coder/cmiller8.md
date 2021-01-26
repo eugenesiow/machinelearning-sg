@@ -1,10 +1,10 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/193675?v=4
+avatar: https://avatars.githubusercontent.com/u/193675?v=4
 bio: Leader of the Building and Urban Data Science (BUDS) Research Group at the National
   University of Singapore
 email: clayton@nus.edu.sg
-followers: 180
-following: 302
+followers: 187
+following: 303
 forks: 1
 login: cmiller8
 open_issues: null

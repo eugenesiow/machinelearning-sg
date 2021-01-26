@@ -1,12 +1,12 @@
 ---
 description: PyTorch EEG emotion analysis using DEAP dataset
-forks: 24
+forks: 23
 html_url: https://github.com/weilheim/EEG
 language: Python
 license: null
 open_issues: 2
 owner: weilheim
-stars: 16
+stars: 19
 title: EEG
-updated: '2020-12-11T09:55:42Z'
+updated: '2021-01-21T02:45:10Z'
 ---

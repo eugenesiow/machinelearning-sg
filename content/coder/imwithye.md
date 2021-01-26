@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/2292644?v=4
+avatar: https://avatars.githubusercontent.com/u/2292644?v=4
 bio: '#define ME "A Programmer"'
 email: imwithye@gmail.com
-followers: 71
+followers: 72
 following: 45
 forks: 1
 login: imwithye

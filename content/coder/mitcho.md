@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/57769?v=4
+avatar: https://avatars.githubusercontent.com/u/57769?v=4
 bio: null
 email: mitcho@mitcho.com
-followers: 78
+followers: 79
 following: 22
 forks: 1
 login: mitcho

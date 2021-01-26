@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/12686172?v=4
+avatar: https://avatars.githubusercontent.com/u/12686172?v=4
 bio: null
 email: wheatcarrier@gmail.com
-followers: 31
+followers: 32
 following: 31
 forks: 5
 login: TheodoreKrypton

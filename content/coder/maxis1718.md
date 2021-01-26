@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/1659204?v=4
+avatar: https://avatars.githubusercontent.com/u/1659204?v=4
 bio: null
 email: maxis1718@gmail.com
 followers: 31

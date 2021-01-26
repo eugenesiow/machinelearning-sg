@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: 3
 owner: SenticNet
-stars: 30
+stars: 32
 title: hfusion
-updated: '2020-10-29T07:07:31Z'
+updated: '2021-01-20T12:07:57Z'
 ---

@@ -4,9 +4,9 @@ forks: 4
 html_url: https://github.com/henryhungle/NADST
 language: Python
 license: MIT License
-open_issues: 2
+open_issues: 1
 owner: henryhungle
-stars: 32
+stars: 35
 title: NADST
-updated: '2020-10-08T10:19:45Z'
+updated: '2021-01-06T14:49:06Z'
 ---

@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: axiros
-stars: 9
+stars: 10
 title: axblack
-updated: '2020-11-18T16:18:47Z'
+updated: '2020-12-27T17:30:35Z'
 ---

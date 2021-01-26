@@ -9,5 +9,5 @@ open_issues: null
 owner: theidentity
 stars: 8
 title: Improved-GAN-PyTorch
-updated: '2020-06-21T13:47:57Z'
+updated: '2021-01-14T10:38:45Z'
 ---

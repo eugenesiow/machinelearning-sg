@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/1296541?v=4
+avatar: https://avatars.githubusercontent.com/u/1296541?v=4
 bio: null
 email: null
-followers: 28
+followers: 29
 following: 17
 forks: 1
 login: raynoldng

@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 1
 owner: jasonstrimpel
-stars: 17
+stars: 18
 title: covshrink
-updated: '2020-08-03T15:47:36Z'
+updated: '2020-12-15T11:27:46Z'
 ---

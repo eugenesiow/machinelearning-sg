@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/4752645?v=4
+avatar: https://avatars.githubusercontent.com/u/4752645?v=4
 bio: null
 email: asl97@airmail.cc
 followers: 11

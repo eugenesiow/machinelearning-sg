@@ -8,7 +8,7 @@ language: Python
 license: null
 open_issues: null
 owner: simonjulianl
-stars: 2
+stars: 3
 title: Langevin_Machine_Learning
-updated: '2020-08-20T09:44:46Z'
+updated: '2021-01-08T06:23:00Z'
 ---

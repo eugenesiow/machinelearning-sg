@@ -1,13 +1,13 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/37952703?v=4
+avatar: https://avatars.githubusercontent.com/u/37952703?v=4
 bio: 'From @NTU-ROSE, School of EEE, Nanyang Technological University, Singapore '
 email: rizhao.cai@gmail.com
-followers: 13
-following: 4
+followers: 15
+following: 5
 forks: 3
 login: RizhaoCai
 open_issues: 2
-public_repos: 19
+public_repos: 20
 stars: 6
 title: CAI, Rizhao
 user_type: User

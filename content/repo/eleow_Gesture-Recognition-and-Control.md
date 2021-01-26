@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: eleow
-stars: 6
+stars: 7
 title: Gesture-Recognition-and-Control
-updated: '2020-12-04T23:11:00Z'
+updated: '2021-01-07T14:57:51Z'
 ---

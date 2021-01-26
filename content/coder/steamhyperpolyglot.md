@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/10084397?v=4
+avatar: https://avatars.githubusercontent.com/u/10084397?v=4
 bio: Freelance STEAM Education Coach, Thought-Leader, Trainer & Influencer // Nerd
   // Maker // Coder // Enthusiast
 email: steam.hyperpolyglot@outlook.sg
@@ -8,7 +8,7 @@ following: 9
 forks: 3
 login: steamhyperpolyglot
 open_issues: null
-public_repos: 69
+public_repos: 70
 stars: 6
 title: Sherman Chen
 user_type: User

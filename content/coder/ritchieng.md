@@ -1,10 +1,10 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/11657655?v=4
+avatar: https://avatars.githubusercontent.com/u/11657655?v=4
 bio: "CIO, Head of AI, hessianmatrix.com \u2022 Deep Learning Research Scholar, NUS\
   \ \u2022 Deep Learning Institute Instructor, NVIDIA \u2022 Founder, deeplearningwizard.com"
 email: null
-followers: 1063
-following: 11
+followers: 1093
+following: 8
 forks: 51
 login: ritchieng
 open_issues: 4

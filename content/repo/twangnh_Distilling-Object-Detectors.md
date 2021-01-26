@@ -5,9 +5,9 @@ forks: 57
 html_url: https://github.com/twangnh/Distilling-Object-Detectors
 language: Python
 license: MIT License
-open_issues: 17
+open_issues: 18
 owner: twangnh
-stars: 293
+stars: 308
 title: Distilling-Object-Detectors
-updated: '2020-12-09T06:14:05Z'
+updated: '2021-01-24T11:52:38Z'
 ---

@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/5900985?v=4
+avatar: https://avatars.githubusercontent.com/u/5900985?v=4
 bio: PhD candidate in CS
 email: null
-followers: 95
+followers: 98
 following: 45
 forks: null
 login: jin-zhe

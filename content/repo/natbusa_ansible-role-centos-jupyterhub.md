@@ -1,7 +1,7 @@
 ---
 description: Jupyterhub on CentOS 7, configurable spawner (sudo, docker), jupyter
   lab support
-forks: 2
+forks: 1
 html_url: https://github.com/natbusa/ansible-role-centos-jupyterhub
 language: Python
 license: MIT License

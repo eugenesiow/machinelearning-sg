@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: Matrixeigs
-stars: 39
+stars: 40
 title: energy_management_system
-updated: '2020-12-13T02:01:22Z'
+updated: '2020-12-22T15:37:15Z'
 ---

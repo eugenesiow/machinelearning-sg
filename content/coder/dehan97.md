@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/58659547?v=4
+avatar: https://avatars.githubusercontent.com/u/58659547?v=4
 bio: Penultimate year Bsc Economics & Data Science Analytics student at SMU
 email: null
 followers: null

@@ -1,11 +1,11 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/634995?v=4
+avatar: https://avatars.githubusercontent.com/u/634995?v=4
 bio: 'Chief Scientist/Engineer on a diet of Data Science, Web, AI, and Data Technologies.
   Proudly going from strategy to code and back. '
 email: natalino.busa@gmail.com
-followers: 170
+followers: 169
 following: 1
-forks: 4
+forks: 3
 login: natbusa
 open_issues: 5
 public_repos: 97

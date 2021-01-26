@@ -1,7 +1,7 @@
 ---
 description: Code for CVPR2019 Towards Natural and Accurate Future Motion Prediction
   of Humans and Animals
-forks: 5
+forks: 6
 html_url: https://github.com/BII-wushuang/Lie-Group-Motion-Prediction
 language: Python
 license: MIT License

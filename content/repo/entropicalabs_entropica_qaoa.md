@@ -7,7 +7,7 @@ language: Python
 license: Apache License 2.0
 open_issues: 2
 owner: entropicalabs
-stars: 42
+stars: 43
 title: entropica_qaoa
-updated: '2020-11-05T08:07:15Z'
+updated: '2020-12-17T12:55:18Z'
 ---

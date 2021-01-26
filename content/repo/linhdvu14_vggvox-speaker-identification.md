@@ -1,12 +1,12 @@
 ---
 description: Speaker identification with VGGVox network
-forks: 26
+forks: 28
 html_url: https://github.com/linhdvu14/vggvox-speaker-identification
 language: Python
 license: null
 open_issues: 12
 owner: linhdvu14
-stars: 75
+stars: 76
 title: vggvox-speaker-identification
-updated: '2020-11-30T10:45:19Z'
+updated: '2020-12-22T07:13:56Z'
 ---

@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/17313649?v=4
+avatar: https://avatars.githubusercontent.com/u/17313649?v=4
 bio: Machine Learning Engineer; Natural Language Processing
 email: liumanlalala@gmail.com
 followers: 1

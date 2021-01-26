@@ -4,7 +4,7 @@ forks: 1
 html_url: https://github.com/remykarem/mixed-naive-bayes
 language: Python
 license: MIT License
-open_issues: 1
+open_issues: 2
 owner: remykarem
 stars: 33
 title: mixed-naive-bayes

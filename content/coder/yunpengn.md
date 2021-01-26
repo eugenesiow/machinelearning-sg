@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/18503402?v=4
+avatar: https://avatars.githubusercontent.com/u/18503402?v=4
 bio: Backend Software Engineer
 email: null
-followers: 55
+followers: 56
 following: 10
 forks: 2
 login: yunpengn

@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: 3
 owner: csyhhu
-stars: 41
+stars: 43
 title: MetaQuant
-updated: '2020-10-22T09:34:57Z'
+updated: '2021-01-05T06:43:30Z'
 ---

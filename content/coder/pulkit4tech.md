@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/12037184?v=4
+avatar: https://avatars.githubusercontent.com/u/12037184?v=4
 bio: Developer, Rubyist, GSoCer 2016 with @celluloid, Competitive Programmer, gadget
   freak, loves football ...
 email: pulkit4tech@gmail.com

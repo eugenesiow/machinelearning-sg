@@ -8,7 +8,7 @@ language: Python
 license: null
 open_issues: null
 owner: jetnew
-stars: 4
+stars: 5
 title: symbolic-function-approximator
-updated: '2020-11-27T15:54:11Z'
+updated: '2020-12-29T20:09:19Z'
 ---

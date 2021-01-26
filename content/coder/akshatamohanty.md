@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/6915805?v=4
+avatar: https://avatars.githubusercontent.com/u/6915805?v=4
 bio: I code for fun and food, in that order.
 email: akshatamohanty@gmail.com
 followers: 14

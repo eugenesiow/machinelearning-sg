@@ -8,7 +8,7 @@ language: Python
 license: null
 open_issues: 6
 owner: zhanghanduo
-stars: 88
+stars: 90
 title: yolo3_pytorch
-updated: '2020-11-24T14:50:53Z'
+updated: '2021-01-17T17:24:31Z'
 ---

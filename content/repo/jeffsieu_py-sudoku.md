@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: jeffsieu
-stars: 10
+stars: 12
 title: py-sudoku
-updated: '2020-11-26T10:24:32Z'
+updated: '2021-01-17T16:05:37Z'
 ---

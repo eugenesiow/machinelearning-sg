@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/35068157?v=4
+avatar: https://avatars.githubusercontent.com/u/35068157?v=4
 bio: "Data Scientist based in Singapore\r\n\r\nKeen interest in Natural Language Processing"
 email: nitin.vwaran@gmail.com
 followers: 3

@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/3461463?v=4
+avatar: https://avatars.githubusercontent.com/u/3461463?v=4
 bio: Lead Data Scientist @ McLaren Applied, APAC
 email: null
 followers: 4

@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/7065814?v=4
+avatar: https://avatars.githubusercontent.com/u/7065814?v=4
 bio: null
 email: null
-followers: 19
+followers: 20
 following: 11
 forks: 7
 login: minhhn2910

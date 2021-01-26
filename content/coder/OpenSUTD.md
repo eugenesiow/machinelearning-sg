@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/43567235?v=4
+avatar: https://avatars.githubusercontent.com/u/43567235?v=4
 bio: An open organisation owned by the SUTD community.
 email: null
 followers: null

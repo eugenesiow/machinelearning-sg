@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/9061913?v=4
+avatar: https://avatars.githubusercontent.com/u/9061913?v=4
 bio: Hackito Ergo Sum.
 email: reachtarunhere@gmail.com
 followers: 118

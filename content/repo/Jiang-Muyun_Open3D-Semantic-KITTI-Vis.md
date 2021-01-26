@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: Jiang-Muyun
-stars: 33
+stars: 35
 title: Open3D-Semantic-KITTI-Vis
-updated: '2020-12-03T05:19:30Z'
+updated: '2021-01-21T13:04:41Z'
 ---

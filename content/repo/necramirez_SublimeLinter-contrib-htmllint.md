@@ -8,5 +8,5 @@ open_issues: 5
 owner: necramirez
 stars: 5
 title: SublimeLinter-contrib-htmllint
-updated: '2019-11-23T23:45:47Z'
+updated: '2021-01-11T08:30:59Z'
 ---

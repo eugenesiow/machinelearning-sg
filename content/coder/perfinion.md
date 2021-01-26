@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/363227?v=4
+avatar: https://avatars.githubusercontent.com/u/363227?v=4
 bio: Android and Gentoo Linux developer
 email: null
-followers: 68
+followers: 70
 following: 2
 forks: null
 login: perfinion

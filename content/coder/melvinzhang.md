@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/1620634?v=4
+avatar: https://avatars.githubusercontent.com/u/1620634?v=4
 bio: null
 email: null
 followers: 39

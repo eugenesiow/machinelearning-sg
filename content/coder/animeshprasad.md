@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/6171337?v=4
+avatar: https://avatars.githubusercontent.com/u/6171337?v=4
 bio: null
 email: animeshprasad3@gmail.com
 followers: 8

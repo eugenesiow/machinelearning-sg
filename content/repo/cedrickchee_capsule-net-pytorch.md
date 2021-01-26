@@ -7,7 +7,7 @@ language: Python
 license: Other
 open_issues: 7
 owner: cedrickchee
-stars: 156
+stars: 157
 title: capsule-net-pytorch
-updated: '2020-11-23T14:37:52Z'
+updated: '2021-01-21T23:57:52Z'
 ---

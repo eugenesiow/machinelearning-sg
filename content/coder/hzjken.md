@@ -1,14 +1,14 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/30411828?v=4
+avatar: https://avatars.githubusercontent.com/u/30411828?v=4
 bio: AI, fintech and data science enthusiast.
 email: huangzijian.ken@gmail.com
-followers: 21
+followers: 25
 following: 2
-forks: 79
+forks: 85
 login: hzjken
-open_issues: 5
+open_issues: 6
 public_repos: 7
-stars: 147
+stars: 160
 title: Ken Huang
 user_type: User
 website: https://www.linkedin.com/in/ken-huang-b9756213b/

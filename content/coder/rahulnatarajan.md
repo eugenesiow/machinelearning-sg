@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/16095988?v=4
+avatar: https://avatars.githubusercontent.com/u/16095988?v=4
 bio: AWS & Google Certified Cloud Professional | Public Cloud, SRE & DevSecOps Consulting
 email: null
 followers: 6

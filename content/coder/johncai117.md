@@ -1,10 +1,10 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/42288369?v=4
-bio: Machine Learning Engineer. Cambridge '19, Princeton '20
+avatar: https://avatars.githubusercontent.com/u/42288369?v=4
+bio: Machine Learning Engineer. Princeton and Cambridge Alum.
 email: null
 followers: 1
 following: 3
-forks: 2
+forks: 3
 login: johncai117
 open_issues: null
 public_repos: 20

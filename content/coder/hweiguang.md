@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/10269988?v=4
+avatar: https://avatars.githubusercontent.com/u/10269988?v=4
 bio: I speak machine language.
 email: null
 followers: 12

@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/3684550?v=4
+avatar: https://avatars.githubusercontent.com/u/3684550?v=4
 bio: null
 email: null
-followers: 25
+followers: 24
 following: 12
 forks: null
 login: zweicoder

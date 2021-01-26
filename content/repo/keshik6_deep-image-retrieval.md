@@ -1,12 +1,12 @@
 ---
 description: End-to-end Learning of Deep Visual Representations for Image Retrieval.
-forks: 4
+forks: 6
 html_url: https://github.com/keshik6/deep-image-retrieval
 language: Python
-license: null
+license: MIT License
 open_issues: null
 owner: keshik6
-stars: 13
+stars: 14
 title: deep-image-retrieval
-updated: '2020-12-07T08:33:00Z'
+updated: '2021-01-20T16:13:41Z'
 ---

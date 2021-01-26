@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/347918?v=4
+avatar: https://avatars.githubusercontent.com/u/347918?v=4
 bio: null
 email: null
-followers: 198
+followers: 202
 following: 62
 forks: 2
 login: jin

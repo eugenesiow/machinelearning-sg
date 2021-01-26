@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: terra-project
-stars: 29
+stars: 30
 title: research
-updated: '2020-11-09T11:48:58Z'
+updated: '2021-01-08T17:56:04Z'
 ---

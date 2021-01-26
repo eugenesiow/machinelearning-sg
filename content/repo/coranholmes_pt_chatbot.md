@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: 2
 owner: coranholmes
-stars: 9
+stars: 10
 title: pt_chatbot
-updated: '2020-11-04T04:10:50Z'
+updated: '2021-01-20T11:30:20Z'
 ---

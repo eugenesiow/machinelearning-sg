@@ -1,13 +1,13 @@
 ---
 description: 'PyTorch implementation for "Matching the Blanks: Distributional Similarity
   for Relation Learning" paper'
-forks: 44
+forks: 49
 html_url: https://github.com/plkmo/BERT-Relation-Extraction
 language: Python
 license: Apache License 2.0
-open_issues: 5
+open_issues: 7
 owner: plkmo
-stars: 191
+stars: 221
 title: BERT-Relation-Extraction
-updated: '2020-12-14T15:42:12Z'
+updated: '2021-01-26T05:55:30Z'
 ---

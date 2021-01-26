@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: 1
 owner: jiayouwyhit
-stars: 20
+stars: 21
 title: deepdrawing
-updated: '2020-12-11T01:23:30Z'
+updated: '2021-01-17T01:26:39Z'
 ---

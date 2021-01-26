@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/20919861?v=4
+avatar: https://avatars.githubusercontent.com/u/20919861?v=4
 bio: I am a graduate with a Diploma in Cyber Security and Forensics from Nanyang Polytechnic.
   I enjoy programming in general. Currently serving National Service.
 email: danieltantwofficial@gmail.com
-followers: 2
+followers: 3
 following: 3
 forks: 2
 login: DanielTanTWOfficial

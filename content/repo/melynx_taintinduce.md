@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: 1
 owner: melynx
-stars: 39
+stars: 40
 title: taintinduce
-updated: '2020-12-11T06:14:48Z'
+updated: '2021-01-15T06:44:35Z'
 ---

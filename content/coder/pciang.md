@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/7668385?v=4
+avatar: https://avatars.githubusercontent.com/u/7668385?v=4
 bio: Undergraduate in Computer Science sin Nanyang Technological University
 email: peterch1ang@yahoo.com
 followers: 32

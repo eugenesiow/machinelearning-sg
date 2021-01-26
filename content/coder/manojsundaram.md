@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/4425664?v=4
+avatar: https://avatars.githubusercontent.com/u/4425664?v=4
 bio: Solutions Architect @ Cloudera
 email: manoj.sundaram21@gmail.com
 followers: 8

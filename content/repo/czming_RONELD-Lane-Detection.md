@@ -6,7 +6,7 @@ language: Python
 license: GNU Lesser General Public License v3.0
 open_issues: null
 owner: czming
-stars: 8
+stars: 10
 title: RONELD-Lane-Detection
-updated: '2020-12-11T08:35:19Z'
+updated: '2021-01-12T04:59:55Z'
 ---

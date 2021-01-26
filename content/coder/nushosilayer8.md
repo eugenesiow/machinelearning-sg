@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/38674260?v=4
+avatar: https://avatars.githubusercontent.com/u/38674260?v=4
 bio: CTF Team for NUS High School of Math and Science
 email: nushosilayer8@gmail.com
 followers: null

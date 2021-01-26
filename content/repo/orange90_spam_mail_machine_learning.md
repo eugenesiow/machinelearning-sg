@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: orange90
-stars: 5
+stars: 7
 title: spam_mail_machine_learning
-updated: '2019-06-16T07:33:28Z'
+updated: '2021-01-16T08:59:59Z'
 ---

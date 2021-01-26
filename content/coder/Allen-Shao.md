@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/16867118?v=4
+avatar: https://avatars.githubusercontent.com/u/16867118?v=4
 bio: Co-founder of Narus | NLP | HPC
 email: yiyang@narus.io
 followers: 23

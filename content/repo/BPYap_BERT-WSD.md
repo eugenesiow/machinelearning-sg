@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: BPYap
-stars: 6
+stars: 7
 title: BERT-WSD
-updated: '2020-11-22T18:43:51Z'
+updated: '2021-01-20T10:31:06Z'
 ---

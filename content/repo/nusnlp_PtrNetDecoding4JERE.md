@@ -5,9 +5,9 @@ forks: 10
 html_url: https://github.com/nusnlp/PtrNetDecoding4JERE
 language: Python
 license: null
-open_issues: null
+open_issues: 1
 owner: nusnlp
-stars: 59
+stars: 63
 title: PtrNetDecoding4JERE
-updated: '2020-11-27T14:44:33Z'
+updated: '2021-01-15T05:30:23Z'
 ---

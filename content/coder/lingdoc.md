@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/15827864?v=4
+avatar: https://avatars.githubusercontent.com/u/15827864?v=4
 bio: null
 email: hiram1@e.ntu.edu.sg
 followers: 5

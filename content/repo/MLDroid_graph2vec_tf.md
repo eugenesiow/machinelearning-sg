@@ -1,13 +1,13 @@
 ---
 description: 'This repository contains the "tensorflow" implementation of our paper
   "graph2vec: Learning distributed representations of graphs".'
-forks: 42
+forks: 43
 html_url: https://github.com/MLDroid/graph2vec_tf
 language: Python
 license: null
 open_issues: 4
 owner: MLDroid
-stars: 118
+stars: 120
 title: graph2vec_tf
-updated: '2020-11-27T07:52:43Z'
+updated: '2021-01-13T18:37:54Z'
 ---

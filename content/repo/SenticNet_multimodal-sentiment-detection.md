@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: SenticNet
-stars: 16
+stars: 17
 title: multimodal-sentiment-detection
-updated: '2020-11-17T06:23:33Z'
+updated: '2021-01-03T13:12:12Z'
 ---

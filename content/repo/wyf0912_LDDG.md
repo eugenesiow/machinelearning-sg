@@ -5,9 +5,9 @@ forks: null
 html_url: https://github.com/wyf0912/LDDG
 language: Python
 license: null
-open_issues: 1
+open_issues: null
 owner: wyf0912
-stars: 19
+stars: 23
 title: LDDG
-updated: '2020-12-08T05:38:29Z'
+updated: '2021-01-25T07:53:50Z'
 ---

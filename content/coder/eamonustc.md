@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/11291330?v=4
+avatar: https://avatars.githubusercontent.com/u/11291330?v=4
 bio: CLEAR EYES, FULL HEARTS
 email: null
-followers: 21
+followers: 23
 following: 343
 forks: 2
 login: eamonustc

@@ -7,7 +7,7 @@ language: Python
 license: GNU General Public License v3.0
 open_issues: null
 owner: Yusufma03
-stars: 9
+stars: 10
 title: CVRL
-updated: '2020-11-18T01:33:55Z'
+updated: '2021-01-09T08:25:34Z'
 ---

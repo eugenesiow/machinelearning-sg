@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: 1
 owner: AIWintermuteAI
-stars: 19
+stars: 20
 title: Yolo-digit-detector
-updated: '2020-08-24T16:20:21Z'
+updated: '2021-01-07T06:18:40Z'
 ---

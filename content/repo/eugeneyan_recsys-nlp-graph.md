@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: eugeneyan
-stars: 26
+stars: 30
 title: recsys-nlp-graph
-updated: '2020-12-10T03:11:04Z'
+updated: '2021-01-25T03:46:39Z'
 ---

@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/25190234?v=4
+avatar: https://avatars.githubusercontent.com/u/25190234?v=4
 bio: null
 email: lishuo980@gmail.com
 followers: 5

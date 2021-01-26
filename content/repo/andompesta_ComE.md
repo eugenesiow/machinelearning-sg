@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 8
 owner: andompesta
-stars: 51
+stars: 53
 title: ComE
-updated: '2020-10-12T07:27:24Z'
+updated: '2021-01-26T07:50:44Z'
 ---

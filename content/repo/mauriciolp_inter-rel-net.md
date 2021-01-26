@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: mauriciolp
-stars: 6
+stars: 8
 title: inter-rel-net
-updated: '2020-11-28T04:07:39Z'
+updated: '2021-01-18T07:51:21Z'
 ---

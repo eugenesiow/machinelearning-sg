@@ -7,7 +7,7 @@ language: Python
 license: Apache License 2.0
 open_issues: null
 owner: dixantmittal
-stars: 5
+stars: 6
 title: fast-rrt-star
-updated: '2020-09-01T17:23:14Z'
+updated: '2021-01-21T05:09:16Z'
 ---

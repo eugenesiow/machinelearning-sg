@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: RoyalSkye
-stars: 5
+stars: 6
 title: Image-Caption
-updated: '2020-11-23T12:03:04Z'
+updated: '2020-12-23T14:31:35Z'
 ---

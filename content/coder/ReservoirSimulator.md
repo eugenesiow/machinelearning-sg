@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/16694430?v=4
+avatar: https://avatars.githubusercontent.com/u/16694430?v=4
 bio: "I am:\r\n1) reservoir simulation engineer;\r\n2) reservoir simulator developer\
   \ since 1996;\r\n3) C++ coder;\r\n4) Keen to python and ML;"
 email: peclouds@hotmail.com

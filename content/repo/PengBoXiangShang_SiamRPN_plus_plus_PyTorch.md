@@ -5,9 +5,9 @@ forks: 96
 html_url: https://github.com/PengBoXiangShang/SiamRPN_plus_plus_PyTorch
 language: Python
 license: null
-open_issues: 7
+open_issues: 8
 owner: PengBoXiangShang
-stars: 421
+stars: 424
 title: SiamRPN_plus_plus_PyTorch
-updated: '2020-12-10T08:21:05Z'
+updated: '2021-01-18T01:37:34Z'
 ---

@@ -1,7 +1,7 @@
 ---
 description: Telegram bot hosted on Google App Engine that fetches bible passages
   from biblegateway.com
-forks: 6
+forks: 7
 html_url: https://github.com/whipermr5/biblegatewaybot
 language: Python
 license: null

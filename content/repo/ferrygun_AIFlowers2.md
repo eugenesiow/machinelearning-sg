@@ -1,6 +1,6 @@
 ---
 description: AIFlowers2
-forks: 16
+forks: 14
 html_url: https://github.com/ferrygun/AIFlowers2
 language: Python
 license: null

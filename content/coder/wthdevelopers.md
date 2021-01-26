@@ -1,7 +1,7 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/54343671?v=4
+avatar: https://avatars.githubusercontent.com/u/54343671?v=4
 bio: What The Hack supports open source event management.
-email: null
+email: wthdevelopers@gmail.com
 followers: null
 following: null
 forks: 1

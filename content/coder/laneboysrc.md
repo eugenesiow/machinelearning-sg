@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/2064365?v=4
+avatar: https://avatars.githubusercontent.com/u/2064365?v=4
 bio: null
 email: laneboysrc@gmail.com
 followers: 20

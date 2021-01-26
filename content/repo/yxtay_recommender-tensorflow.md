@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: 1
 owner: yxtay
-stars: 37
+stars: 38
 title: recommender-tensorflow
-updated: '2020-09-16T17:06:25Z'
+updated: '2020-12-27T09:34:36Z'
 ---

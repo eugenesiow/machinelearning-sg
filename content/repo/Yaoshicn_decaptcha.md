@@ -8,7 +8,7 @@ language: Python
 license: MIT License
 open_issues: 1
 owner: Yaoshicn
-stars: 184
+stars: 193
 title: decaptcha
-updated: '2020-12-06T03:10:07Z'
+updated: '2021-01-24T04:17:40Z'
 ---

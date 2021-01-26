@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 1
 owner: Wangt-CN
-stars: 2
+stars: 3
 title: Image-text-matching
-updated: '2020-09-24T20:17:53Z'
+updated: '2021-01-13T04:58:59Z'
 ---

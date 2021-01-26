@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/8686465?v=4
+avatar: https://avatars.githubusercontent.com/u/8686465?v=4
 bio: ' I am a PhD student at NTU, Singapore. My research areas are deep learning,
   audio signal processing, microphone array, and real-time processing.'
 email: null
-followers: 2
+followers: 4
 following: null
 forks: null
 login: thomeou

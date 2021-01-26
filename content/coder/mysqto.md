@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/2177831?v=4
+avatar: https://avatars.githubusercontent.com/u/2177831?v=4
 bio: ' Virgo meets programmer.'
 email: null
-followers: 19
+followers: 21
 following: 75
 forks: null
 login: mysqto

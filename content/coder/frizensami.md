@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/5507069?v=4
+avatar: https://avatars.githubusercontent.com/u/5507069?v=4
 bio: "\r\n    \r\n    \r\n    \r\n    \r\n    Graduate Tutor & PhD Student at the\
   \ Sensing, Embedded, and Network Security Group (SENSG)\r\n\r\n\r\n\r\n\r\n"
 email: null

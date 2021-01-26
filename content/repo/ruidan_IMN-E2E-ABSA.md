@@ -5,9 +5,9 @@ forks: 14
 html_url: https://github.com/ruidan/IMN-E2E-ABSA
 language: Python
 license: Apache License 2.0
-open_issues: 10
+open_issues: 11
 owner: ruidan
-stars: 74
+stars: 79
 title: IMN-E2E-ABSA
-updated: '2020-12-05T12:23:35Z'
+updated: '2021-01-19T14:42:06Z'
 ---

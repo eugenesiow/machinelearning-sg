@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/17065091?v=4
+avatar: https://avatars.githubusercontent.com/u/17065091?v=4
 bio: null
 email: tenzin_chan@mymail.sutd.edu.sg
 followers: 17

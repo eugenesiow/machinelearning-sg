@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: 1
 owner: keshik6
-stars: 22
+stars: 24
 title: KITTI-2d-object-detection
-updated: '2020-11-14T20:45:29Z'
+updated: '2021-01-03T09:43:58Z'
 ---

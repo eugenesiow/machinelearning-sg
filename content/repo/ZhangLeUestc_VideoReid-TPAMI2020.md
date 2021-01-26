@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: ZhangLeUestc
-stars: 19
+stars: 20
 title: VideoReid-TPAMI2020
-updated: '2020-11-23T15:50:13Z'
+updated: '2021-01-14T07:41:46Z'
 ---

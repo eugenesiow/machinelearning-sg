@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/24378666?v=4
+avatar: https://avatars.githubusercontent.com/u/24378666?v=4
 bio: "\U0001F1F8\U0001F1EC Data Scientist at @fraymio "
 email: null
-followers: 35
-following: 87
+followers: 36
+following: 88
 forks: null
 login: jtanwk
 open_issues: 8

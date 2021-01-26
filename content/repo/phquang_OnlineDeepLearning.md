@@ -1,6 +1,6 @@
 ---
 description: Implementation of Online Hedge Backpropagation
-forks: 1
+forks: 2
 html_url: https://github.com/phquang/OnlineDeepLearning
 language: Python
 license: null

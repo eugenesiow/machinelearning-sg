@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/12369539?v=4
+avatar: https://avatars.githubusercontent.com/u/12369539?v=4
 bio: 'PhD Student @ NTU '
 email: clement.tan.xian.ren@gmail.com
 followers: 12

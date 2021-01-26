@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/29509060?v=4
+avatar: https://avatars.githubusercontent.com/u/29509060?v=4
 bio: "\r\n    Studying Computer Science at the National University of Singapore.\r\
   \n"
 email: null
-followers: 32
+followers: 35
 following: 38
 forks: 1
 login: chaitanyabaranwal

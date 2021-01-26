@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: khooi8913
-stars: 18
+stars: 19
 title: daily-interview-pro
-updated: '2020-12-06T19:18:55Z'
+updated: '2021-01-04T12:10:18Z'
 ---

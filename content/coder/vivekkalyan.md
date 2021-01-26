@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/15277589?v=4
+avatar: https://avatars.githubusercontent.com/u/15277589?v=4
 bio: CS Major - Deep Learning - Computer Vision - Augmented Reality - Django Backend
   - React Frontend
 email: null

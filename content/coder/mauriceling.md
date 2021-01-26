@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/1976168?v=4
+avatar: https://avatars.githubusercontent.com/u/1976168?v=4
 bio: Scientist | Educator | Spiritualist | Technocrat
 email: mauriceling@acm.org
 followers: 18

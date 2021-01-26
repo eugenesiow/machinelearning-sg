@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/18070686?v=4
+avatar: https://avatars.githubusercontent.com/u/18070686?v=4
 bio: 'Biological Sciences & Medicinal Chem Major at NTU, Founder and Lead Developer
   at @Work-Teen '
 email: null
-followers: 23
+followers: 24
 following: 21
 forks: null
 login: kunmishra2599

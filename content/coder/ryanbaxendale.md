@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/2605002?v=4
+avatar: https://avatars.githubusercontent.com/u/2605002?v=4
 bio: null
 email: null
-followers: 105
-following: 842
+followers: 106
+following: 856
 forks: 3
 login: ryanbaxendale
 open_issues: null

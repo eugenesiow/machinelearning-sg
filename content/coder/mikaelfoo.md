@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/13247692?v=4
+avatar: https://avatars.githubusercontent.com/u/13247692?v=4
 bio: ":)\r\n- A EE guy"
 email: null
 followers: null

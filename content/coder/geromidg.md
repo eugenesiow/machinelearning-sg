@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/5902530?v=4
+avatar: https://avatars.githubusercontent.com/u/5902530?v=4
 bio: null
 email: geromidg@gmail.com
 followers: 22

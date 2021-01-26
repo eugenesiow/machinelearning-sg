@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/1073936?v=4
+avatar: https://avatars.githubusercontent.com/u/1073936?v=4
 bio: Technologist, collaborator
 email: null
-followers: 36
-following: 70
+followers: 37
+following: 71
 forks: 1
 login: meshuga
 open_issues: null

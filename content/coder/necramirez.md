@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/167253?v=4
+avatar: https://avatars.githubusercontent.com/u/167253?v=4
 bio: null
 email: necramirez@gmail.com
 followers: 9

@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/7345088?v=4
+avatar: https://avatars.githubusercontent.com/u/7345088?v=4
 bio: null
 email: bitsoal@gmail.com
 followers: 12
-following: 8
+following: 14
 forks: 2
 login: bitsoal
 open_issues: 1

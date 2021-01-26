@@ -1,6 +1,6 @@
 ---
 description: Image Recognition With Sipeed MaiX and Arduino IDE/Micropython
-forks: 6
+forks: 7
 html_url: https://github.com/AIWintermuteAI/transfer_learning_sipeed
 language: Python
 license: null

@@ -1,12 +1,12 @@
 ---
 description: Summary, Code for Deep Neural Network Quantization
-forks: 31
+forks: 34
 html_url: https://github.com/csyhhu/Awesome-Deep-Neural-Network-Compression
 language: Python
 license: null
 open_issues: 2
 owner: csyhhu
-stars: 220
+stars: 236
 title: Awesome-Deep-Neural-Network-Compression
-updated: '2020-12-13T07:59:57Z'
+updated: '2021-01-20T11:26:20Z'
 ---

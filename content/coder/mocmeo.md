@@ -1,10 +1,10 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/16916869?v=4
+avatar: https://avatars.githubusercontent.com/u/16916869?v=4
 bio: "Behold a meowtain \U0001F30A"
 email: vdev.lamnn@gmail.com
-followers: 30
+followers: 31
 following: 72
-forks: 5
+forks: 6
 login: mocmeo
 open_issues: null
 public_repos: 36

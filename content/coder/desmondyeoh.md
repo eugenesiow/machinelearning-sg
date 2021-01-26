@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/9032341?v=4
-bio: Research Assistant at NUS-Singtel Cyber Security R&D Lab
+avatar: https://avatars.githubusercontent.com/u/9032341?v=4
+bio: Data Scientist @ Shopee
 email: desmondyeoh11@gmail.com
-followers: 51
-following: 48
+followers: 52
+following: 49
 forks: 4
 login: desmondyeoh
 open_issues: 1

@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 22
 owner: baoshi
-stars: 143
+stars: 142
 title: CubeMX2Makefile
-updated: '2020-10-05T00:36:37Z'
+updated: '2021-01-18T16:50:51Z'
 ---

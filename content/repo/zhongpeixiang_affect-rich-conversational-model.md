@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: zhongpeixiang
-stars: 7
+stars: 8
 title: affect-rich-conversational-model
-updated: '2020-06-28T06:33:41Z'
+updated: '2021-01-10T03:21:40Z'
 ---

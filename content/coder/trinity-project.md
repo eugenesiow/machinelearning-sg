@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/33684544?v=4
+avatar: https://avatars.githubusercontent.com/u/33684544?v=4
 bio: Trusted business platform
 email: aalenian@gmail.com
 followers: null

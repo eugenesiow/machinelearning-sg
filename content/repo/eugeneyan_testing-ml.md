@@ -1,13 +1,13 @@
 ---
 description: "\U0001F50D Minimal examples of machine learning tests for implementation,\
   \ behaviour, and performance."
-forks: 2
+forks: 5
 html_url: https://github.com/eugeneyan/testing-ml
 language: Python
 license: null
 open_issues: null
 owner: eugeneyan
-stars: 31
+stars: 41
 title: testing-ml
-updated: '2020-12-11T19:20:46Z'
+updated: '2021-01-25T13:18:38Z'
 ---

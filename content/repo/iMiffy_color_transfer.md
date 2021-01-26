@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: iMiffy
-stars: 3
+stars: 4
 title: color_transfer
-updated: '2020-06-23T01:54:25Z'
+updated: '2020-12-15T08:33:54Z'
 ---

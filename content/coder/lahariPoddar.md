@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/16877261?v=4
+avatar: https://avatars.githubusercontent.com/u/16877261?v=4
 bio: Ph.D. student at National University of Singapore.
 email: null
 followers: 1

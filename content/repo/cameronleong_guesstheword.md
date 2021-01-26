@@ -1,6 +1,6 @@
 ---
 description: Discord bot built using discord.py library.
-forks: 1
+forks: 2
 html_url: https://github.com/cameronleong/guesstheword
 language: Python
 license: null

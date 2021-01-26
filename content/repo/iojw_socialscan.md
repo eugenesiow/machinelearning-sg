@@ -1,13 +1,13 @@
 ---
-description: Check email address and username availability on online platforms with
-  100% accuracy
-forks: 83
+description: Python library and CLI for accurately querying username and email usage
+  on online platforms
+forks: 86
 html_url: https://github.com/iojw/socialscan
 language: Python
 license: Mozilla Public License 2.0
-open_issues: 9
+open_issues: 12
 owner: iojw
-stars: 481
+stars: 508
 title: socialscan
-updated: '2020-12-14T19:58:57Z'
+updated: '2021-01-24T23:59:04Z'
 ---

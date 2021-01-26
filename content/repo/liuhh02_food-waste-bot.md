@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: liuhh02
-stars: 5
+stars: 6
 title: food-waste-bot
-updated: '2020-07-19T03:09:23Z'
+updated: '2020-12-24T17:40:53Z'
 ---

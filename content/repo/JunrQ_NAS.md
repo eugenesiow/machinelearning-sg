@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 12
 owner: JunrQ
-stars: 3
+stars: 4
 title: NAS
-updated: '2020-12-04T15:01:04Z'
+updated: '2020-12-26T23:10:57Z'
 ---

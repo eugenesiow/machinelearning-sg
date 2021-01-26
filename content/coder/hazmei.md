@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/12455437?v=4
+avatar: https://avatars.githubusercontent.com/u/12455437?v=4
 bio: DevOps Engineer
 email: hazmei.ar@gmail.com
 followers: 5
-following: 2
+following: 3
 forks: null
 login: hazmei
 open_issues: null

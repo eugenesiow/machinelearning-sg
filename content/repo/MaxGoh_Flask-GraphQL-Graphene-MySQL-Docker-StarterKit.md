@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: MaxGoh
-stars: 23
+stars: 25
 title: Flask-GraphQL-Graphene-MySQL-Docker-StarterKit
-updated: '2020-07-24T21:00:00Z'
+updated: '2021-01-25T02:48:13Z'
 ---

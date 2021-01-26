@@ -8,7 +8,7 @@ language: Python
 license: null
 open_issues: 1
 owner: MLDroid
-stars: 38
+stars: 39
 title: subgraph2vec_gensim
-updated: '2020-12-07T19:50:11Z'
+updated: '2021-01-02T16:04:50Z'
 ---

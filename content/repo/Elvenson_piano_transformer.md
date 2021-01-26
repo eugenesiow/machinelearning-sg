@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: Elvenson
-stars: 3
+stars: 5
 title: piano_transformer
-updated: '2020-11-24T13:07:56Z'
+updated: '2020-12-30T21:34:36Z'
 ---

@@ -4,7 +4,7 @@ forks: 3
 html_url: https://github.com/franziz/artagger
 language: Python
 license: Apache License 2.0
-open_issues: 3
+open_issues: 1
 owner: franziz
 stars: 7
 title: artagger

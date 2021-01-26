@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/18852983?v=4
+avatar: https://avatars.githubusercontent.com/u/18852983?v=4
 bio: Android Developer at BandLab Technologies
 email: kevin85619@gmail.com
 followers: 8
-following: 4
+following: 5
 forks: null
 login: kevinguitar
 open_issues: null

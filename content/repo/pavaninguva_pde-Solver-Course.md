@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: pavaninguva
-stars: 6
+stars: 8
 title: pde-Solver-Course
-updated: '2020-11-19T20:23:12Z'
+updated: '2021-01-01T15:34:15Z'
 ---

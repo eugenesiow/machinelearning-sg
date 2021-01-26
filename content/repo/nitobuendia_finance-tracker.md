@@ -6,7 +6,7 @@ language: Python
 license: Apache License 2.0
 open_issues: 8
 owner: nitobuendia
-stars: 2
+stars: 4
 title: finance-tracker
-updated: '2020-10-25T11:57:12Z'
+updated: '2021-01-25T04:43:49Z'
 ---

@@ -1,6 +1,6 @@
 ---
 description: Chinese Text Generation using LSTM
-forks: 10
+forks: 9
 html_url: https://github.com/crownpku/lstm_text_generation_chinese
 language: Python
 license: null

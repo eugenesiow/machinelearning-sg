@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: yining043
-stars: 6
+stars: 7
 title: SAC-discrete
-updated: '2020-11-03T08:14:15Z'
+updated: '2020-12-24T04:58:11Z'
 ---

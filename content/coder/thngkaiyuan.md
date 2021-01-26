@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/10496851?v=4
+avatar: https://avatars.githubusercontent.com/u/10496851?v=4
 bio: "some people call me open-source (\u5F00\u6E90)"
 email: null
 followers: 18

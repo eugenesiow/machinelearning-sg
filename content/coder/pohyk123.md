@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/25542192?v=4
+avatar: https://avatars.githubusercontent.com/u/25542192?v=4
 bio: Eat, sleep, code, repeat!
 email: null
 followers: 12

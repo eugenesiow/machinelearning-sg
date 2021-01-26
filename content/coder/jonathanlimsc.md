@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/10573926?v=4
+avatar: https://avatars.githubusercontent.com/u/10573926?v=4
 bio: Data Scientist and Machine Learning Engineer at Shopee. In my free time, I think
   about consciousness and connecting brains to computers.
 email: jonathan.lim@u.nus.edu

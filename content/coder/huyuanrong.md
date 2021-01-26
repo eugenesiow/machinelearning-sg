@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/31068480?v=4
+avatar: https://avatars.githubusercontent.com/u/31068480?v=4
 bio: NUS CEG
 email: null
 followers: 6

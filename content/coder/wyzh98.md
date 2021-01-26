@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/32894577?v=4
+avatar: https://avatars.githubusercontent.com/u/32894577?v=4
 bio: MSc in @marmotlab, NUS
 email: null
-followers: 8
+followers: 9
 following: 18
 forks: 1
 login: wyzh98

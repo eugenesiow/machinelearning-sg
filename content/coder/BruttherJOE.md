@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/54128914?v=4
+avatar: https://avatars.githubusercontent.com/u/54128914?v=4
 bio: gonna do all I can at SUTD
 email: bruttherjoe@gmail.com
 followers: 6

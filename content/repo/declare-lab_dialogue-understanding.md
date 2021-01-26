@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: declare-lab
-stars: 67
+stars: 71
 title: dialogue-understanding
-updated: '2020-12-14T06:28:10Z'
+updated: '2021-01-12T04:44:31Z'
 ---

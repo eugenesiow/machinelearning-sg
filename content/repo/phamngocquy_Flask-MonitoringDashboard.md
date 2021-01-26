@@ -8,5 +8,5 @@ open_issues: null
 owner: phamngocquy
 stars: 2
 title: Flask-MonitoringDashboard
-updated: '2020-07-20T02:52:54Z'
+updated: '2021-01-15T10:31:42Z'
 ---

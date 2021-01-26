@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/4732553?v=4
+avatar: https://avatars.githubusercontent.com/u/4732553?v=4
 bio: Fire Hydrant Enthusiast
 email: nihal.mirpuri@gmail.com
 followers: 19

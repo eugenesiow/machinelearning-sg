@@ -4,7 +4,7 @@ forks: 2
 html_url: https://github.com/JunrQ/gbnas
 language: Python
 license: null
-open_issues: 1
+open_issues: null
 owner: JunrQ
 stars: 3
 title: gbnas

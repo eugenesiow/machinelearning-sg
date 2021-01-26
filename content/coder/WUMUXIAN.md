@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/1101630?v=4
+avatar: https://avatars.githubusercontent.com/u/1101630?v=4
 bio: I program
 email: wumuxian1988@gmail.com
 followers: 5

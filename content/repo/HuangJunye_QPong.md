@@ -7,7 +7,7 @@ language: Python
 license: Apache License 2.0
 open_issues: 15
 owner: HuangJunye
-stars: 56
+stars: 58
 title: QPong
-updated: '2020-12-09T15:05:39Z'
+updated: '2021-01-25T14:58:06Z'
 ---

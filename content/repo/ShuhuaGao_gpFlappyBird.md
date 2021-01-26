@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: ShuhuaGao
-stars: 112
+stars: 117
 title: gpFlappyBird
-updated: '2020-11-24T14:38:23Z'
+updated: '2021-01-15T08:31:02Z'
 ---

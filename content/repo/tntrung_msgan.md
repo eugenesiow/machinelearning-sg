@@ -1,7 +1,7 @@
 ---
 description: 'Tensorflow code of the paper "Self-supervised GAN: Analysis and Improvement
   with Multi-class Minimax Game".'
-forks: 7
+forks: 8
 html_url: https://github.com/tntrung/msgan
 language: Python
 license: null

@@ -1,12 +1,12 @@
 ---
 description: 'the book with script '
-forks: 28
+forks: 29
 html_url: https://github.com/jenniyanjie/successful-algorithmic-trading
 language: Python
 license: null
 open_issues: null
 owner: jenniyanjie
-stars: 31
+stars: 33
 title: successful-algorithmic-trading
-updated: '2020-12-10T18:04:00Z'
+updated: '2021-01-25T10:23:04Z'
 ---

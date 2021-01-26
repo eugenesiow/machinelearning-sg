@@ -6,7 +6,7 @@ language: Python
 license: GNU General Public License v3.0
 open_issues: 4
 owner: xuchenglin28
-stars: 50
+stars: 51
 title: speaker_extraction
-updated: '2020-11-16T03:03:27Z'
+updated: '2021-01-24T02:38:38Z'
 ---

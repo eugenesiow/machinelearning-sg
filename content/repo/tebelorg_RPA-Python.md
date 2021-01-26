@@ -1,12 +1,12 @@
 ---
 description: Python package for RPA (robotic process automation)
-forks: 223
+forks: 237
 html_url: https://github.com/tebelorg/RPA-Python
 language: Python
 license: Apache License 2.0
-open_issues: 33
+open_issues: 42
 owner: tebelorg
-stars: 1494
+stars: 1605
 title: RPA-Python
-updated: '2020-12-14T13:59:22Z'
+updated: '2021-01-26T05:35:53Z'
 ---

@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/16631850?v=4
+avatar: https://avatars.githubusercontent.com/u/16631850?v=4
 bio: null
 email: null
-followers: 32
-following: 66
+followers: 35
+following: 70
 forks: 4
 login: weimingwill
 open_issues: 1

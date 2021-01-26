@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/1680988?v=4
+avatar: https://avatars.githubusercontent.com/u/1680988?v=4
 bio: null
 email: yashiro32@yahoo.com
-followers: 2
+followers: 3
 following: null
 forks: 12
 login: yashiro32

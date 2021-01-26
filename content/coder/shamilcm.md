@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/642864?v=4
+avatar: https://avatars.githubusercontent.com/u/642864?v=4
 bio: Research Scientist
 email: null
 followers: 74

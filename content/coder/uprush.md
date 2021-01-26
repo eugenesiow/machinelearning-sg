@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/694650?v=4
+avatar: https://avatars.githubusercontent.com/u/694650?v=4
 bio: null
 email: uprushworld@gmail.com
-followers: 33
+followers: 34
 following: 11
 forks: 1
 login: uprush

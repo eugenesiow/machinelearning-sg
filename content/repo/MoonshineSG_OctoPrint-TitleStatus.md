@@ -1,6 +1,6 @@
 ---
 description: Show printers status in window title
-forks: 4
+forks: 3
 html_url: https://github.com/MoonshineSG/OctoPrint-TitleStatus
 language: Python
 license: null

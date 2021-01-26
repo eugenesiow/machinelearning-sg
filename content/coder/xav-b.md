@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/1517057?v=4
+avatar: https://avatars.githubusercontent.com/u/1517057?v=4
 bio: null
 email: xavier.bruhiere@gmail.com
-followers: 36
+followers: 37
 following: 22
 forks: 5
 login: xav-b

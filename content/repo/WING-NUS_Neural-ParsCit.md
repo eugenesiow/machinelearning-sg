@@ -7,7 +7,7 @@ language: Python
 license: Other
 open_issues: 7
 owner: WING-NUS
-stars: 49
+stars: 50
 title: Neural-ParsCit
-updated: '2020-12-13T15:19:56Z'
+updated: '2021-01-05T06:27:21Z'
 ---

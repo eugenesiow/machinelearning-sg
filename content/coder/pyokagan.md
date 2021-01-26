@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/109479?v=4
+avatar: https://avatars.githubusercontent.com/u/109479?v=4
 bio: Computer graphics and programming languages
 email: pyokagan@gmail.com
 followers: 30

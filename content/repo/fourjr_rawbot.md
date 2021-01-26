@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: 1
 owner: fourjr
-stars: 6
+stars: 5
 title: rawbot
-updated: '2020-11-20T19:26:18Z'
+updated: '2020-12-19T09:05:39Z'
 ---

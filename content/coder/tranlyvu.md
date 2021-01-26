@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/12371875?v=4
+avatar: https://avatars.githubusercontent.com/u/12371875?v=4
 bio: Contact me for project collaboration
 email: vutransingapore@gmail.com
-followers: 63
+followers: 64
 following: 3
 forks: 1
 login: tranlyvu

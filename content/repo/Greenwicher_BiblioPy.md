@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: Greenwicher
-stars: 9
+stars: 10
 title: BiblioPy
-updated: '2020-05-15T02:38:15Z'
+updated: '2020-12-23T10:08:44Z'
 ---

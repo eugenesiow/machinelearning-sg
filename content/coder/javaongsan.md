@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/911853?v=4
+avatar: https://avatars.githubusercontent.com/u/911853?v=4
 bio: Remote Basement Worker. I live in my moms basement and make Wordpress sites.
   No system is safe! Audacity triumphs!
 email: null

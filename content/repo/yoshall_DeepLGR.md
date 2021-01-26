@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 1
 owner: yoshall
-stars: 3
+stars: 4
 title: DeepLGR
-updated: '2020-11-20T11:50:38Z'
+updated: '2021-01-08T13:19:05Z'
 ---

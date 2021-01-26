@@ -1,10 +1,10 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/17757672?v=4
+avatar: https://avatars.githubusercontent.com/u/17757672?v=4
 bio: null
 email: cameronleongjj@gmail.com
-followers: 7
-following: 11
-forks: 12
+followers: 8
+following: 12
+forks: 14
 login: cameronleong
 open_issues: 4
 public_repos: 22

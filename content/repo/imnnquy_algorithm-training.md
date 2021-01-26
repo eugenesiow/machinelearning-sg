@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: imnnquy
-stars: 4
+stars: 5
 title: algorithm-training
-updated: '2019-12-18T03:15:16Z'
+updated: '2020-12-26T04:28:23Z'
 ---

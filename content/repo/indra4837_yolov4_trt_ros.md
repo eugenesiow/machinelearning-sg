@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: indra4837
-stars: 6
+stars: 7
 title: yolov4_trt_ros
-updated: '2020-11-17T06:52:17Z'
+updated: '2021-01-21T13:21:55Z'
 ---

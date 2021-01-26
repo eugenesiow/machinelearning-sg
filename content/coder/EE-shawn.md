@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/22114564?v=4
+avatar: https://avatars.githubusercontent.com/u/22114564?v=4
 bio: "NTU Master \r\nBUCT Bachelor "
 email: buctzdhwangtao@gmail.com
 followers: 1

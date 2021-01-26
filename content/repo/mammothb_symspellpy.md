@@ -4,9 +4,9 @@ forks: 75
 html_url: https://github.com/mammothb/symspellpy
 language: Python
 license: MIT License
-open_issues: 10
+open_issues: 12
 owner: mammothb
-stars: 391
+stars: 404
 title: symspellpy
-updated: '2020-11-26T17:33:06Z'
+updated: '2021-01-22T08:45:02Z'
 ---

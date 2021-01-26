@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/19800126?v=4
+avatar: https://avatars.githubusercontent.com/u/19800126?v=4
 bio: 'Engineer, Scientist and Entrepreneur. Currently a post doctorate research fellow
   at Duke-NUS Medical School - Singapore '
 email: null

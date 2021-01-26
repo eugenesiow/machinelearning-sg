@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/32790402?v=4
+avatar: https://avatars.githubusercontent.com/u/32790402?v=4
 bio: 'I attempt to code stuff. '
 email: null
 followers: 18

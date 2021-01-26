@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/14154651?v=4
+avatar: https://avatars.githubusercontent.com/u/14154651?v=4
 bio: null
 email: poryee1@hotmail.com
 followers: 4

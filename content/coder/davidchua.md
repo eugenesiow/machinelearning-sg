@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/68039?v=4
+avatar: https://avatars.githubusercontent.com/u/68039?v=4
 bio: null
 email: zhchua@gmail.com
-followers: 66
+followers: 68
 following: 32
 forks: 2
 login: davidchua

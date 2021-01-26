@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/36718?v=4
+avatar: https://avatars.githubusercontent.com/u/36718?v=4
 bio: null
 email: dolabot@gmail.com
-followers: 107
+followers: 106
 following: 64
 forks: 7
 login: dolaameng

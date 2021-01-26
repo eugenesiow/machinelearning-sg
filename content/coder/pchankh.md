@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/3161468?v=4
+avatar: https://avatars.githubusercontent.com/u/3161468?v=4
 bio: AI Entrepreneur/Founder/CTO/Kaggle Veteren/>25+AI Experience
 email: null
 followers: 7

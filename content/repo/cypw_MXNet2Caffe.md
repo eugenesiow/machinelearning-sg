@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: 9
 owner: cypw
-stars: 154
+stars: 156
 title: MXNet2Caffe
-updated: '2020-12-08T08:34:00Z'
+updated: '2021-01-05T04:55:08Z'
 ---

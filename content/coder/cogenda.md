@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/15912?v=4
+avatar: https://avatars.githubusercontent.com/u/15912?v=4
 bio: Cogenda Pte Ltd
 email: contact@cogenda.com
 followers: null

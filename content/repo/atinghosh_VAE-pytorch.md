@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: atinghosh
-stars: 34
+stars: 35
 title: VAE-pytorch
-updated: '2020-10-22T11:02:43Z'
+updated: '2020-12-19T04:53:17Z'
 ---

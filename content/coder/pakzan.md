@@ -1,6 +1,6 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/14229105?v=4
-bio: Copy, Modify, Paste
+avatar: https://avatars.githubusercontent.com/u/14229105?v=4
+bio: 48 65 6c 6c 6f 20 57 6f 72 6c 64
 email: pakzzzan@hotmail.com
 followers: 4
 following: 4

@@ -6,7 +6,7 @@ language: Python
 license: MIT License
 open_issues: 1
 owner: soujanyaporia
-stars: 28
+stars: 27
 title: contextual-multimodal-fusion
-updated: '2020-11-22T01:49:20Z'
+updated: '2021-01-12T06:58:10Z'
 ---

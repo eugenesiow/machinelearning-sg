@@ -1,6 +1,6 @@
 ---
 description: Speaker-listener Label Propagation Algorithm Implemented in Python
-forks: 9
+forks: 8
 html_url: https://github.com/YipingNUS/slpa-py
 language: Python
 license: null

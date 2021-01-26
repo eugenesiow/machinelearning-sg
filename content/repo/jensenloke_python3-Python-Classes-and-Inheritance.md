@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: jensenloke
-stars: 8
+stars: 9
 title: python3-Python-Classes-and-Inheritance
-updated: '2020-11-15T17:43:08Z'
+updated: '2021-01-04T04:35:03Z'
 ---

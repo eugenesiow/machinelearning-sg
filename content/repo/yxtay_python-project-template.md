@@ -1,12 +1,12 @@
 ---
 description: Starter template for python projects
-forks: null
+forks: 1
 html_url: https://github.com/yxtay/python-project-template
 language: Python
 license: MIT License
 open_issues: null
 owner: yxtay
-stars: 6
+stars: 8
 title: python-project-template
-updated: '2020-09-04T06:40:19Z'
+updated: '2021-01-09T10:46:58Z'
 ---

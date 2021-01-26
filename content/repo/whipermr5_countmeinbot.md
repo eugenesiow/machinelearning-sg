@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: 6
 owner: whipermr5
-stars: 7
+stars: 9
 title: countmeinbot
-updated: '2020-07-24T11:04:11Z'
+updated: '2021-01-08T07:25:30Z'
 ---

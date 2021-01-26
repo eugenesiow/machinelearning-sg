@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/24543395?v=4
+avatar: https://avatars.githubusercontent.com/u/24543395?v=4
 bio: Singaporean. Loves Kotlin. Works with Kotlin, Java, Python, and Javascript. How
   are you?
 email: unknownguy2002@gmail.com
-followers: 14
+followers: 16
 following: 13
 forks: null
 login: unknownguy2002

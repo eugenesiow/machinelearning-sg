@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: hexiangnan
-stars: 4
+stars: 6
 title: Neural-Attentive-Item-Similarity-Model
-updated: '2020-09-27T12:58:57Z'
+updated: '2021-01-08T06:15:20Z'
 ---

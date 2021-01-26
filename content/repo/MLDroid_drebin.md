@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 6
 owner: MLDroid
-stars: 51
+stars: 50
 title: drebin
-updated: '2020-12-13T14:10:22Z'
+updated: '2020-12-16T13:47:26Z'
 ---

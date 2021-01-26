@@ -1,6 +1,6 @@
 ---
 description: 'A Discord bot for King''s Raid '
-forks: 2
+forks: 1
 html_url: https://github.com/duckness/KRBot
 language: Python
 license: MIT License

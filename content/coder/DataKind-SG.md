@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/8367329?v=4
+avatar: https://avatars.githubusercontent.com/u/8367329?v=4
 bio: Singapore chapter of DataKind
 email: singapore@datakind.org
 followers: null

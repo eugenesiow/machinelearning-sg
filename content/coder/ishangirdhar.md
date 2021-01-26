@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/2884252?v=4
+avatar: https://avatars.githubusercontent.com/u/2884252?v=4
 bio: OSCP Certified, Infosec Consultant/Penetration Tester/Adrenaline Junkie/Influential
   Speaker/Pythoneer/Traveler/Blogger/Social Engineer/Science Lover & Husband.
 email: null

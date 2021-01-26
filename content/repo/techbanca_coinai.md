@@ -10,5 +10,5 @@ open_issues: 2
 owner: techbanca
 stars: 238
 title: coinai
-updated: '2020-11-15T06:45:41Z'
+updated: '2021-01-18T17:30:41Z'
 ---

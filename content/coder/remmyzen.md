@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/4009975?v=4
+avatar: https://avatars.githubusercontent.com/u/4009975?v=4
 bio: PhD Student at School of Computing National University of Singapore.
 email: remmy@u.nus.edu
 followers: 3

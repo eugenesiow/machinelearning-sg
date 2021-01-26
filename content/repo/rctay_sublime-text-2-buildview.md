@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 19
 owner: rctay
-stars: 56
+stars: 57
 title: sublime-text-2-buildview
-updated: '2020-11-25T14:19:53Z'
+updated: '2020-12-17T21:29:59Z'
 ---

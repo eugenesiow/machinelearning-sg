@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/30922701?v=4
+avatar: https://avatars.githubusercontent.com/u/30922701?v=4
 bio: null
 email: zhangyue9306@gmail.com
-followers: 31
+followers: 32
 following: 1
 forks: null
 login: MJeremy2017

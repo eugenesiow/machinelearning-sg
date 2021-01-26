@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 1
 owner: zhixinma
-stars: 3
+stars: 5
 title: TreeLSTM
-updated: '2020-11-11T10:52:27Z'
+updated: '2020-12-30T07:15:21Z'
 ---

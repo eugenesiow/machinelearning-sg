@@ -1,14 +1,14 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/38208150?v=4
-bio: The official repository for the Terra stablecoin project
+avatar: https://avatars.githubusercontent.com/u/38208150?v=4
+bio: The official repositories for the Terra project
 email: core@terra.money
 followers: null
 following: null
 forks: 2
 login: terra-project
 open_issues: null
-public_repos: 46
-stars: 29
+public_repos: 51
+stars: 30
 title: Terra
 user_type: Organization
 website: terra.money

@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/38743943?v=4
+avatar: https://avatars.githubusercontent.com/u/38743943?v=4
 bio: Banca is a cryptocurrency community platform based on AI and Big DATA
 email: null
 followers: 88

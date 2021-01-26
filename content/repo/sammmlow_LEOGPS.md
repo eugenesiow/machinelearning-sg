@@ -5,9 +5,9 @@ forks: 5
 html_url: https://github.com/sammmlow/LEOGPS
 language: Python
 license: MIT License
-open_issues: null
+open_issues: 1
 owner: sammmlow
-stars: 11
+stars: 17
 title: LEOGPS
-updated: '2020-11-30T15:25:09Z'
+updated: '2021-01-23T22:16:19Z'
 ---

@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/1149923?v=4
+avatar: https://avatars.githubusercontent.com/u/1149923?v=4
 bio: Solution Architect at Red Hat
 email: null
-followers: 17
+followers: 18
 following: 1
 forks: 221
 login: sjbylo

@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/6640741?v=4
+avatar: https://avatars.githubusercontent.com/u/6640741?v=4
 bio: 'Creativity | Design | Technology '
 email: info@toaster.co
 followers: null

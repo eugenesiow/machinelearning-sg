@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/41069029?v=4
+avatar: https://avatars.githubusercontent.com/u/41069029?v=4
 bio: 'Hi there! (: Just a student from Singapore looking to build great apps.'
 email: null
 followers: 6

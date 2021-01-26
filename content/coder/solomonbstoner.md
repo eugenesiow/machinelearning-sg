@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/24548334?v=4
+avatar: https://avatars.githubusercontent.com/u/24548334?v=4
 bio: Aller Funkverkehr ist Landesverrat
 email: null
 followers: 20

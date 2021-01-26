@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/29894605?v=4
+avatar: https://avatars.githubusercontent.com/u/29894605?v=4
 bio: 'PhD '
 email: null
 followers: null

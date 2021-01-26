@@ -1,10 +1,10 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/26784893?v=4
+avatar: https://avatars.githubusercontent.com/u/26784893?v=4
 bio: Feel free.
 email: jordan.chyehong@gmail.com
 followers: 5
 following: 4
-forks: 4
+forks: 5
 login: Jordan396
 open_issues: null
 public_repos: 17

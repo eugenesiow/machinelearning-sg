@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: jaabberwocky
-stars: 4
+stars: 3
 title: kafka-python-example
-updated: '2020-11-30T04:31:14Z'
+updated: '2020-12-29T03:12:48Z'
 ---

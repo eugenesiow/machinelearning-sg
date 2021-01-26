@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/33315611?v=4
+avatar: https://avatars.githubusercontent.com/u/33315611?v=4
 bio: "I can be reached at\r\nfkoh.powerbuilder@gmail.com"
 email: null
 followers: 1

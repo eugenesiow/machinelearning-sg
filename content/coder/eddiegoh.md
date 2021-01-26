@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/43203504?v=4
+avatar: https://avatars.githubusercontent.com/u/43203504?v=4
 bio: Data Analytics
 email: eddiegohkimkoon@gmail.com
 followers: null

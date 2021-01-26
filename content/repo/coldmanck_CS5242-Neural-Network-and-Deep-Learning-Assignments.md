@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: coldmanck
-stars: 16
+stars: 18
 title: CS5242-Neural-Network-and-Deep-Learning-Assignments
-updated: '2020-02-13T19:22:04Z'
+updated: '2020-12-29T21:41:37Z'
 ---

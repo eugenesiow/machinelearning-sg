@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/27830974?v=4
+avatar: https://avatars.githubusercontent.com/u/27830974?v=4
 bio: Bachelor degree from Chongqing University of Posts and Telecommunications, majoring
   in Signal Procesing (Master) at Nanyang Technological University, Singapore.
 email: XIAOHUA001@e.ntu.edu.sg

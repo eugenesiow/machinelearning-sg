@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: null
 owner: Andrew-Qibin
-stars: 38
+stars: 41
 title: PoolNet
-updated: '2020-11-19T15:26:31Z'
+updated: '2021-01-20T05:04:01Z'
 ---

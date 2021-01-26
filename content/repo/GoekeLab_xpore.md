@@ -1,12 +1,12 @@
 ---
 description: Detection of differential RNA modifications from direct RNA sequencing
-forks: 5
+forks: 6
 html_url: https://github.com/GoekeLab/xpore
 language: Python
 license: MIT License
-open_issues: 20
+open_issues: 24
 owner: GoekeLab
-stars: 30
+stars: 33
 title: xpore
-updated: '2020-12-04T09:19:13Z'
+updated: '2021-01-21T23:20:11Z'
 ---

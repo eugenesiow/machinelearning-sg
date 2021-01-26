@@ -4,7 +4,7 @@ forks: 5
 html_url: https://github.com/caizhongang/MessyTable
 language: Python
 license: MIT License
-open_issues: null
+open_issues: 1
 owner: caizhongang
 stars: 22
 title: MessyTable

@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/8273173?v=4
+avatar: https://avatars.githubusercontent.com/u/8273173?v=4
 bio: Senior Software Engineer and AI Enthusiast
 email: raj.beta.mode.22@gmail.com
 followers: 2
-following: 42
+following: 43
 forks: 2
 login: rajbharat
 open_issues: null

@@ -1,13 +1,13 @@
 ---
 description: Span-based Localizing Network for Natural Language Video Localization
   (ACL 2020)
-forks: 2
+forks: 3
 html_url: https://github.com/IsaacChanghau/VSLNet
 language: Python
 license: MIT License
 open_issues: 1
 owner: IsaacChanghau
-stars: 16
+stars: 20
 title: VSLNet
-updated: '2020-12-08T00:51:14Z'
+updated: '2021-01-12T11:17:30Z'
 ---

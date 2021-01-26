@@ -1,6 +1,6 @@
 ---
 description: Telegram scanner bot for cryptokitties. Meow
-forks: 14
+forks: 13
 html_url: https://github.com/xlanor/CryptoKitties
 language: Python
 license: MIT License

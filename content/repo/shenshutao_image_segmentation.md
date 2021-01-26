@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 2
 owner: shenshutao
-stars: 9
+stars: 10
 title: image_segmentation
-updated: '2020-11-24T01:48:10Z'
+updated: '2021-01-17T15:24:45Z'
 ---

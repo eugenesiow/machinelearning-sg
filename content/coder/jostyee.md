@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/88564?v=4
+avatar: https://avatars.githubusercontent.com/u/88564?v=4
 bio: A gopher who was a java coder.
 email: null
 followers: 29

@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/5905130?v=4
+avatar: https://avatars.githubusercontent.com/u/5905130?v=4
 bio: "blockchain**10\r\nfintech**3 "
 email: null
 followers: 7

@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: Nasdin
-stars: 16
+stars: 17
 title: Good-Tech-Companies-Singapore
-updated: '2020-11-21T12:36:03Z'
+updated: '2020-12-16T21:41:55Z'
 ---

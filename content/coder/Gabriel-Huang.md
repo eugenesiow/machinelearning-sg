@@ -1,6 +1,6 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/22915903?v=4
-bio: I'm not cool enough to write a cool bio
+avatar: https://avatars.githubusercontent.com/u/22915903?v=4
+bio: I'm not cool enough to write a cool bio.
 email: superhjh123@gmail.com
 followers: 9
 following: null

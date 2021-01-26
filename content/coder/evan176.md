@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/6711559?v=4
+avatar: https://avatars.githubusercontent.com/u/6711559?v=4
 bio: null
 email: evan176.gui@gmail.com
 followers: 5

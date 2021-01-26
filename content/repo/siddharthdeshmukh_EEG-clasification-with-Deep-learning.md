@@ -5,7 +5,7 @@ forks: 2
 html_url: https://github.com/siddharthdeshmukh/EEG-clasification-with-Deep-learning
 language: Python
 license: null
-open_issues: 1
+open_issues: 2
 owner: siddharthdeshmukh
 stars: 4
 title: EEG-clasification-with-Deep-learning

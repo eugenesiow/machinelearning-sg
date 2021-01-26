@@ -1,9 +1,9 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/5157711?v=4
+avatar: https://avatars.githubusercontent.com/u/5157711?v=4
 bio: yc (aka yanchuan) is a co-founder of Bot MD (YCombinator S'18). He was a graduate
   of CMU '16. He is passionate about all things ml & nlp
 email: null
-followers: 15
+followers: 16
 following: 6
 forks: 1
 login: skylander86

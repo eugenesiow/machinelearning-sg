@@ -7,7 +7,7 @@ language: Python
 license: MIT License
 open_issues: 4
 owner: NieXC
-stars: 41
+stars: 42
 title: pytorch-pil
-updated: '2020-07-14T10:17:32Z'
+updated: '2020-12-28T02:25:23Z'
 ---

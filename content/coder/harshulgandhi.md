@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/8724879?v=4
+avatar: https://avatars.githubusercontent.com/u/8724879?v=4
 bio: null
 email: gandhi.harshul.88@gmail.com
 followers: 4

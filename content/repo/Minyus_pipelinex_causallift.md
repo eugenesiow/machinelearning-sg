@@ -4,9 +4,9 @@ forks: null
 html_url: https://github.com/Minyus/pipelinex_causallift
 language: Python
 license: Other
-open_issues: null
+open_issues: 1
 owner: Minyus
-stars: 2
+stars: 3
 title: pipelinex_causallift
-updated: '2020-05-29T17:35:41Z'
+updated: '2020-12-27T05:24:35Z'
 ---

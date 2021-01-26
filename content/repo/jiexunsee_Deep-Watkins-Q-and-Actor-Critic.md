@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: null
 owner: jiexunsee
-stars: 15
+stars: 17
 title: Deep-Watkins-Q-and-Actor-Critic
-updated: '2020-11-08T19:20:50Z'
+updated: '2021-01-23T18:30:33Z'
 ---

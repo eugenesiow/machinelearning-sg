@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: null
 owner: Vectorized
-stars: 7
+stars: 8
 title: Othello-AI
-updated: '2020-04-03T03:49:30Z'
+updated: '2020-12-21T05:19:40Z'
 ---

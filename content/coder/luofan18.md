@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/11908723?v=4
+avatar: https://avatars.githubusercontent.com/u/11908723?v=4
 bio: null
 email: luofan18@126.com
 followers: 4

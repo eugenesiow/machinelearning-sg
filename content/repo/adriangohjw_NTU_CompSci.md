@@ -1,6 +1,6 @@
 ---
 description: NTU Computer Science Tutorials, Labs and Assignments
-forks: 10
+forks: 11
 html_url: https://github.com/adriangohjw/NTU_CompSci
 language: Python
 license: null
@@ -8,5 +8,5 @@ open_issues: null
 owner: adriangohjw
 stars: 14
 title: NTU_CompSci
-updated: '2020-12-05T15:42:07Z'
+updated: '2021-01-22T06:47:43Z'
 ---

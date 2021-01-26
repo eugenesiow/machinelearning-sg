@@ -5,9 +5,9 @@ forks: 3
 html_url: https://github.com/shuyao95/Understanding-NAS
 language: Python
 license: null
-open_issues: null
+open_issues: 1
 owner: shuyao95
-stars: 21
+stars: 23
 title: Understanding-NAS
-updated: '2020-11-27T05:29:47Z'
+updated: '2021-01-23T09:22:02Z'
 ---

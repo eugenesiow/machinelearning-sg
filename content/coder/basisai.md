@@ -1,13 +1,13 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/44960666?v=4
+avatar: https://avatars.githubusercontent.com/u/44960666?v=4
 bio: null
 email: contact@basis-ai.com
 followers: null
 following: null
-forks: 5
+forks: 6
 login: basisai
-open_issues: 3
-public_repos: 58
+open_issues: null
+public_repos: 71
 stars: 14
 title: BasisAI
 user_type: Organization

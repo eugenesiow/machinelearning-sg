@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars1.githubusercontent.com/u/2254497?v=4
+avatar: https://avatars.githubusercontent.com/u/2254497?v=4
 bio: null
 email: jhanschoo@gmail.com
-followers: 22
+followers: 21
 following: 46
 forks: 1
 login: jhanschoo

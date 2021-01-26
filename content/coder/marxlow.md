@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/19270221?v=4
+avatar: https://avatars.githubusercontent.com/u/19270221?v=4
 bio: Using code to bring ideas to life
 email: marxlow94@gmail.com
 followers: 11

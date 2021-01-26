@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars0.githubusercontent.com/u/4920110?v=4
+avatar: https://avatars.githubusercontent.com/u/4920110?v=4
 bio: Machine Learning, Computer Vision, Deep learning enthusiast
 email: gplhegde@gmail.com
 followers: 36

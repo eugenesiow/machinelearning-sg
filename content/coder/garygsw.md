@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/1503410?v=4
+avatar: https://avatars.githubusercontent.com/u/1503410?v=4
 bio: Learning new things everyday
 email: garygsw@gmail.com
 followers: 1

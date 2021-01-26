@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: 2
 owner: williamyang1991
-stars: 60
+stars: 63
 title: TET-GAN
-updated: '2020-10-28T20:44:08Z'
+updated: '2020-12-26T15:08:47Z'
 ---

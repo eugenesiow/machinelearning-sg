@@ -6,7 +6,7 @@ language: Python
 license: null
 open_issues: 2
 owner: LinShanify
-stars: 14
+stars: 15
 title: HeatMap
-updated: '2020-07-09T07:58:46Z'
+updated: '2020-12-22T02:48:29Z'
 ---

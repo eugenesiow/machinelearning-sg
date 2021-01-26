@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars3.githubusercontent.com/u/16687307?v=4
+avatar: https://avatars.githubusercontent.com/u/16687307?v=4
 bio: Nothing to say is the best
 email: zmonoid@gmail.com
 followers: 27

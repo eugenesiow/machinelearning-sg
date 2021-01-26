@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/25954118?v=4
+avatar: https://avatars.githubusercontent.com/u/25954118?v=4
 bio: A structural cell biology lab interested in the inner-workings of the cell nucleus.
 email: null
 followers: null

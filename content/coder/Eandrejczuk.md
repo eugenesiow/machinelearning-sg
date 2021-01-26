@@ -1,5 +1,5 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/8538643?v=4
+avatar: https://avatars.githubusercontent.com/u/8538643?v=4
 bio: 'Researcher in Artificial Intelligence with an emphasis on multiagent systems.
   Research interests are in optimisation and machine learning. '
 email: null

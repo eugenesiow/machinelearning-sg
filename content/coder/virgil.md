@@ -1,8 +1,8 @@
 ---
-avatar: https://avatars2.githubusercontent.com/u/81322?v=4
+avatar: https://avatars.githubusercontent.com/u/81322?v=4
 bio: Avant-garde technologist
 email: virgil@ethereum.org
-followers: 163
+followers: 167
 following: 38
 forks: null
 login: virgil

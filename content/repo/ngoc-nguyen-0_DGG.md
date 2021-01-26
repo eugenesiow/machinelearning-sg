@@ -7,7 +7,7 @@ language: Python
 license: null
 open_issues: 1
 owner: ngoc-nguyen-0
-stars: 10
+stars: 15
 title: DGG
-updated: '2020-12-03T13:22:31Z'
+updated: '2021-01-14T17:18:02Z'
 ---

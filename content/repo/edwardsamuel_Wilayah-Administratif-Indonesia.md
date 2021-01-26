@@ -1,12 +1,12 @@
 ---
 description: Data Provinsi, Kota/Kabupaten, Kecamatan, dan Kelurahan/Desa di Indonesia
-forks: 537
+forks: 552
 html_url: https://github.com/edwardsamuel/Wilayah-Administratif-Indonesia
 language: Python
 license: MIT License
-open_issues: 25
+open_issues: 26
 owner: edwardsamuel
-stars: 621
+stars: 642
 title: Wilayah-Administratif-Indonesia
-updated: '2020-12-08T03:39:46Z'
+updated: '2021-01-25T20:42:09Z'
 ---
